@@ -632,6 +632,8 @@
     }
 
     function removeVaultItem(type, topicId) {
+      const confirmDelete = confirm(`⚠️ Warning!\n\nKya aap sach mein is ${type} ko delete karna chahte hain?`);
+      if (!confirmDelete) return;
       const data = getVaultData();
       if (type === 'Notes') data.notes = (data.notes || []).filter(i => i.topic_id !== topicId);
       if (type === 'PYQ Bank') data.pyqs = (data.pyqs || []).filter(i => i.topic_id !== topicId);
