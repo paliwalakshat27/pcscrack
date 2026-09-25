@@ -1,6 +1,5 @@
-const CACHE_NAME = 'pcscrack-cache-v3';
+const CACHE_NAME = 'pcscrack-cache-v4';
 
-// Core assets to pre-cache immediately
 const STATIC_ASSETS = [
   '/',
   '/index.html',
@@ -13,61 +12,72 @@ const STATIC_ASSETS = [
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(STATIC_ASSETS);
-    })
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(STATIC_ASSETS))
   );
   self.skipWaiting();
 });
 
 self.addEventListener('activate', (event) => {
   event.waitUntil(
-    caches.keys().then((keys) => {
-      return Promise.all(
+    caches.keys().then((keys) =>
+      Promise.all(
         keys.map((key) => {
           if (key !== CACHE_NAME) return caches.delete(key);
         })
-      );
-    })
+      )
+    )
   );
   self.clients.claim();
 });
 
-// Cache-First with Dynamic Network Fallback & Caching
 self.addEventListener('fetch', (event) => {
-  const requestUrl = new URL(event.request.url);
+  const req = event.request;
+  const url = new URL(req.url);
 
-  // Ignore non-GET requests or chrome-extensions
-  if (event.request.method !== 'GET' || !requestUrl.protocol.startsWith('http')) {
+  if (req.method !== 'GET' || !url.protocol.startsWith('http')) return;
+
+  // HTML Page Navigations (Back/Forward/Clicks)
+  if (req.mode === 'navigate') {
+    event.respondWith(
+      fetch(req)
+        .then((networkRes) => {
+          const resClone = networkRes.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(req, resClone));
+          return networkRes;
+        })
+        .catch(async () => {
+          // Offline hone par exact page dhoondho (jaise topic.html?path=...)
+          const cachedMatch = await caches.match(req, { ignoreSearch: false });
+          if (cachedMatch) return cachedMatch;
+
+          // Agar query match na ho toh basic topic.html ya index.html shell do
+          if (url.pathname.includes('topic.html')) {
+            return (await caches.match('/topic.html')) || caches.match('/index.html');
+          }
+          return caches.match('/index.html');
+        })
+    );
     return;
   }
 
+  // JSON Chunks, Scripts, and CSS
   event.respondWith(
-    caches.match(event.request, { ignoreSearch: false }).then((cachedResponse) => {
-      if (cachedResponse) {
-        // Return cache immediately
-        return cachedResponse;
-      }
+    caches.match(req, { ignoreSearch: true }).then((cached) => {
+      if (cached) return cached;
 
-      // If not in cache, fetch from network and dynamically store in cache
-      return fetch(event.request).then((networkResponse) => {
-        if (!networkResponse || networkResponse.status !== 200) {
-          return networkResponse;
-        }
-
-        const responseToCache = networkResponse.clone();
-        caches.open(CACHE_NAME).then((cache) => {
-          cache.put(event.request, responseToCache);
+      return fetch(req)
+        .then((networkRes) => {
+          if (!networkRes || networkRes.status !== 200) return networkRes;
+          const clone = networkRes.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(req, clone));
+          return networkRes;
+        })
+        .catch(() => {
+          // Offline JSON fallback
+          return new Response(JSON.stringify({ error: "offline_cached" }), {
+            headers: { "Content-Type": "application/json" }
+          });
         });
-
-        return networkResponse;
-      }).catch(() => {
-        // Only return index.html if user navigates to the root navigation, NOT for every failed asset
-        if (event.request.mode === 'navigate') {
-          return caches.match('/index.html');
-        }
-        return new Response('Network error occurred', { status: 408 });
-      });
     })
   );
 });
