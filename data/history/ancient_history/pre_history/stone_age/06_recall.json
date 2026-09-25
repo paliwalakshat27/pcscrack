@@ -1,0 +1,143 @@
+{
+  "topic_id": "stone_age",
+  "module_id": "recall",
+  "title": "Gamified Active Recall & Memory Drills",
+  "interactive_engines": [
+    {
+      "engine_id": "mystery_sites",
+      "type": "MYSTERY_CLUE_CARDS",
+      "title": {
+        "en": "Mystery Archaeological Sites (Who Am I?)",
+        "hi": "रहस्यमयी पुरातात्विक स्थल (पहचानिए मैं कौन हूँ?)",
+        "hinglish": "Mystery Archaeological Sites (Who Am I?)"
+      },
+      "instruction": {
+        "en": "Read the empirical clue and tap 'Reveal Target' to test active recall.",
+        "hi": "दिए गए पुरातात्विक संकेतों को पढ़ें और उत्तर देखने हेतु 'Reveal Target' पर टैप करें।",
+        "hinglish": "Clues padho aur check karo ki bina option dekhe site yaad aati hai ya nahi."
+      },
+      "cards": [
+        {
+          "clue_1": "Main Kashmir valley mein sthit hoon. Mere yahan extreme thand se bachne ke liye subterranean pit-dwellings bani thin aur ek anokhi custom mein master ke sath pet dog ko ek hi grave pit mein dafnaya gaya tha[cite: 3].",
+          "answer": "Burzahom (Kashmir)[cite: 3]"
+        },
+        {
+          "clue_1": "Main Balochistan ke Kachi Plain mein Bolan River ke paas hoon. Subcontinent mein c. 7000 BC se wheat aur barley farming, mud-brick granaries aur continuous Harappan sequence mere paas hai[cite: 3].",
+          "answer": "Mehrgarh (Balochistan)[cite: 3]"
+        },
+        {
+          "clue_1": "Main Uttar Pradesh ki Belan Valley mein hoon. Mere yahan cord-impressed pottery ke andar world ki earliest rice (dhaan) cultivation ke grains embedded mile hain[cite: 3].",
+          "answer": "Koldihwa & Mahagara (UP)[cite: 3]"
+        },
+        {
+          "clue_1": "Main Bihar ke Saran district mein Ganga kinare hoon. Pure subcontinent mein deer antlers aur animal bones se bane hundreds of sophisticated Neolithic tools ke liye meri pehchan hai[cite: 3].",
+          "answer": "Chirand (Bihar)[cite: 3]"
+        },
+        {
+          "clue_1": "Main Rajasthan ki Kothari river par situated hoon. Main India ka sabse bada Mesolithic settlement hoon jahan massive microlithic layers aur early animal domestication ke proof mile[cite: 3].",
+          "answer": "Bagor (Rajasthan)[cite: 3]"
+        },
+        {
+          "clue_1": "Main Madhya Pradesh ke Hoshangabad mein hoon. Mesolithic era mein cattle aur sheep-goat domestication ka earliest archaeological proof mere rock shelter complex se mila[cite: 3].",
+          "answer": "Adamgarh (Madhya Pradesh)[cite: 3]"
+        },
+        {
+          "clue_1": "Main Uttar Pradesh ke Pratapgarh district mein hoon. Mere yahan planned human burials, double skeletons (joint male-female) aur shell necklace ornaments mile hain[cite: 3].",
+          "answer": "Sarai Nahar Rai & Mahadaha (UP)[cite: 3]"
+        },
+        {
+          "clue_1": "Main Karnataka ke Raichur belt mein hoon. Neolithic pastoral communities ke cattle kraals mein gobar (cow dung) ke periodic ritual burnings se bane colossal 'Ash Mounds' meri pehchan hain[cite: 3].",
+          "answer": "Piklihal (Karnataka)[cite: 3]"
+        },
+        {
+          "clue_1": "Main Andhra Pradesh ki limestone caves hoon. Upper Palaeolithic human band dwara controlled indoor fire use karne ka stratified ash layers mere yahan excavated hua[cite: 3].",
+          "answer": "Kurnool Caves (Andhra Pradesh)[cite: 3]"
+        },
+        {
+          "clue_1": "Main Tamil Nadu ke Kortallayar basin mein hoon. South Asia ke sabse purane Lower Palaeolithic Acheulian bifacial stone hand-axes mere yahan se excavate hue[cite: 3].",
+          "answer": "Attirampakkam (Tamil Nadu)[cite: 3]"
+        }
+      ]
+    },
+    {
+      "engine_id": "site_artifact_match",
+      "type": "MATCH_PAIRS",
+      "title": {
+        "en": "Site-to-Diagnostic Artifact Rapid Linker",
+        "hi": "स्थल एवं विशिष्ट पुरातात्विक साक्ष्य मिलान",
+        "hinglish": "Site to Diagnostic Artifact Fast Match"
+      },
+      "instruction": {
+        "en": "Pair each excavated archaeological site directly with its signature discovery.",
+        "hi": "प्रत्येक स्थल को उसकी विशिष्ट खोज के साथ मानसिक रूप से सुमेलित करें।",
+        "hinglish": "Har site ko uski exact finding ke sath match karke tap karo."
+      },
+      "cards": [
+        {
+          "clue_1": "Sohgaura (Gorakhpur, UP) ➔ Kis cheez ka record deta hai?",
+          "answer": "Pre-Ashokan Brahmi record of Famine Relief Granaries"
+        },
+        {
+          "clue_1": "Junagarh Rock Inscription (Rudradaman I) ➔ Linguistic & engineering importance?",
+          "answer": "First long inscription in chaste classical Sanskrit & Sudarshana Lake repair without extra tax"
+        },
+        {
+          "clue_1": "Prayag Prashasti (Harisena) ➔ Kis ruler aur language se associated hai?",
+          "answer": "Samudragupta; Sanskrit language & Brahmi script in Champu style"
+        },
+        {
+          "clue_1": "Aihole Inscription (Ravikirti)[cite: 2] ➔ Military encounter recorded?",
+          "answer": "Pulakesin II defeating Emperor Harshavardhana on Narmada[cite: 2]"
+        },
+        {
+          "clue_1": "Hathigumpha Inscription (Udayagiri)[cite: 2] ➔ Language, script aur ruler?",
+          "answer": "King Kharavela of Kalinga; Prakrit language & Brahmi script[cite: 2]"
+        },
+        {
+          "clue_1": "Langhnaj (Mehsana, Gujarat)[cite: 3] ➔ Major faunal and skeletal finding?",
+          "answer": "14 Human Skeletons, wild rhinoceros bones & geometric microliths[cite: 3]"
+        },
+        {
+          "clue_1": "Bhimbetka (Raisen, MP)[cite: 2, 3] ➔ Evolutionary artistic spectrum?",
+          "answer": "Continuous rock art sequence: Upper Palaeolithic beasts to Mesolithic communal dance[cite: 2, 3]"
+        },
+        {
+          "clue_1": "Deogarh (Lalitpur, UP)[cite: 2] ➔ Architectural milestone?",
+          "answer": "Dashavatara Temple; classical Gupta Nagara stone temple architecture[cite: 2]"
+        }
+      ]
+    },
+    {
+      "engine_id": "chronology_sliders",
+      "type": "CHRONOLOGY_ORDER",
+      "title": {
+        "en": "Chronological Sequence Drills",
+        "hi": "कालक्रमानुसार सही क्रम अभ्यास",
+        "hinglish": "Chronological Master Sequences"
+      },
+      "instruction": {
+        "en": "Mentally arrange these archaeological horizons in strict historical order.",
+        "hi": "इन्हें सही ऐतिहासिक कालक्रम में व्यवस्थित करें।",
+        "hinglish": "Inko shuru se end tak correct sequence mein arrange karo."
+      },
+      "cards": [
+        {
+          "clue_1": "Ceramic Pottery Evolution Sequence: NBPW, OCP, PGW[cite: 2] ➔ Correct order?",
+          "answer": "1. OCP (Copper Hoard/Early Vedic) ➔ 2. PGW (Later Vedic Iron Age) ➔ 3. NBPW (Mahajanapada/Mauryan Second Urbanization)[cite: 2]"
+        },
+        {
+          "clue_1": "Lithic Technology Progression: Microliths, Polished Celts, Core Hand-Axes, Blade-Burins[cite: 3] ➔ Correct order?",
+          "answer": "1. Core Hand-Axes (Lower Pal) ➔ 2. Flake Scrapers (Middle Pal) ➔ 3. Blade-Burins (Upper Pal) ➔ 4. Microliths (Mesolithic) ➔ 5. Polished Celts (Neolithic)[cite: 3]"
+        },
+        {
+          "clue_1": "Foreign Travelers Arrival Sequence: Hiuen-Tsang, Megasthenes, Al-Biruni, Fa-Hien, I-Tsing[cite: 2] ➔ Correct order?",
+          "answer": "1. Megasthenes (c. 300 BC) ➔ 2. Fa-Hien (c. 400 AD) ➔ 3. Hiuen-Tsang (c. 630 AD) ➔ 4. I-Tsing (c. 671 AD) ➔ 5. Al-Biruni (11th Century AD)[cite: 2]"
+        },
+        {
+          "clue_1": "Monetary Currency Evolution: Kushan Gold, Indo-Greek Portrait Coins, Later Gupta Debased Gold, Punch-Marked Silver[cite: 2] ➔ Correct order?",
+          "answer": "1. Punch-Marked Silver (c. 6th c. BC) ➔ 2. Indo-Greek Portrait Coins (c. 2nd c. BC) ➔ 3. Kushan High-Purity Gold (c. 1st c. AD) ➔ 4. Classical Gupta Gold ➔ 5. Later Gupta Debased Gold[cite: 2]"
+        }
+      ]
+    }
+  ]
+}
