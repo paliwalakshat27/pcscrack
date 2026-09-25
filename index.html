@@ -618,7 +618,7 @@
               <h4 class="font-heading font-bold text-sm text-slate-900 dark:text-white truncate">${item.topic_title}</h4>
             </div>
             <div class="flex items-center gap-2 shrink-0">
-              <a href="topic.html?path=data/history/ancient_history/pre_history/stone_age/" class="px-3 py-1.5 rounded-xl bg-indigo-600 text-white font-bold text-xs shadow-sm active:scale-95 transition-all">Open</a>
+              <a href="topic.html?path=${item.path || 'data/history/ancient_history/pre_history/stone_age/'}" class="px-3 py-1.5 rounded-xl bg-indigo-600 text-white font-bold text-xs shadow-sm active:scale-95 transition-all">Open</a>
               <button onclick="removeVaultItem('${item.type}', '${item.topic_id}')" class="p-1.5 rounded-lg text-slate-400 hover:text-rose-500">
                 <i data-lucide="trash-2" class="w-4 h-4"></i>
               </button>
