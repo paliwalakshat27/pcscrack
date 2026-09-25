@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>PCSCrack | Dynamic Master Study Room</title>
+
+  <!-- Tailwind CSS Engine -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            parchment: '#F4F1EA',
+            obsidian: '#0D1117',
+            cardDark: '#161B22',
+            brandAmber: '#D97706',
+            brandIndigo: '#4F46E5',
+          },
+          fontFamily: {
+            heading: ['"Plus Jakarta Sans"', 'sans-serif'],
+            body: ['Inter', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    * {
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    .ambient-bg {
+      background-image: radial-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 0);
+      background-size: 20px 20px;
+    }
+    .dark .ambient-bg {
+      background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 0);
+      background-size: 20px 20px;
+    }
+    .hide-scrollbar::-webkit-scrollbar { display: none; }
+    .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+    /* Anti-Piracy Watermark Matrix */
+    .watermark-matrix {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 30;
+      opacity: 0.04;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5rem;
+      align-content: space-around;
+      justify-content: space-around;
+      transform: rotate(-25deg) scale(1.2);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 14px;
+      font-weight: 700;
+      color: currentColor;
+    }
+    .dark .watermark-matrix { opacity: 0.06; }
+
+    /* Window Blur Shield (Anti-Snipping Tool / Focus Drop) */
+    .blur-shield-active {
+      filter: blur(40px) grayscale(100%) !important;
+      pointer-events: none !important;
+    }
+
+    /* Print Screen & PDF Hard Blocker */
+    @media print {
+      body { display: none !important; }
+    }
+  </style>
+</head>
+
+<body class="bg-parchment dark:bg-obsidian text-slate-800 dark:text-slate-100 ambient-bg min-h-screen transition-colors duration-300 antialiased pb-28 relative">
+
+  <!-- ======================================================== -->
+  <!-- 🛡️ ANTI-PIRACY WATERMARK MATRIX LAYER                   -->
+  <!-- ======================================================== -->
+  <div class="watermark-matrix" id="watermark-layer" aria-hidden="true">
+    <span>PCSCRACK PROTECTED</span><span>PCSCRACK LIVE VAULT</span>
+    <span>PIRACY TRACKED</span><span>PCSCRACK PROTECTED</span>
+    <span>DO NOT DISTRIBUTE</span><span>PCSCRACK PROTECTED</span>
+    <span>AUTH LICENSED USER</span><span>PCSCRACK PREPARATION</span>
+  </div>
+
+  <!-- De-Focus Warning Overlay -->
+  <div id="defocus-warning" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-3xl hidden flex flex-col items-center justify-center p-6 text-center">
+    <div class="p-6 rounded-3xl bg-cardDark border border-rose-500/40 max-w-sm space-y-3">
+      <i data-lucide="shield-alert" class="w-12 h-12 text-rose-500 mx-auto"></i>
+      <h3 class="font-heading font-extrabold text-base text-white">Content Shield Activated</h3>
+      <p class="text-xs text-slate-300 leading-relaxed">
+        Study room content screen capture ya window inactive hone par protect kar diya gaya hai. Padhnai jari rakhne ke liye window par tap karein.
+      </p>
+    </div>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- 🧭 HEADER COCKPIT                                       -->
+  <!-- ======================================================== -->
+  <header class="sticky top-0 z-40 backdrop-blur-md bg-white/90 dark:bg-cardDark/90 border-b border-stone-200/80 dark:border-slate-800/80 px-3.5 sm:px-4 py-2.5">
+    <div class="max-w-4xl mx-auto flex items-center justify-between gap-2">
+      
+      <div class="flex items-center gap-2 truncate">
+        <a href="index.html" class="p-2 rounded-xl border border-stone-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:border-indigo-500 transition-all active:scale-95 shrink-0">
+          <i data-lucide="chevron-left" class="w-4 h-4 text-slate-700 dark:text-slate-300"></i>
+        </a>
+        <div class="truncate">
+          <div class="flex items-center gap-1.5 text-[10px] font-mono text-slate-400 truncate">
+            <span id="breadcrumb-macro">General Studies</span>
+            <span>›</span>
+            <span class="text-indigo-600 dark:text-indigo-400 font-bold" id="breadcrumb-micro">Topic Engine</span>
+          </div>
+          <h1 class="font-heading font-extrabold text-sm sm:text-base leading-tight truncate" id="header-topic-title">
+            Loading Topic Environment...
+          </h1>
+        </div>
+      </div>
+
+      <!-- Controls: Language Toggle & Dark Mode -->
+      <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
+        <div class="flex items-center bg-stone-100 dark:bg-slate-800 p-0.5 rounded-xl border border-stone-200/80 dark:border-slate-700">
+          <button onclick="setStudyLang('en')" id="lang-btn-en" class="px-2.5 py-1 text-xs font-bold rounded-lg transition-all active:scale-95 bg-white dark:bg-cardDark shadow-sm text-indigo-600 dark:text-indigo-400">EN</button>
+          <button onclick="setStudyLang('hi')" id="lang-btn-hi" class="px-2.5 py-1 text-xs font-bold rounded-lg transition-all active:scale-95 text-slate-500 hover:text-slate-900 dark:text-slate-400">हिन्दी</button>
+          <button onclick="setStudyLang('hinglish')" id="lang-btn-hinglish" class="px-2.5 py-1 text-xs font-bold rounded-lg transition-all active:scale-95 text-slate-500 hover:text-slate-900 dark:text-slate-400">Hing</button>
+        </div>
+
+        <button onclick="toggleDarkMode()" class="p-2 rounded-xl border border-stone-200 dark:border-slate-700 bg-white/60 dark:bg-slate-800/60 hover:bg-stone-100 dark:hover:bg-slate-800 transition-all active:scale-95">
+          <i data-lucide="moon" class="w-4 h-4 hidden dark:block text-amber-400"></i>
+          <i data-lucide="sun" class="w-4 h-4 block dark:hidden text-amber-600"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- DYNAMIC AUTO-GENERATED TABS NAV (0 TO N MODULES) -->
+    <nav class="max-w-4xl mx-auto flex items-center gap-2 overflow-x-auto hide-scrollbar pt-2.5 pb-0.5" id="dynamic-tabs-dock">
+      <!-- Tabs generated dynamically based on active payload files -->
+    </nav>
+  </header>
+
+  <!-- ======================================================== -->
+  <!-- 📦 DYNAMIC STAGE CONTAINER                               -->
+  <!-- ======================================================== -->
+  <main class="max-w-4xl mx-auto px-4 pt-5 space-y-6">
+
+    <div id="loading-stage" class="py-20 text-center space-y-3">
+      <div class="inline-block w-8 h-8 border-4 border-indigo-500/20 border-t-indigo-600 rounded-full animate-spin"></div>
+      <p class="text-xs font-mono text-slate-400" id="loading-status-text">Booting Topic Modules...</p>
+    </div>
+
+    <!-- Dynamic Modules Stage Target -->
+    <div id="modules-root-stage" class="space-y-6"></div>
+
+  </main>
+
+  <!-- ======================================================== -->
+  <!-- ⚙️ THE UNIVERSAL ELASTIC RUNTIME ENGINE                  -->
+  <!-- ======================================================== -->
+  <script>
+    let currentStudyLang = 'en';
+    let currentActiveModule = '';
+    let topicRegistry = {};
+    let loadedDataCache = {};
+
+    function toggleDarkMode() {
+      document.documentElement.classList.toggle('dark');
+      localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+    }
+    if (localStorage.getItem('theme') === 'dark') document.documentElement.classList.add('dark');
+
+    // -----------------------------------------------------------
+    // 🛡️ ANTI-PIRACY SECURITY TRIGGERS
+    // -----------------------------------------------------------
+    window.addEventListener('blur', () => {
+      document.getElementById('modules-root-stage').classList.add('blur-shield-active');
+      document.getElementById('defocus-warning').classList.remove('hidden');
+    });
+
+    window.addEventListener('focus', () => {
+      document.getElementById('modules-root-stage').classList.remove('blur-shield-active');
+      document.getElementById('defocus-warning').classList.add('hidden');
+    });
+
+    window.addEventListener('keydown', (e) => {
+      // Block PrintScreen & Shortcuts
+      if (e.key === 'PrintScreen' || (e.ctrlKey && (e.key === 'p' || e.key === 'u' || e.key === 's'))) {
+        e.preventDefault();
+        navigator.clipboard.writeText('PCSCrack Protected Content - Piracy Strictly Monitored.');
+        alert('Action restricted: Content copyright PCSCrack.');
+      }
+    });
+    document.addEventListener('contextmenu', e => e.preventDefault());
+
+    // -----------------------------------------------------------
+    // 🌐 LANGUAGE CONTROLLER
+    // -----------------------------------------------------------
+    function setStudyLang(lang) {
+      currentStudyLang = lang;
+      localStorage.setItem('pcscrack_lang', lang);
+      ['en', 'hi', 'hinglish'].forEach(l => {
+        const btn = document.getElementById(`lang-btn-${l}`);
+        if (btn) {
+          btn.className = (l === lang)
+            ? "px-2.5 py-1 text-xs font-bold rounded-lg transition-all active:scale-95 bg-white dark:bg-cardDark shadow-sm text-indigo-600 dark:text-indigo-400"
+            : "px-2.5 py-1 text-xs font-bold rounded-lg transition-all active:scale-95 text-slate-500 hover:text-slate-900 dark:text-slate-400";
+        }
+      });
+      renderCurrentModuleView();
+    }
+
+    // -----------------------------------------------------------
+    // 🗃️ SEPARATED OFFLINE VAULT HANDLER
+    // -----------------------------------------------------------
+    function saveModuleToVault(type, customPayload = null) {
+      const vault = JSON.parse(localStorage.getItem('pcscrack_vault') || '{"notes":[], "pyqs":[], "capsules":[]}');
+      const topicId = topicRegistry.meta?.topic_id || 'active_topic';
+      const topicTitle = topicRegistry.meta?.hierarchy?.sub_micro || 'Topic Study Room';
+
+      const entry = {
+        topic_id: topicId,
+        topic_title: topicTitle,
+        saved_at: new Date().toISOString(),
+        size: '22 KB'
+      };
+
+      if (type === 'notes') {
+        vault.notes = vault.notes.filter(i => i.topic_id !== topicId);
+        vault.notes.push(entry);
+      } else if (type === 'pyqs') {
+        vault.pyqs = vault.pyqs.filter(i => i.topic_id !== topicId);
+        vault.pyqs.push(entry);
+      } else if (type === 'capsules') {
+        vault.capsules = vault.capsules.filter(i => i.topic_id !== topicId);
+        vault.capsules.push(entry);
+      }
+
+      localStorage.setItem('pcscrack_vault', JSON.stringify(vault));
+      
+      const btn = document.getElementById(`vault-save-btn-${type}`);
+      if (btn) {
+        btn.innerHTML = `<i data-lucide="check" class="w-3.5 h-3.5"></i><span>Saved to Vault ✓</span>`;
+        btn.className = "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-600 text-white font-bold text-xs shadow-md";
+        lucide.createIcons();
+      }
+    }
+
+    // -----------------------------------------------------------
+    // 🚀 BOOTSTRAP & DYNAMIC MODULE DISCOVERY
+    // -----------------------------------------------------------
+    async function initTopicEngine() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const topicId = urlParams.get('id') || 'stone_age';
+      const customPath = urlParams.get('path');
+      
+      // Auto-set last read for Resume banner on index
+      localStorage.setItem('pcscrack_last_topic', topicId);
+
+      const basePath = customPath 
+        ? `${customPath.replace(/\/$/, '')}/` 
+        : `data/History/Ancient History/Pre History/Stone Age/`;
+
+      try {
+        // Fetch 01_meta.json first to discover what modules this topic contains
+        const metaRes = await fetch(`${basePath}01_meta.json`);
+        const meta = await metaRes.json();
+        topicRegistry.meta = meta;
+
+        // Set Breadcrumb Header
+        if (meta.hierarchy) {
+          document.getElementById('header-topic-title').innerText = meta.hierarchy.sub_micro || 'Study Room';
+          document.getElementById('breadcrumb-macro').innerText = meta.hierarchy.macro || 'General Studies';
+          document.getElementById('breadcrumb-micro').innerText = meta.hierarchy.micro || 'Micro Unit';
+        }
+
+        // Module Manifest
+        const modulesList = meta.active_modules || [
+          { id: 'notes', label: '📖 Notes', file: '02_notes.json', type: 'swipe_palettes' },
+          { id: 'traps', label: '⚠️ Traps (12)', file: '03_traps.json', type: 'trap_radar' },
+          { id: 'spatial', label: '🗺️ Map', file: '04_spatial.json', type: 'spatial_viewer' },
+          { id: 'pyqs', label: '🎯 PYQs (25)', file: '05_pyqs.json', type: 'pyq_bank' },
+          { id: 'recall', label: '🎮 Recall', file: '06_recall.json', type: 'recall_games' },
+          { id: 'capsule', label: '💊 60s Capsule', file: '07_capsule.json', type: 'capsule_scan' }
+        ];
+
+        // Fetch registered modules concurrently
+        await Promise.all(modulesList.map(async mod => {
+          try {
+            const res = await fetch(`${basePath}${mod.file}`);
+            if (res.ok) loadedDataCache[mod.id] = await res.json();
+          } catch(e) {
+            console.warn(`Module payload ${mod.file} omitted or unavailable.`);
+          }
+        }));
+
+        // Build Dynamic Navigation Tabs
+        const tabsDock = document.getElementById('dynamic-tabs-dock');
+        tabsDock.innerHTML = '';
+        
+        const availableModules = modulesList.filter(m => loadedDataCache[m.id]);
+        
+        availableModules.forEach((mod, idx) => {
+          const btn = document.createElement('button');
+          btn.id = `tab-nav-${mod.id}`;
+          btn.onclick = () => switchStudyTab(mod.id);
+          btn.className = idx === 0 
+            ? "px-3.5 py-1.5 rounded-xl text-xs font-heading font-bold shrink-0 transition-all active:scale-95 bg-indigo-600 text-white shadow-md shadow-indigo-600/20"
+            : "px-3.5 py-1.5 rounded-xl text-xs font-heading font-bold shrink-0 transition-all active:scale-95 bg-white/70 dark:bg-slate-800/70 border border-stone-200 dark:border-slate-700 text-slate-600 dark:text-slate-300";
+          btn.innerText = mod.label;
+          tabsDock.appendChild(btn);
+        });
+
+        document.getElementById('loading-stage').classList.add('hidden');
+
+        if (availableModules.length > 0) {
+          currentActiveModule = availableModules[0].id;
+          renderCurrentModuleView();
+        }
+
+      } catch (err) {
+        console.error("Engine Mount Failure:", err);
+        document.getElementById('loading-status-text').innerHTML = `
+          <div class="p-4 rounded-2xl bg-rose-50 dark:bg-rose-950/40 border border-rose-200 text-rose-800 dark:text-rose-300 text-xs">
+            <strong>Module Ingestion Error:</strong> File path check karein ya internet deployment ensure karein.
+          </div>
+        `;
+      }
+    }
+
+    function switchStudyTab(modId) {
+      currentActiveModule = modId;
+      const allBtns = document.getElementById('dynamic-tabs-dock').querySelectorAll('button');
+      allBtns.forEach(btn => {
+        if (btn.id === `tab-nav-${modId}`) {
+          btn.className = "px-3.5 py-1.5 rounded-xl text-xs font-heading font-bold shrink-0 transition-all active:scale-95 bg-indigo-600 text-white shadow-md shadow-indigo-600/20";
+        } else {
+          btn.className = "px-3.5 py-1.5 rounded-xl text-xs font-heading font-bold shrink-0 transition-all active:scale-95 bg-white/70 dark:bg-slate-800/70 border border-stone-200 dark:border-slate-700 text-slate-600 dark:text-slate-300";
+        }
+      });
+      renderCurrentModuleView();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // -----------------------------------------------------------
+    // 🎨 ELASTIC MODULAR RENDERERS
+    // -----------------------------------------------------------
+    function renderCurrentModuleView() {
+      const root = document.getElementById('modules-root-stage');
+      const data = loadedDataCache[currentActiveModule];
+      if (!data) return;
+
+      root.innerHTML = '';
+
+      // 1. NOTES: INSTAGRAM-STYLE SWIPE PALETTES
+      if (currentActiveModule === 'notes') {
+        const cards = data.cards || [];
+        root.innerHTML = `
+          <div class="flex items-center justify-between pb-2">
+            <div>
+              <span class="text-[10px] font-mono text-indigo-500 font-bold uppercase tracking-wider">High-Yield Study Notes</span>
+              <p class="text-xs text-slate-500">Instagram-Style Micro-Palettes</p>
+            </div>
+            <button id="vault-save-btn-notes" onclick="saveModuleToVault('notes')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white dark:bg-slate-800 border border-stone-200 dark:border-slate-700 hover:border-indigo-500 font-bold text-xs text-slate-700 dark:text-slate-300 transition-all active:scale-95 shadow-sm">
+              <i data-lucide="folder-down" class="w-3.5 h-3.5 text-indigo-500"></i>
+              <span>Save Notes</span>
+            </button>
+          </div>
+
+          <div class="space-y-6">
+            ${cards.map((card, idx) => `
+              <div class="rounded-3xl p-5 sm:p-6 bg-white/85 dark:bg-cardDark/85 border border-stone-200/80 dark:border-slate-800/80 shadow-sm space-y-4">
+                <div class="flex items-center justify-between border-b border-stone-100 dark:border-slate-800 pb-3 flex-wrap gap-2">
+                  <div>
+                    <span class="text-[10px] font-mono text-amber-600 dark:text-amber-400 font-bold uppercase tracking-wider">Palette #${idx + 1} •${card.sub_badge || ''}</span>
+                    <h2 class="font-heading font-extrabold text-base sm:text-lg text-slate-900 dark:text-white">${card.title}</h2>
+                  </div>
+                  <span class="text-xs font-mono px-3 py-1 rounded-xl bg-indigo-50 dark:bg-indigo-950/70 text-indigo-600 dark:text-indigo-400 border border-indigo-200 dark:border-indigo-800 font-bold">${card.badge}</span>
+                </div>
+
+                <div class="p-4 rounded-2xl bg-stone-50/80 dark:bg-slate-900/50 border border-stone-200/60 dark:border-slate-800/70 text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed font-medium">
+                  ${card.overview ? (card.overview[currentStudyLang] || card.overview['en'] || '') : ''}
+                </div>
+
+                <div class="space-y-3.5">
+                  ${(card.sub_phases || []).map(phase => `
+                    <div class="p-4 rounded-2xl border border-stone-200/70 dark:border-slate-800 bg-white dark:bg-slate-800/30 space-y-3">
+                      <div class="flex items-center justify-between">
+                        <h3 class="font-heading font-bold text-xs sm:text-sm text-indigo-600 dark:text-indigo-400">${phase.phase_name}</h3>
+                        <span class="text-[10px] font-mono bg-stone-100 dark:bg-slate-800 px-2 py-0.5 rounded text-stone-500">${phase.tool_badge || ''}</span>
+                      </div>
+                      <div class="space-y-2.5">
+                        ${(phase.points || []).map(pt => `
+                          <div class="space-y-1">
+                            <span class="text-xs font-bold text-amber-700 dark:text-amber-400 block">${pt.label}</span>
+                            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed pl-2.5 border-l-2 border-indigo-200 dark:border-indigo-900 whitespace-pre-line">${pt[currentStudyLang] || pt['en'] || ''}</p>
+                          </div>
+                        `).join('')}
+                      </div>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      }
+
+      // 2. TRAPS: EXAMINER RADAR
+      else if (currentActiveModule === 'traps') {
+        const traps = data.traps || [];
+        root.innerHTML = `
+          <div class="p-4 rounded-3xl bg-amber-500/10 border border-amber-500/20 text-xs text-amber-800 dark:text-amber-300 font-medium">
+            ⚠️ <strong>Examiner Trap Radar:</strong> Commission ke negative-marking traps ka authentic breakdown.
+          </div>
+          <div class="space-y-3">
+            ${traps.map(trap => `
+              <div class="rounded-2xl p-4 bg-white/80 dark:bg-cardDark/80 border border-stone-200/80 dark:border-slate-800/80 shadow-sm space-y-2.5">
+                <div class="flex items-center justify-between">
+                  <span class="text-[10px] font-mono text-rose-500 font-bold uppercase tracking-wider">${trap.trap_id}</span>
+                  <span class="text-[9px] font-mono bg-stone-100 dark:bg-slate-800 px-2 py-0.5 rounded text-stone-500">${trap.exam_reference || ''}</span>
+                </div>
+                <div class="p-3 rounded-xl bg-rose-50/60 dark:bg-rose-950/30 border border-rose-200/60 dark:border-rose-900/40 text-xs">
+                  <strong class="text-rose-600 dark:text-rose-400 block mb-0.5">⚠️ Examiner Trap:</strong>
+                  <p class="text-rose-900 dark:text-rose-200 leading-relaxed">${trap.trap_statement ? (trap.trap_statement[currentStudyLang] || trap.trap_statement['en']) : ''}</p>
+                </div>
+                <div class="p-3 rounded-xl bg-emerald-50/60 dark:bg-emerald-950/30 border border-emerald-200/60 dark:border-emerald-900/40 text-xs">
+                  <strong class="text-emerald-600 dark:text-emerald-400 block mb-0.5">✓ Ground Reality Fact:</strong>
+                  <p class="text-emerald-900 dark:text-emerald-200 leading-relaxed">${trap.reality_fact ? (trap.reality_fact[currentStudyLang] || trap.reality_fact['en']) : ''}</p>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      }
+
+      // 3. SPATIAL MAP: VECTOR SVG OR ADAPTIVE MEDIA
+      else if (currentActiveModule === 'spatial') {
+        const layers = data.layers || [];
+        root.innerHTML = `
+          <div class="rounded-3xl p-5 bg-white/80 dark:bg-cardDark/80 border border-stone-200/80 dark:border-slate-800/80 shadow-sm space-y-4">
+            <div class="flex items-center justify-between flex-wrap gap-2">
+              <div>
+                <span class="text-[10px] font-mono text-indigo-500 font-bold uppercase">Spatial Archaeology Engine</span>
+                <h3 class="font-heading font-extrabold text-sm sm:text-base">Geographical Stratigraphy</h3>
+              </div>
+              <div class="flex gap-1.5" id="spatial-sublayers">
+                ${layers.map((l, lIdx) => `
+                  <button onclick="renderSpatialNodes('${l.layer_id}')" class="px-2.5 py-1 rounded-xl text-[10px] font-bold font-mono transition-all active:scale-95 ${lIdx === 0 ? 'bg-indigo-600 text-white' : 'bg-stone-100 dark:bg-slate-800 text-slate-500'}">
+                    ${l.layer_id.toUpperCase()}
+                  </button>
+                `).join('')}
+              </div>
+            </div>
+
+            <div class="relative w-full h-[420px] bg-stone-100/60 dark:bg-slate-900/50 rounded-2xl border border-stone-200 dark:border-slate-800 flex items-center justify-center overflow-hidden">
+              <svg viewBox="0 0 350 420" class="w-full h-full p-2" id="spatial-svg-canvas">
+                <path d="M 125 35 Q 155 15 190 35 Q 235 45 250 85 Q 275 110 285 150 Q 270 195 240 230 Q 200 290 190 350 Q 185 385 180 395 Q 175 385 165 340 Q 145 285 125 240 Q 110 200 95 160 Q 80 120 90 90 Z" 
+                      fill="rgba(240, 237, 228, 0.4)" stroke="currentColor" class="text-stone-300 dark:text-slate-800 stroke-[1.5]"></path>
+                <g id="spatial-nodes-group"></g>
+              </svg>
+            </div>
+
+            <div id="spatial-node-drawer" class="p-4 rounded-2xl bg-stone-50 dark:bg-slate-800/50 border border-stone-200 dark:border-slate-700 text-xs space-y-1">
+              <span class="text-[10px] font-mono text-indigo-500 font-bold">Node Inspector</span>
+              <p class="text-slate-600 dark:text-slate-300">Map par kisi bhi archaeological site ko tap karke stratigraphy dekhein.</p>
+            </div>
+          </div>
+        `;
+        if (layers.length > 0) renderSpatialNodes(layers[0].layer_id);
+      }
+
+      // 4. PYQS: INTERACTIVE VAULT BANK
+      else if (currentActiveModule === 'pyqs') {
+        const questions = data.questions || [];
+        root.innerHTML = `
+          <div class="flex items-center justify-between pb-2">
+            <div>
+              <span class="text-[10px] font-mono text-indigo-500 font-bold uppercase">Authentic Question Bank</span>
+              <p class="text-xs text-slate-500">Solved: <span id="pyq-counter" class="font-bold text-indigo-500">0</span>/${questions.length}</p>
+            </div>
+            <button id="vault-save-btn-pyqs" onclick="saveModuleToVault('pyqs')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white dark:bg-slate-800 border border-stone-200 dark:border-slate-700 hover:border-emerald-500 font-bold text-xs text-slate-700 dark:text-slate-300 transition-all active:scale-95 shadow-sm">
+              <i data-lucide="folder-down" class="w-3.5 h-3.5 text-emerald-500"></i>
+              <span>Save PYQs</span>
+            </button>
+          </div>
+
+          <div class="space-y-4">
+            ${questions.map((q, idx) => `
+              <div class="rounded-3xl p-5 bg-white/80 dark:bg-cardDark/80 border border-stone-200/80 dark:border-slate-800/80 shadow-sm space-y-3">
+                <div class="flex items-center justify-between">
+                  <span class="text-[10px] font-mono text-indigo-500 font-bold">Q${idx + 1} •${q.exam || ''}</span>
+                </div>
+                <p class="font-heading font-bold text-xs sm:text-sm text-slate-900 dark:text-white leading-relaxed">
+                  ${q.question ? (q.question[currentStudyLang] || q.question['en']) : ''}
+                </p>
+                <div class="grid grid-cols-1 gap-2 pt-1">
+                  ${((q.options ? (q.options[currentStudyLang] || q.options['en']) : [])).map((opt, optIdx) => `
+                    <button onclick="checkPyqAnswer('${q.id}', ${optIdx}, ${q.correct_index})" id="opt-btn-${q.id}-${optIdx}" class="text-left p-3 rounded-2xl border border-stone-200 dark:border-slate-700 bg-stone-50/60 dark:bg-slate-800/40 text-xs hover:border-indigo-500 transition-all active:scale-[0.98]">
+                      <span class="font-mono font-bold mr-2">${String.fromCharCode(65 + optIdx)}.</span> ${opt}
+                    </button>
+                  `).join('')}
+                </div>
+                <div id="exp-box-${q.id}" class="hidden p-3 rounded-2xl bg-stone-100 dark:bg-slate-800 text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                  ${q.explanation ? (q.explanation[currentStudyLang] || q.explanation['en']) : ''}
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      }
+
+      // 5. ACTIVE RECALL: GAMIFIED DRILLS
+      else if (currentActiveModule === 'recall') {
+        const engines = data.interactive_engines || [];
+        root.innerHTML = `
+          <div class="space-y-4">
+            ${engines.map((game, gIdx) => `
+              <div class="rounded-3xl p-5 bg-white/80 dark:bg-cardDark/80 border border-stone-200/80 dark:border-slate-800/80 shadow-sm space-y-3">
+                <div class="flex items-center justify-between">
+                  <h3 class="font-heading font-extrabold text-xs sm:text-sm text-slate-900 dark:text-white">${game.title ? (game.title[currentStudyLang] || game.title['en']) : ''}</h3>
+                  <span class="text-[9px] font-mono bg-indigo-50 dark:bg-indigo-950 px-2 py-0.5 rounded text-indigo-500 font-bold">${game.type || 'PRACTICE'}</span>
+                </div>
+                <p class="text-xs text-slate-500">${game.instruction ? (game.instruction[currentStudyLang] || game.instruction['en']) : ''}</p>
+
+                <div class="space-y-2 pt-1">
+                  ${(game.cards || []).map((c, cIdx) => `
+                    <div class="p-3.5 rounded-2xl border border-stone-200 dark:border-slate-700 bg-stone-50 dark:bg-slate-800/50 space-y-2 text-xs">
+                      <div class="flex items-center justify-between">
+                        <span class="font-mono text-amber-600 dark:text-amber-400 font-bold text-[10px]">Mystery Site #${cIdx + 1}</span>
+                        <button onclick="document.getElementById('recall-ans-${gIdx}-${cIdx}').classList.toggle('hidden')" class="text-indigo-500 font-bold text-[10px] underline">Reveal Target</button>
+                      </div>
+                      <p class="text-slate-600 dark:text-slate-300">${c.clue_1 || ''}</p>
+                      <div id="recall-ans-${gIdx}-${cIdx}" class="hidden p-2 rounded-xl bg-indigo-50 dark:bg-indigo-950 font-bold text-indigo-600 dark:text-indigo-400">
+                        ✓ ${c.answer || ''}
+                      </div>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      }
+
+      // 6. CAPSULE: 60-SEC SCAN CHECKLIST
+      else if (currentActiveModule === 'capsule') {
+        const pillars = data.pillars || [];
+        root.innerHTML = `
+          <div class="flex items-center justify-between pb-2">
+            <div>
+              <span class="text-[10px] font-mono text-amber-600 dark:text-amber-400 font-bold uppercase">100% Fact Coverage</span>
+              <p class="text-xs text-slate-500">60-Second Scan Checklist</p>
+            </div>
+            <button id="vault-save-btn-capsules" onclick="saveModuleToVault('capsules')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white dark:bg-slate-800 border border-stone-200 dark:border-slate-700 hover:border-amber-500 font-bold text-xs text-slate-700 dark:text-slate-300 transition-all active:scale-95 shadow-sm">
+              <i data-lucide="folder-down" class="w-3.5 h-3.5 text-amber-500"></i>
+              <span>Save Capsule</span>
+            </button>
+          </div>
+
+          <div class="space-y-4">
+            ${pillars.map(pillar => `
+              <div class="rounded-3xl p-5 bg-white/80 dark:bg-cardDark/80 border border-stone-200/80 dark:border-slate-800/80 shadow-sm space-y-3">
+                <div class="flex items-center justify-between border-b border-stone-100 dark:border-slate-800 pb-2">
+                  <h4 class="font-heading font-bold text-xs sm:text-sm text-slate-900 dark:text-white">${pillar.pillar_title ? (pillar.pillar_title[currentStudyLang] || pillar.pillar_title['en']) : (pillar.title ? (pillar.title[currentStudyLang] || pillar.title['en']) : '')}</h4>
+                  <span class="text-[10px] font-mono text-amber-600 dark:text-amber-400 font-bold">${pillar.badge || 'Core'}</span>
+                </div>
+                <div class="space-y-2">
+                  ${(pillar.checkpoints || pillar.points || []).map(cp => `
+                    <div class="flex items-start gap-2 text-xs text-slate-700 dark:text-slate-300">
+                      <span class="text-amber-500 font-bold text-sm leading-none mt-0.5">▪</span>
+                      <p class="leading-relaxed font-medium">${typeof cp === 'string' ? cp : (cp.fact ? (cp.fact[currentStudyLang] || cp.fact['en']) : '')}</p>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      }
+
+      // 7. GENERIC FALLBACK: NTH UNKNOWN MODULE AUTO-RENDERER
+      else {
+        root.innerHTML = `
+          <div class="rounded-3xl p-5 bg-white/80 dark:bg-cardDark/80 border border-stone-200/80 dark:border-slate-800/80 shadow-sm space-y-4">
+            <h3 class="font-heading font-extrabold text-sm sm:text-base">${currentActiveModule.toUpperCase()} Module</h3>
+            <div class="p-4 rounded-2xl bg-stone-50 dark:bg-slate-800 text-xs leading-relaxed">
+              <pre class="font-mono overflow-x-auto">${JSON.stringify(data, null, 2)}</pre>
+            </div>
+          </div>
+        `;
+      }
+
+      lucide.createIcons();
+    }
+
+    // -----------------------------------------------------------
+    // 🗺️ SPATIAL SUB-LAYER HANDLER
+    // -----------------------------------------------------------
+    function renderSpatialNodes(layerId) {
+      const data = loadedDataCache['spatial'];
+      if (!data) return;
+      const targetLayer = (data.layers || []).find(l => l.layer_id === layerId);
+      if (!targetLayer) return;
+
+      const group = document.getElementById('spatial-nodes-group');
+      group.innerHTML = (targetLayer.sites || []).map(s => `
+        <g class="cursor-pointer group" onclick="inspectSpatialNode('${s.site_id}', '${layerId}')">
+          <circle cx="${s.coords.x}" cy="${s.coords.y}" r="5" class="fill-indigo-600 stroke-[1.5] stroke-white dark:stroke-slate-900 group-hover:scale-150 transition-all"></circle>
+          <text x="${s.coords.x + 8}" y="${s.coords.y + 3}" class="text-[9px] font-mono font-bold fill-slate-700 dark:fill-slate-300 pointer-events-none">${s.name.split('(')[0]}</text>
+        </g>
+      `).join('') || '';
+    }
+
+    function inspectSpatialNode(siteId, layerId) {
+      const data = loadedDataCache['spatial'];
+      const targetLayer = (data.layers || []).find(l => l.layer_id === layerId);
+      const site = (targetLayer.sites || []).find(s => s.site_id === siteId);
+      if (!site) return;
+
+      document.getElementById('spatial-node-drawer').innerHTML = `
+        <div class="flex items-center justify-between">
+          <span class="font-heading font-extrabold text-xs text-indigo-600 dark:text-indigo-400">${site.name}</span>
+          <span class="text-[9px] font-mono bg-indigo-50 dark:bg-indigo-950 px-2 py-0.5 rounded text-indigo-500 font-bold">${site.period || ''}</span>
+        </div>
+        <p class="font-bold text-[11px] text-amber-600 dark:text-amber-400">${site.highlight || ''}</p>
+        <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">${site.details ? (site.details[currentStudyLang] || site.details['en']) : ''}</p>
+      `;
+    }
+
+    // -----------------------------------------------------------
+    // 🎯 PYQ INTERACTION LOGIC
+    // -----------------------------------------------------------
+    function checkPyqAnswer(qId, selectedIdx, correctIdx) {
+      for (let i = 0; i < 4; i++) {
+        const btn = document.getElementById(`opt-btn-${qId}-${i}`);
+        if (!btn) continue;
+        btn.disabled = true;
+        if (i === correctIdx) {
+          btn.className = "text-left p-3 rounded-2xl border border-emerald-500 bg-emerald-50 dark:bg-emerald-950/60 text-xs font-semibold text-emerald-800 dark:text-emerald-200";
+        } else if (i === selectedIdx && selectedIdx !== correctIdx) {
+          btn.className = "text-left p-3 rounded-2xl border border-rose-500 bg-rose-50 dark:bg-rose-950/60 text-xs font-semibold text-rose-800 dark:text-rose-200";
+        }
+      }
+      const exp = document.getElementById(`exp-box-${qId}`);
+      if (exp) exp.classList.remove('hidden');
+    }
+
+    // Run Engine on Mount
+    initTopicEngine();
+    lucide.createIcons();
+  </script>
+</body>
+</html>
