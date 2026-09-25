@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <title>PCSCrack | Ultra-Focused UP PCS & UPSC Micro-Learning</title>
+  
+  <!-- PWA & Mobile Web App Meta Configuration -->
   <link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#4F46E5">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="PCSCrack">
+  <meta name="theme-color" content="#4F46E5">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="PCSCrack">
   
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -112,7 +114,7 @@
         <span id="hero-badge" class="text-xs sm:text-sm font-mono font-semibold px-3 py-1 rounded-full bg-amber-50 dark:bg-amber-950 text-amber-600 dark:text-amber-400 border border-amber-200 dark:border-amber-900">Target: Civil Services Examination</span>
       </div>
       <h1 id="hero-title" class="font-heading font-extrabold text-xl sm:text-2xl md:text-3xl text-slate-900 dark:text-white leading-tight">Master the syllabus, one focused micro-topic at a time.</h1>
-      <p id="hero-desc" class="text-sm sm:text-base text-slate-600 dark:text-slate-300 max-w-2xl leading-relaxed">Bina kisi bhaari coaching stress ke verbatim notes, examiner traps aur authentic questions ko padhein aur offline vault mein save karein[cite: 4].</p>
+      <p id="hero-desc" class="text-sm sm:text-base text-slate-600 dark:text-slate-300 max-w-2xl leading-relaxed">Bina kisi bhaari coaching stress ke verbatim notes, examiner traps aur authentic questions ko padhein aur offline vault mein save karein.</p>
 
       <!-- Smart Resume Banner (Path Dynamic) -->
       <div id="resume-banner" class="pt-2 hidden">
@@ -236,12 +238,125 @@
     </nav>
   </div>
 
+  <!-- 🚀 INTELLIGENT BI-LINGUAL INSTALL PROMPT MODAL -->
+  <div id="pwa-install-modal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-[10000] hidden flex items-end sm:items-center justify-center p-4 transition-opacity duration-300">
+    <div class="bg-white dark:bg-cardDark w-full max-w-md rounded-3xl border border-stone-200 dark:border-slate-700 shadow-2xl p-5 space-y-4 animate-in slide-in-from-bottom duration-300">
+      <div class="flex items-start justify-between gap-3">
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 rounded-2xl bg-indigo-600 text-white font-extrabold flex items-center justify-center text-xl shadow-lg shadow-indigo-500/30 shrink-0">
+            P
+          </div>
+          <div>
+            <h3 class="font-heading font-extrabold text-base sm:text-lg text-slate-900 dark:text-white leading-tight">Install PCSCrack App</h3>
+            <p class="text-xs text-slate-500 font-mono">100% Free • Works Fully Offline</p>
+          </div>
+        </div>
+        <button onclick="dismissInstallPrompt()" class="p-1.5 rounded-lg text-slate-400 hover:bg-stone-100 dark:hover:bg-slate-800">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <div class="p-3.5 rounded-2xl bg-stone-50 dark:bg-slate-900/60 border border-stone-200 dark:border-slate-800 space-y-2 text-xs sm:text-sm text-slate-600 dark:text-slate-300">
+        <div class="flex items-start gap-2">
+          <span class="text-emerald-500 font-bold">✓</span>
+          <p><strong>English:</strong> Install for a faster full-screen experience and zero-lag offline studying without opening Chrome.</p>
+        </div>
+        <div class="flex items-start gap-2">
+          <span class="text-indigo-500 font-bold">✓</span>
+          <p><strong>हिन्दी:</strong> बेहतर अनुभव के लिए ऐप इंस्टॉल करें। बिना क्रोम खोले फुल स्क्रीन पर ऑफलाइन नोट्स और PYQs पढ़ें।</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 gap-2.5 pt-1">
+        <button onclick="dismissInstallPrompt()" class="w-full py-2.5 rounded-xl border border-stone-200 dark:border-slate-700 text-xs font-bold text-slate-600 dark:text-slate-300 hover:bg-stone-100 dark:hover:bg-slate-800 active:scale-95 transition-all">
+          Later / बाद में
+        </button>
+        <button onclick="executePWAInstall()" class="w-full py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold shadow-lg shadow-indigo-500/25 active:scale-95 transition-all">
+          Install Now / इंस्टॉल करें
+        </button>
+      </div>
+    </div>
+  </div>
+
   <!-- ⚙️ RUNTIME LOGIC -->
   <script>
     let currentHomeLang = 'en';
-    let deferredPrompt = null;
     let activeShelf = 'all';
     let rawSyllabusData = [];
+    let deferredPromptInstance = null;
+
+    // 1. Service Worker Registration
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').catch((err) => console.log('SW Registration Fail:', err));
+      });
+    }
+
+    // 2. Intelligent Standalone Detection
+    function isAppRunningStandalone() {
+      const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
+      const isIOSStandalone = window.navigator.standalone === true;
+      return isStandalone || isIOSStandalone;
+    }
+
+    // 3. Browser Install Event Hook
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPromptInstance = e;
+
+      if (isAppRunningStandalone()) {
+        const installBtn = document.getElementById('btn-pwa-install');
+        if (installBtn) installBtn.classList.add('hidden');
+        return;
+      }
+
+      const lastDismissed = localStorage.getItem('pwa_prompt_dismissed');
+      const now = Date.now();
+      if (!lastDismissed || now - parseInt(lastDismissed) > 24 * 60 * 60 * 1000) {
+        setTimeout(() => {
+          showInstallPrompt();
+        }, 2500);
+      }
+    });
+
+    function showInstallPrompt() {
+      if (isAppRunningStandalone()) return;
+      const modal = document.getElementById('pwa-install-modal');
+      if (modal) {
+        modal.classList.remove('hidden');
+        lucide.createIcons();
+      }
+    }
+
+    function dismissInstallPrompt() {
+      const modal = document.getElementById('pwa-install-modal');
+      if (modal) modal.classList.add('hidden');
+      localStorage.setItem('pwa_prompt_dismissed', Date.now().toString());
+    }
+
+    async function executePWAInstall() {
+      const modal = document.getElementById('pwa-install-modal');
+      if (modal) modal.classList.add('hidden');
+
+      if (deferredPromptInstance) {
+        deferredPromptInstance.prompt();
+        const { outcome } = await deferredPromptInstance.userChoice;
+        if (outcome === 'accepted') {
+          deferredPromptInstance = null;
+          localStorage.setItem('pcscrack_installed', 'true');
+        }
+      } else {
+        alert("Mobile: Chrome menu (⋮) -> 'Install App' ya 'Add to Home screen' dabayein.\nDesktop: Address bar ke right mein install icon check karein.");
+      }
+    }
+
+    function triggerPWAInstall() {
+      if (isAppRunningStandalone()) {
+        alert("Aap pehle se hi PCSCrack App use kar rahe hain!");
+        return;
+      }
+      executePWAInstall();
+    }
 
     const i18n = {
       en: {
@@ -424,17 +539,6 @@
       localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
     }
     if (localStorage.getItem('theme') === 'dark') document.documentElement.classList.add('dark');
-
-    window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); deferredPrompt = e; });
-    async function triggerPWAInstall() {
-      if (deferredPrompt) {
-        deferredPrompt.prompt();
-        const { outcome } = await deferredPrompt.userChoice;
-        if (outcome === 'accepted') deferredPrompt = null;
-      } else {
-        alert("Mobile: Chrome menu (⋮) -> 'Install App' ya 'Add to Home Screen' dabayein.\nDesktop: Address bar ke right mein install icon check karein.");
-      }
-    }
 
     function toggleAccordion(id) {
       const el = document.getElementById(id);
