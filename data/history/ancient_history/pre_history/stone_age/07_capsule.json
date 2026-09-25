@@ -1,0 +1,137 @@
+{
+  "topic_id": "stone_age",
+  "module_id": "capsule",
+  "title": "Ultra-Dense High-Yield Fact Checklist",
+  "pillars": [
+    {
+      "pillar_id": "pillar_epigraphy",
+      "badge": "Epigraphy Records",
+      "pillar_title": {
+        "en": "Epigraphy & Ancient Inscriptions Matrix",
+        "hi": "पुरालेख एवं प्रमुख ऐतिहासिक अभिलेख",
+        "hinglish": "Epigraphy & Major Inscriptions Registry"
+      },
+      "checkpoints": [
+        "Study of inscriptions: Epigraphy[cite: 2].",
+        "Study of ancient handwriting & script evolution: Paleography[cite: 2].",
+        "Brahmi Script: Written Left-to-Right; deciphered in 1837 by James Prinsep (Mint official)[cite: 2].",
+        "Kharosthi Script: Written Right-to-Left; derived from Aramaic; used in NW frontier[cite: 2].",
+        "Sohgaura Copper Plate (Gorakhpur, UP): Mauryan era; pre-Ashokan Brahmi script; Prakrit language; records royal relief granaries during famine[cite: 2].",
+        "Hathigumpha Inscription (Udayagiri, Odisha): King Kharavela of Kalinga; Prakrit language; Brahmi script; year-by-year military & canal construction deeds[cite: 2].",
+        "Prayag Prashasti (Allahabad Pillar): Samudragupta; composed by court poet Harisena; classical Sanskrit prose-verse (Champu style); Brahmi script; records conquests of Aryavarta & Dakshinapatha[cite: 2].",
+        "Aihole Inscription (Meguti Temple, Karnataka): Pulakesin II (Western Chalukya); composed by court poet Ravikirti; Sanskrit language; records decisive victory over Harshavardhana on Narmada banks[cite: 2].",
+        "Junagarh Rock Inscription (Gujarat): Saka ruler Rudradaman I (c. 150 AD); first-ever long inscription in chaste classical Sanskrit; records repair of Sudarshana Lake without levying emergency taxes[cite: 2].",
+        "Nasik Prashasti (Maharashtra): Gautamiputra Satakarni; inscribed by his mother Gautami Balashri; records his victory over Kshaharata ruler Nahapana & title 'Eka-Brahmana'[cite: 2].",
+        "Prashasti Definition: Formal Sanskrit panegyric/eulogy composed by court poets praising royal patron virtues & ancestry[cite: 2]."
+      ]
+    },
+    {
+      "pillar_id": "pillar_numismatics",
+      "badge": "Numismatic Records",
+      "pillar_title": {
+        "en": "Coinage & Monetary Economics Matrix",
+        "hi": "मुद्राशास्त्र एवं मौद्रिक अर्थव्यवस्था",
+        "hinglish": "Numismatics & Coinage Milestones"
+      },
+      "checkpoints": [
+        "Study of coins and monetary tokens: Numismatics[cite: 2].",
+        "Punch-Marked Coins (Aahat Sikka): c. 6th century BC (Mahajanapada era); earliest metallic currency; made of silver and copper; irregular shape; stamped with symbols (sun, tree, hill, crescent) via punches; totally devoid of text, dates, or royal portraits[cite: 2].",
+        "Indo-Greek Coins: 2nd century BC; first to issue coins bearing ruler's portrait, title, and name; introduced bilingual & bi-scriptural legends[cite: 2].",
+        "Kushan Coins: Issued massive quantities of high-purity gold coins (Dinar/Suvarna) and copper coins; evidence of prosperous Silk Road international trade; depicted Indian, Greek, and Iranian deities[cite: 2].",
+        "Gupta Coins: Peak of artistic numismatic excellence; high gold purity in early phase; depict kings in diverse personalized poses (Samudragupta playing Veena, Kumaragupta as Archer/Horseman)[cite: 2].",
+        "Later Gupta Coinage: Sharp decline in gold purity and increased base metal alloys; diagnostic archaeological marker of fiscal stress, monetary contraction, and trade decline[cite: 2]."
+      ]
+    },
+    {
+      "pillar_id": "pillar_pottery_monuments",
+      "badge": "Material Stratigraphy",
+      "pillar_title": {
+        "en": "Ceramic Horizons & Structural Monuments",
+        "hi": "मृद्भांड परंपरा एवं प्रमुख स्मारक",
+        "hinglish": "Ceramics & Structural Architecture"
+      },
+      "checkpoints": [
+        "Ochre Coloured Pottery (OCP): Associated with Copper Hoard Culture and early Vedic horizon; ill-fired; fragile ochre wash[cite: 2].",
+        "Painted Grey Ware (PGW): Associated strictly with Later Vedic Period and Iron Age Northern India; fine levigated grey clay; painted with geometric black designs[cite: 2].",
+        "Northern Black Polished Ware (NBPW): Associated with Mahajanapada era, Mauryan Empire, and Second Urbanization; ultra-glossy, mirror-like black surface; high-temperature kiln mastery; luxury elite tableware[cite: 2].",
+        "Bhimbetka (Raisen, MP): Continuous natural quartzite rock shelters; prehistoric cave paintings of wild beasts, hunting, and dancing[cite: 2, 3].",
+        "Dashavatara Temple (Deogarh, Lalitpur, UP): Gupta era; classical stone structural temple; early Nagara architectural form[cite: 2].",
+        "Sanchi Stupa (MP): Monumental Buddhist relic architecture[cite: 2]."
+      ]
+    },
+    {
+      "pillar_id": "pillar_literature_travelers",
+      "badge": "Texts & Chroniclers",
+      "pillar_title": {
+        "en": "Indigenous Literature & Foreign Accounts Matrix",
+        "hi": "देशी साहित्य एवं विदेशी यात्रियों के विवरण",
+        "hinglish": "Literary Sources & Foreign Travelers"
+      },
+      "checkpoints": [
+        "Puranas (18 major): Preserve royal dynastic genealogies (Vamsanucharita) crucial for Mauryas, Sungas, Andhras/Satavahanas, and Guptas[cite: 2].",
+        "Pali Buddhist Canon: Tripitakas (Vinaya, Sutta, Abhidhamma)[cite: 2]. Jataka tales (500+ stories of Buddha's previous births) record 6th-century BC socio-economic lifeways and guild commerce[cite: 2].",
+        "Sri Lankan Chronicles: Dipavamsa and Mahavamsa; Pali language; primary external sources for Ashoka's reign and Buddhist missions[cite: 2].",
+        "Jain Agamas: Composed in Ardhamagadhi Prakrit; records Mahavira's teachings, monastic conduct, and merchant community activities[cite: 2].",
+        "Kautilya's Arthashastra: Sanskrit treatise; statecraft, taxation, espionage, military strategy, and Saptanga state theory[cite: 2].",
+        "Kalhana's Rajatarangini (12th c. AD): Sanskrit chronicle of Kashmir kings; India's first scientific historical text using critical methodology[cite: 2].",
+        "Banabhatta's Harshacharita: Sanskrit courtly biography of Emperor Harshavardhana[cite: 2].",
+        "Sangam Literature: Ancient classical Tamil corpus (assemblies at Madurai); provides history of Chera, Chola, and Pandya kingdoms[cite: 2].",
+        "Megasthenes: Seleucid ambassador in Chandragupta Maurya's court; authored 'Indica'; described 7 castes, municipal committees, and absence of Greek-style chattel slavery[cite: 2].",
+        "The Periplus of the Erythraean Sea (c. 80 AD): Anonymous Greek sailor; navigational and commercial gazetteer of Indian ports (Barygaza, Muziris) and Roman maritime commerce[cite: 2].",
+        "Ptolemy: 'Geography'; early geographical mapping of Indian subcontinent[cite: 2].",
+        "Pliny: 'Naturalis Historia'; lamented huge drain of Roman gold bullion into India for luxury spices[cite: 2].",
+        "Fa-Hien (Faxian): Early 5th century AD; visited during Chandragupta II Vikramaditya (Gupta period); collected Vinaya texts; noted peace, vegetarianism, and social isolation of Chandalas[cite: 2].",
+        "Hiuen-Tsang (Xuanzang): 7th century AD; 'Prince of Pilgrims'; visited during Harshavardhana's reign; studied at Nalanda; authored 'Si-Yu-Ki'[cite: 2].",
+        "I-Tsing (Yijing): Late 7th century AD; arrived via sea after Hiuen-Tsang; stayed a decade at Nalanda; documented Buddhist monastic rules and diets[cite: 2].",
+        "Al-Biruni: Early 11th century AD; accompanied Mahmud of Ghazni; learned Sanskrit; authored 'Kitab-ul-Hind' (Tahqiq-i-Hind); scientific analysis of Indian astronomy, caste, religion, and philosophy[cite: 2]."
+      ]
+    },
+    {
+      "pillar_id": "pillar_stone_age_stages",
+      "badge": "Palaeolithic Spectrum",
+      "pillar_title": {
+        "en": "Palaeolithic Stages, Tools & Sites Matrix",
+        "hi": "पुरापाषाण काल के चरण, उपकरण एवं स्थल",
+        "hinglish": "Palaeolithic Periods, Implements & Sites"
+      },
+      "checkpoints": [
+        "Palaeolithic Era: c. 500,000 BC – 10,000 BC; Pleistocene Epoch (Ice Age); nomadic hunter-gatherers; zero agriculture, zero pottery[cite: 3].",
+        "Lower Palaeolithic (500,000 – 50,000 BC): Heavy unpolished core tools: Hand-axes, Cleavers, Choppers[cite: 3].",
+        "Quartzite Men: Lower Palaeolithic humans named after exclusive use of hard metamorphic quartzite rock for tool making[cite: 3].",
+        "Soan Valley (Punjab, Pak): Famous Lower Palaeolithic pebble industry and chopper-chopping tools[cite: 3].",
+        "Attirampakkam (Tamil Nadu): Oldest Acheulian bifacial stone hand-axes in South Asia[cite: 3].",
+        "Middle Palaeolithic (50,000 – 40,000 BC): Shift from core tools to light flake tools: Scrapers, Borers, Points; known as Nevasan Industry (Nevasa, Maharashtra); used chert, jasper, and chalcedony[cite: 3].",
+        "Narmada Valley (Hathnora, MP): Middle Palaeolithic flake tools and early hominid fossil cranial remains[cite: 3].",
+        "Upper Palaeolithic (40,000 – 10,000 BC): End of Ice Age; climate warmer; appearance of anatomically modern humans (Homo sapiens); blade and burin industry (parallel-sided long blades on prismatic cores); bone tools[cite: 3].",
+        "Kurnool Caves (Andhra Pradesh): Upper Palaeolithic bone tools and stratified ash beds proving controlled domestic mastery of fire[cite: 3].",
+        "Belan Valley (Mirzapur, UP): Monumental continuous stratigraphic sequence from Lower Palaeolithic through Middle and Upper Palaeolithic, Mesolithic, to Neolithic[cite: 3]."
+      ]
+    },
+    {
+      "pillar_id": "pillar_mesolithic_neolithic",
+      "badge": "Mesolithic & Neolithic",
+      "pillar_title": {
+        "en": "Mesolithic & Neolithic Revolutions Matrix",
+        "hi": "मध्यपाषाण एवं नवपाषाण युगीन क्रांति",
+        "hinglish": "Mesolithic Transitions & Neolithic Settlements"
+      },
+      "checkpoints": [
+        "Mesolithic Era (10,000 – 6,000 BC): Transitional bridge; Holocene epoch (warmer, drier); hunting smaller agile game, fishing, bird fowling[cite: 3].",
+        "Microliths: Diagnostic Mesolithic tool; minute geometric stone blades (1 to 8 cm) hafted into bone/wood handles to make arrows, harpoons, and composite serrated sickles[cite: 3].",
+        "Earliest Animal Domestication: Discovered in Mesolithic horizon at Adamgarh (Hoshangabad, MP) and Bagor (Bhilwara, Rajasthan)[cite: 3].",
+        "Bagor (Rajasthan): Situated on Kothari River; largest and best-documented Mesolithic site in India[cite: 3].",
+        "Sarai Nahar Rai & Mahadaha (Pratapgarh, UP): Mesolithic intentional burials, double male-female graves, circular hearths, bone/horn ornaments[cite: 3].",
+        "Langhnaj (Mehsana, Gujarat): 14 human skeletons, geometric microliths, and wild rhinoceros bones[cite: 3].",
+        "Neolithic Era (6,000 – 4,000 BC): 'Neolithic Revolution' (V. Gordon Childe); shift from food-gatherers to surplus food-producers; 4 pillars: Agriculture, Animal Domestication, Sedentary Villages, Ceramic Pottery[cite: 3].",
+        "Neolithic Lithics: Ground and polished stone celts, polished axes with razor-sharp working edges for clearing forests and tilling soil[cite: 3].",
+        "Mehrgarh (Balochistan, Pak): Situated on Bolan Pass/River (c. 7000 BC); earliest agricultural site in South Asia; wheat, barley, mud-brick multi-room granaries, continuous transition into Harappan civilization[cite: 3].",
+        "Burzahom (Kashmir): Subterranean circular pit-dwellings for winter thermal insulation; unique mortuary practice of domestic dogs buried with masters in grave pits[cite: 3].",
+        "Gufkral (Kashmir): Literally 'Cave of the Potter'; pit-dwellings, polished bone tools, needles, celts[cite: 3].",
+        "Chirand (Saran, Bihar): Massive industry of polished tools and weapons crafted from deer antlers and animal bones[cite: 3].",
+        "Koldihwa & Mahagara (Belan Valley, UP): Earliest global evidence of cultivated rice (Oryza sativa) embedded in cord-impressed pottery[cite: 3].",
+        "South Indian Neolithic: Piklihal, Brahmagiri, Maski, Hallur (Karnataka), Paiyampalli (Tamil Nadu)[cite: 3].",
+        "Ash Mounds: Found at Piklihal, Kupgal, Utnur, Budihal; formed by periodic burning of accumulated cattle-dung heaps inside pastoral cattle kraals[cite: 3]."
+      ]
+    }
+  ]
+}
