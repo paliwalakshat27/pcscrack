@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>PCSCrack | Ultra-Focused UP PCS & UPSC Micro-Learning</title>
+  
+  <!-- Tailwind CSS Engine -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            parchment: '#F4F1EA',
+            obsidian: '#0D1117',
+            cardDark: '#161B22',
+            brandAmber: '#D97706',
+            brandIndigo: '#4F46E5',
+          },
+          fontFamily: {
+            heading: ['"Plus Jakarta Sans"', 'sans-serif'],
+            body: ['Inter', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    .ambient-bg {
+      background-image: radial-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 0);
+      background-size: 20px 20px;
+    }
+    .dark .ambient-bg {
+      background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 0);
+      background-size: 20px 20px;
+    }
+    .hide-scrollbar::-webkit-scrollbar { display: none; }
+    .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  </style>
+</head>
+
+<body class="bg-parchment dark:bg-obsidian text-slate-800 dark:text-slate-100 ambient-bg min-h-screen transition-colors duration-300 antialiased pb-28">
+
+  <!-- ======================================================== -->
+  <!-- 🧭 HEADER COCKPIT                                       -->
+  <!-- ======================================================== -->
+  <header class="sticky top-0 z-40 backdrop-blur-md bg-white/90 dark:bg-cardDark/90 border-b border-stone-200/80 dark:border-slate-800/80 px-4 py-2.5">
+    <div class="max-w-4xl mx-auto flex items-center justify-between gap-3">
+      
+      <!-- Brand Logo -->
+      <div class="flex items-center gap-2.5 cursor-pointer" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+        <div class="w-8 h-8 rounded-xl bg-gradient-to-tr from-indigo-600 to-amber-500 flex items-center justify-center text-white font-extrabold shadow-md shadow-indigo-500/20">
+          P
+        </div>
+        <div>
+          <div class="flex items-center gap-1.5">
+            <span class="font-heading font-extrabold text-base tracking-tight text-slate-900 dark:text-white">PCS<span class="text-amber-600 dark:text-amber-400">Crack</span></span>
+            <span class="text-[9px] font-mono px-1.5 py-0.5 rounded-full bg-stone-100 dark:bg-slate-800 border border-stone-200 dark:border-slate-700 text-stone-500 font-bold">BETA</span>
+          </div>
+          <p class="text-[10px] text-slate-400 font-mono hidden sm:block">pcscrack.com • UP PCS & UPSC Hub</p>
+        </div>
+      </div>
+
+      <!-- Quick Action Controls -->
+      <div class="flex items-center gap-2">
+        
+        <!-- Tri-Lingual Language Switcher -->
+        <div class="flex items-center bg-stone-100 dark:bg-slate-800 p-0.5 rounded-xl border border-stone-200/80 dark:border-slate-700">
+          <button onclick="setHomeLang('en')" id="lang-btn-en" class="px-2 py-1 text-[11px] font-bold rounded-lg transition-all active:scale-95 bg-white dark:bg-cardDark shadow-sm text-indigo-600 dark:text-indigo-400">EN</button>
+          <button onclick="setHomeLang('hi')" id="lang-btn-hi" class="px-2 py-1 text-[11px] font-bold rounded-lg transition-all active:scale-95 text-slate-500 hover:text-slate-900 dark:text-slate-400">हिन्दी</button>
+          <button onclick="setHomeLang('hinglish')" id="lang-btn-hinglish" class="px-2 py-1 text-[11px] font-bold rounded-lg transition-all active:scale-95 text-slate-500 hover:text-slate-900 dark:text-slate-400">Hinglish</button>
+        </div>
+
+        <!-- 1-Tap PWA Install Button -->
+        <button id="btn-pwa-install" onclick="triggerPWAInstall()" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold shadow-md active:scale-95 transition-all">
+          <i data-lucide="download" class="w-3.5 h-3.5"></i>
+          <span id="txt-install-btn">Install App</span>
+        </button>
+
+        <!-- Segregated Vault Button -->
+        <button onclick="openVaultModal('all')" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-stone-200 dark:border-slate-700 bg-white/60 dark:bg-slate-800/60 text-xs text-slate-700 dark:text-slate-300 hover:border-amber-500 transition-all active:scale-95">
+          <i data-lucide="folder" class="w-3.5 h-3.5 text-amber-500"></i>
+          <span class="font-bold hidden sm:inline" id="txt-vault-nav">My Vault</span>
+          <span id="vault-badge-count" class="text-[10px] font-mono px-1.5 py-0.2 rounded-full bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-400 font-bold">0</span>
+        </button>
+
+        <!-- Dark/Light Mode -->
+        <button onclick="toggleDarkMode()" class="p-2 rounded-xl border border-stone-200 dark:border-slate-700 bg-white/60 dark:bg-slate-800/60 hover:bg-stone-100 dark:hover:bg-slate-800 transition-all active:scale-95">
+          <i data-lucide="moon" class="w-4 h-4 hidden dark:block text-amber-400"></i>
+          <i data-lucide="sun" class="w-4 h-4 block dark:hidden text-amber-600"></i>
+        </button>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 pt-6 space-y-6">
+
+    <!-- ======================================================== -->
+    <!-- 🌿 SERENE WELCOMING HERO                                -->
+    <!-- ======================================================== -->
+    <section class="rounded-3xl p-6 md:p-8 bg-white/80 dark:bg-cardDark/80 backdrop-blur-md border border-stone-200/80 dark:border-slate-800/80 shadow-sm space-y-3">
+      <div class="flex items-center gap-2">
+        <span id="hero-badge" class="text-xs font-mono font-semibold px-2.5 py-0.5 rounded-full bg-amber-50 dark:bg-amber-950 text-amber-600 dark:text-amber-400 border border-amber-200 dark:border-amber-900">
+          Target: Civil Services Examination
+        </span>
+      </div>
+      <h1 id="hero-title" class="font-heading font-extrabold text-xl md:text-2xl text-slate-900 dark:text-white leading-tight">
+        Master the syllabus, one focused micro-topic at a time.
+      </h1>
+      <p id="hero-desc" class="text-xs md:text-sm text-slate-600 dark:text-slate-400 max-w-2xl leading-relaxed">
+        Bina kisi bhaari coaching stress ke verbatim notes, examiner traps aur authentic questions ko padhein aur offline vault mein save karein.
+      </p>
+
+      <!-- Smart Resume Banner -->
+      <div id="resume-banner" class="pt-2 hidden">
+        <div class="p-3.5 rounded-2xl bg-indigo-50/70 dark:bg-indigo-950/40 border border-indigo-200 dark:border-indigo-900 flex items-center justify-between gap-3">
+          <div class="flex items-center gap-2.5 text-xs">
+            <span class="w-2 h-2 rounded-full bg-indigo-600 animate-pulse"></span>
+            <span class="text-slate-600 dark:text-slate-300" id="txt-resume-label">Resume where you left:</span>
+            <strong class="text-indigo-700 dark:text-indigo-300 font-bold" id="resume-topic-title">The Stone Age</strong>
+          </div>
+          <a id="resume-topic-link" href="topic.html?id=stone_age" class="inline-flex items-center gap-1 px-3 py-1 rounded-xl bg-indigo-600 text-white text-xs font-semibold shadow-sm active:scale-95 transition-all">
+            <span id="txt-resume-btn">Continue</span>
+            <i data-lucide="arrow-right" class="w-3 h-3"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- 🌳 5-TIER EXPANDABLE SYLLABUS DISCOVERY TREE             -->
+    <!-- ======================================================== -->
+    <section class="space-y-4">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <span class="p-1.5 rounded-lg bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400">
+            <i data-lucide="folder-tree" class="w-4 h-4"></i>
+          </span>
+          <h2 id="tree-main-heading" class="font-heading font-extrabold text-base">Syllabus Discovery Tree</h2>
+        </div>
+        <span id="tree-sub-heading" class="text-xs font-mono text-slate-400">Select branch to expand</span>
+      </div>
+
+      <!-- Tier 1: General Studies 1 Card -->
+      <div class="rounded-3xl bg-white/80 dark:bg-cardDark/80 border border-stone-200/80 dark:border-slate-800/80 shadow-sm overflow-hidden transition-all">
+        
+        <!-- Accordion Header: Indian History -->
+        <button onclick="toggleAccordion('branch-history')" class="w-full p-5 flex items-center justify-between text-left hover:bg-stone-50/50 dark:hover:bg-slate-800/40 transition-colors">
+          <div class="flex items-center gap-3">
+            <span class="w-9 h-9 rounded-2xl bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center font-bold text-sm">
+              GS1
+            </span>
+            <div>
+              <h3 id="hist-card-title" class="font-heading font-bold text-sm md:text-base text-slate-900 dark:text-white">Indian History & Culture</h3>
+              <p id="hist-card-sub" class="text-xs text-slate-500">Ancient, Medieval, Modern & Art & Culture</p>
+            </div>
+          </div>
+          <i data-lucide="chevron-down" id="icon-branch-history" class="w-4 h-4 text-slate-400 transition-transform duration-300"></i>
+        </button>
+
+        <!-- Tier 2 & 3: Branches Inside History -->
+        <div id="branch-history" class="p-5 pt-0 space-y-4">
+          <div class="border-t border-stone-100 dark:border-slate-800 pt-4 space-y-3">
+            
+            <!-- Macro: Ancient History -->
+            <div class="p-4 rounded-2xl bg-stone-50/70 dark:bg-slate-900/50 border border-stone-200/70 dark:border-slate-800 space-y-3">
+              <div class="flex items-center justify-between">
+                <div>
+                  <span class="text-[10px] font-mono text-indigo-500 font-bold uppercase">Macro Unit 01</span>
+                  <h4 id="macro-anc-title" class="font-heading font-bold text-xs md:text-sm text-slate-900 dark:text-white">Ancient Indian History</h4>
+                </div>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-600 font-bold">● ACTIVE</span>
+              </div>
+
+              <!-- Micro Branch: Pre-Historic Period -->
+              <div class="pl-3 border-l-2 border-indigo-200 dark:border-indigo-900 space-y-2">
+                <span id="micro-pre-title" class="text-[11px] font-bold text-slate-700 dark:text-slate-300 block">Pre-Historic Period & Early Man</span>
+                
+                <!-- Sub-Micro Leaf Node: The Stone Age -->
+                <div class="p-3.5 rounded-xl bg-white dark:bg-cardDark border border-stone-200 dark:border-slate-700 flex items-center justify-between gap-3 shadow-sm hover:border-indigo-500 transition-all">
+                  <div>
+                    <h5 id="leaf-stone-title" class="font-heading font-bold text-xs text-slate-900 dark:text-white">The Stone Age (Palaeolithic, Mesolithic, Neolithic)</h5>
+                    <p id="leaf-stone-desc" class="text-[11px] text-slate-500 dark:text-slate-400">Verbatim notes, Belan Valley, Bhimbetka, Sarai Nahar Rai, Mehrgarh.</p>
+                  </div>
+                  <a href="topic.html?id=stone_age" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold shadow-md active:scale-95 transition-all shrink-0">
+                    <span id="txt-study-room-btn">Study Room</span>
+                    <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Upcoming Micro Leaf -->
+              <div class="p-3 rounded-xl border border-dashed border-stone-300 dark:border-slate-700 flex items-center justify-between text-xs text-slate-400">
+                <span id="leaf-ivc-title">Indus Valley Civilization & Chalcolithic Cultures</span>
+                <span class="font-mono text-[10px] bg-stone-100 dark:bg-slate-800 px-2 py-0.5 rounded" id="txt-upcoming-badge">Upcoming</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Placeholder Card: GS 2 Indian Polity -->
+      <div class="rounded-3xl p-5 bg-white/50 dark:bg-cardDark/50 border border-stone-200/50 dark:border-slate-800/50 flex items-center justify-between opacity-75">
+        <div class="flex items-center gap-3">
+          <span class="w-9 h-9 rounded-2xl bg-stone-200/50 dark:bg-slate-800 flex items-center justify-center font-bold text-xs text-slate-400">
+            GS2
+          </span>
+          <div>
+            <h3 id="polity-card-title" class="font-heading font-bold text-sm text-slate-600 dark:text-slate-400">Indian Polity & Governance</h3>
+            <p id="polity-card-sub" class="text-xs text-slate-400">Preamble, Fundamental Rights & Constitutional Framework</p>
+          </div>
+        </div>
+        <span class="text-[10px] font-mono bg-stone-100 dark:bg-slate-800 px-2 py-1 rounded text-slate-400" id="txt-polity-badge">Next Stream</span>
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- 📩 CREATOR PRIVACY DESK                                 -->
+    <!-- ======================================================== -->
+    <section class="rounded-3xl p-6 bg-white/80 dark:bg-cardDark/80 border border-stone-200/80 dark:border-slate-800/80 shadow-sm space-y-3">
+      <div class="flex items-center gap-2">
+        <span class="p-1.5 rounded-lg bg-amber-100 dark:bg-amber-950 text-amber-600 dark:text-amber-400">
+          <i data-lucide="message-square" class="w-4 h-4"></i>
+        </span>
+        <h2 id="feedback-heading" class="font-heading font-extrabold text-base">Direct Suggestion & Peer Helpdesk</h2>
+      </div>
+      <p id="feedback-desc" class="text-xs text-slate-600 dark:text-slate-400">
+        Notes mein koi doubt ho ya content improve karne ka sujhav ho, bina personal identity expose kiye yahan sandesh bhejein:
+      </p>
+
+      <form onsubmit="handleQuerySubmit(event)" class="space-y-3 pt-1">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+          <input type="text" id="query-name" required placeholder="Aapka Naam" class="w-full p-2.5 rounded-xl border border-stone-200 dark:border-slate-700 bg-stone-50 dark:bg-slate-900 focus:outline-none focus:border-indigo-500">
+          <input type="tel" id="query-phone" required placeholder="Mobile / WhatsApp Number" class="w-full p-2.5 rounded-xl border border-stone-200 dark:border-slate-700 bg-stone-50 dark:bg-slate-900 focus:outline-none focus:border-indigo-500">
+        </div>
+        <textarea id="query-msg" rows="3" required placeholder="Bataiye kya suggestion hai ya kaunsa sub-topic pehle chahiye..." class="w-full p-2.5 rounded-xl border border-stone-200 dark:border-slate-700 bg-stone-50 dark:bg-slate-900 focus:outline-none focus:border-indigo-500 text-xs"></textarea>
+        <button type="submit" id="btn-submit-query" class="w-full py-2.5 rounded-xl bg-slate-900 dark:bg-indigo-600 hover:bg-slate-800 text-white font-heading font-bold text-xs shadow-md active:scale-95 transition-all">
+          Submit Message to Desk
+        </button>
+      </form>
+      <div id="query-status" class="hidden p-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 text-xs text-emerald-800 dark:text-emerald-300 text-center font-medium"></div>
+    </section>
+
+  </main>
+
+  <!-- ======================================================== -->
+  <!-- 📂 SEGREGATED OFFLINE VAULT MODAL                       -->
+  <!-- ======================================================== -->
+  <div id="vault-modal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 hidden flex items-start justify-center p-4 pt-12">
+    <div class="bg-white dark:bg-cardDark w-full max-w-xl rounded-3xl border border-stone-200 dark:border-slate-700 shadow-2xl overflow-hidden flex flex-col max-h-[85vh]">
+      
+      <div class="p-4 border-b border-stone-100 dark:border-slate-800 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <i data-lucide="folder-down" class="w-5 h-5 text-amber-500"></i>
+          <div>
+            <h3 class="font-heading font-extrabold text-base" id="vault-modal-title">My Offline Vault</h3>
+            <p class="text-[10px] text-slate-400 font-mono">Client-side sandbox storage • Zero PDF leaks</p>
+          </div>
+        </div>
+        <button onclick="closeVaultModal()" class="p-1.5 rounded-xl text-slate-400 hover:bg-stone-100 dark:hover:bg-slate-800"><i data-lucide="x" class="w-4 h-4"></i></button>
+      </div>
+
+      <div class="flex items-center gap-1.5 p-3 bg-stone-50 dark:bg-slate-900/60 border-b border-stone-100 dark:border-slate-800 overflow-x-auto hide-scrollbar">
+        <button onclick="filterVaultShelf('all')" id="shelf-btn-all" class="px-3 py-1 rounded-xl text-xs font-bold transition-all bg-indigo-600 text-white shadow-sm shrink-0">All Items</button>
+        <button onclick="filterVaultShelf('notes')" id="shelf-btn-notes" class="px-3 py-1 rounded-xl text-xs font-bold transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 shrink-0">📖 Notes</button>
+        <button onclick="filterVaultShelf('pyqs')" id="shelf-btn-pyqs" class="px-3 py-1 rounded-xl text-xs font-bold transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 shrink-0">🎯 PYQ Bank</button>
+        <button onclick="filterVaultShelf('capsules')" id="shelf-btn-capsules" class="px-3 py-1 rounded-xl text-xs font-bold transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 shrink-0">💊 60s Capsules</button>
+      </div>
+
+      <div id="vault-items-container" class="p-4 overflow-y-auto space-y-3 flex-1 text-xs"></div>
+
+      <div class="p-3.5 border-t border-stone-100 dark:border-slate-800 flex items-center justify-between text-xs bg-stone-50/50 dark:bg-slate-900/50">
+        <span class="text-slate-500 font-mono text-[11px]" id="vault-total-size">Total Size: 0 KB</span>
+        <button onclick="clearAllVault()" class="text-rose-500 hover:underline text-[11px]">Clear Vault Cache</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- 🔍 SPOTLIGHT SEARCH MODAL                                -->
+  <!-- ======================================================== -->
+  <div id="search-modal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 hidden flex items-start justify-center p-4 pt-16">
+    <div class="bg-white dark:bg-cardDark w-full max-w-lg rounded-3xl border border-stone-200 dark:border-slate-700 shadow-2xl overflow-hidden space-y-3 p-4">
+      <div class="flex items-center justify-between border-b border-stone-100 dark:border-slate-800 pb-3">
+        <div class="flex items-center gap-2 w-full">
+          <i data-lucide="search" class="w-4 h-4 text-indigo-500"></i>
+          <input type="text" id="spotlight-input" oninput="handleSearchQuery(this.value)" placeholder="Search tools, Belan Valley, Mehrgarh, traps..." class="w-full bg-transparent focus:outline-none text-sm">
+        </div>
+        <button onclick="closeSearchModal()" class="p-1 rounded-lg text-slate-400 hover:bg-stone-100 dark:hover:bg-slate-800"><i data-lucide="x" class="w-4 h-4"></i></button>
+      </div>
+      <div id="search-results-box" class="max-h-60 overflow-y-auto text-xs space-y-2">
+        <p class="text-slate-400 text-center py-6">Type keywords to search across PCSCrack syllabus...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- 📱 FLOATING BOTTOM APP DOCK                             -->
+  <!-- ======================================================== -->
+  <nav class="fixed bottom-4 inset-x-4 max-w-lg mx-auto h-14 bg-white/90 dark:bg-cardDark/90 backdrop-blur-xl border border-stone-200/80 dark:border-slate-800/80 rounded-2xl shadow-2xl flex items-center justify-around px-2 z-50">
+    <a href="index.html" class="flex flex-col items-center text-[10px] text-indigo-600 dark:text-indigo-400 font-semibold">
+      <i data-lucide="home" class="w-4 h-4"></i>
+      <span id="dock-home">Home</span>
+    </a>
+    <button onclick="openSearchModal()" class="flex flex-col items-center text-[10px] text-slate-600 dark:text-slate-400 hover:text-indigo-600 transition-colors">
+      <i data-lucide="search" class="w-4 h-4"></i>
+      <span id="dock-search">Search</span>
+    </button>
+    <a href="topic.html?id=stone_age" class="flex flex-col items-center text-[10px] text-slate-600 dark:text-slate-400 hover:text-indigo-600 transition-colors">
+      <i data-lucide="book-open" class="w-4 h-4"></i>
+      <span id="dock-study">Study Room</span>
+    </a>
+    <button onclick="openVaultModal('all')" class="flex flex-col items-center text-[10px] text-slate-600 dark:text-slate-400 hover:text-indigo-600 transition-colors">
+      <i data-lucide="download-cloud" class="w-4 h-4"></i>
+      <span id="dock-vault">Vault</span>
+    </button>
+  </nav>
+
+  <!-- ======================================================== -->
+  <!-- ⚙️ RUNTIME LOGIC: TRI-LINGUAL TOGGLE & VAULT ENGINE      -->
+  <!-- ======================================================== -->
+  <script>
+    let currentHomeLang = 'en';
+    let deferredPrompt = null;
+    let activeShelf = 'all';
+
+    // Tri-Lingual Dictionary for Gateway UI
+    const i18n = {
+      en: {
+        installBtn: "Install App",
+        vaultNav: "My Vault",
+        heroBadge: "Target: Civil Services Examination",
+        heroTitle: "Master the syllabus, one focused micro-topic at a time.",
+        heroDesc: "Study verbatim notes, examiner traps, and authentic questions without coaching stress, and save them in your offline vault.",
+        resumeLabel: "Resume where you left:",
+        resumeBtn: "Continue",
+        treeMainHeading: "Syllabus Discovery Tree",
+        treeSubHeading: "Select branch to expand",
+        histTitle: "Indian History & Culture",
+        histSub: "Ancient, Medieval, Modern & Art & Culture",
+        macroAncTitle: "Ancient Indian History",
+        microPreTitle: "Pre-Historic Period & Early Man",
+        leafStoneTitle: "The Stone Age (Palaeolithic, Mesolithic, Neolithic)",
+        leafStoneDesc: "Verbatim notes, Belan Valley, Bhimbetka, Sarai Nahar Rai, Mehrgarh.",
+        studyRoomBtn: "Study Room",
+        upcomingBadge: "Upcoming",
+        polityTitle: "Indian Polity & Governance",
+        politySub: "Preamble, Fundamental Rights & Constitutional Framework",
+        polityBadge: "Next Stream",
+        feedbackHeading: "Direct Suggestion & Peer Helpdesk",
+        feedbackDesc: "If you have any doubt in notes or suggestions to improve content, send a message without exposing personal identity:",
+        submitQueryBtn: "Submit Message to Desk",
+        dockHome: "Home",
+        dockSearch: "Search",
+        dockStudy: "Study Room",
+        dockVault: "Vault"
+      },
+      hi: {
+        installBtn: "ऐप इंस्टॉल करें",
+        vaultNav: "मेरा वॉल्ट",
+        heroBadge: "लक्ष्य: सिविल सेवा परीक्षा",
+        heroTitle: "पूरे पाठ्यक्रम पर विजय, एक समय में एक केंद्रित सूक्ष्म विषय।",
+        heroDesc: "बिना कोचिंग तनाव के प्रमाणिक नोट्स, आयोग स्तर के ट्रैप रडार और प्रश्नों का अध्ययन करें तथा ऑफलाइन वॉल्ट में सुरक्षित रखें।",
+        resumeLabel: "जहाँ से छोड़ा था वहीं से पढ़ें:",
+        resumeBtn: "जारी रखें",
+        treeMainHeading: "पाठ्यक्रम अन्वेषण ट्री",
+        treeSubHeading: "विस्तार के लिए शाखा चुनें",
+        histTitle: "भारतीय इतिहास एवं संस्कृति",
+        histSub: "प्राचीन, मध्यकालीन, आधुनिक एवं कला व संस्कृति",
+        macroAncTitle: "प्राचीन भारतीय इतिहास",
+        microPreTitle: "प्रागैतिहासिक काल एवं आदिमानव",
+        leafStoneTitle: "पाषाण काल (पुरापाषाण, मध्यपाषाण, नवपाषाण)",
+        leafStoneDesc: "सम्पूर्ण नोट्स, बेलन घाटी, भीमबेटका, सराय नाहर राय, मेहरगढ़।",
+        studyRoomBtn: "अध्ययन कक्ष",
+        upcomingBadge: "आगामी",
+        polityTitle: "भारतीय राजव्यवस्था एवं शासन",
+        politySub: "प्रस्तावना, मूल अधिकार एवं संवैधानिक ढांचा",
+        polityBadge: "अगला विषय",
+        feedbackHeading: "प्रत्यक्ष सुझाव एवं सहायता पटल",
+        feedbackDesc: "नोट्स में कोई संशय हो या सामग्री सुधार हेतु सुझाव हो, व्यक्तिगत पहचान उजागर किए बिना यहाँ संदेश भेजें:",
+        submitQueryBtn: "संदेश पटल पर भेजें",
+        dockHome: "मुख्य पृष्ठ",
+        dockSearch: "खोजें",
+        dockStudy: "अध्ययन कक्ष",
+        dockVault: "वॉल्ट"
+      },
+      hinglish: {
+        installBtn: "App Install Karein",
+        vaultNav: "Mera Vault",
+        heroBadge: "Target: Civil Services Examination",
+        heroTitle: "Syllabus master karein, ek time par ek focused micro-topic.",
+        heroDesc: "Bina kisi bhaari coaching stress ke verbatim notes, examiner traps aur authentic questions padhein aur offline vault mein save karein.",
+        resumeLabel: "Jahan chhoda tha wahin se resume karein:",
+        resumeBtn: "Continue",
+        treeMainHeading: "Syllabus Discovery Tree",
+        treeSubHeading: "Branch choose karke expand karein",
+        histTitle: "Indian History & Culture",
+        histSub: "Ancient, Medieval, Modern & Art-Culture",
+        macroAncTitle: "Ancient Indian History",
+        microPreTitle: "Pre-Historic Period & Early Man",
+        leafStoneTitle: "The Stone Age (Palaeolithic, Mesolithic, Neolithic)",
+        leafStoneDesc: "Verbatim notes, Belan Valley, Bhimbetka, Sarai Nahar Rai, Mehrgarh.",
+        studyRoomBtn: "Study Room",
+        upcomingBadge: "Upcoming",
+        polityTitle: "Indian Polity & Governance",
+        politySub: "Preamble, Fundamental Rights & Constitutional Framework",
+        polityBadge: "Next Stream",
+        feedbackHeading: "Direct Suggestion & Peer Helpdesk",
+        feedbackDesc: "Notes mein koi doubt ho ya content improve karne ka sujhav ho, identity expose kiye bina sandesh bhejein:",
+        submitQueryBtn: "Submit Message to Desk",
+        dockHome: "Home",
+        dockSearch: "Search",
+        dockStudy: "Study Room",
+        dockVault: "Vault"
+      }
+    };
+
+    function setHomeLang(lang) {
+      currentHomeLang = lang;
+      localStorage.setItem('pcscrack_lang', lang);
+
+      ['en', 'hi', 'hinglish'].forEach(l => {
+        const btn = document.getElementById(`lang-btn-${l}`);
+        if (btn) {
+          if (l === lang) {
+            btn.className = "px-2 py-1 text-[11px] font-bold rounded-lg transition-all active:scale-95 bg-white dark:bg-cardDark shadow-sm text-indigo-600 dark:text-indigo-400";
+          } else {
+            btn.className = "px-2 py-1 text-[11px] font-bold rounded-lg transition-all active:scale-95 text-slate-500 hover:text-slate-900 dark:text-slate-400";
+          }
+        }
+      });
+
+      const d = i18n[lang];
+      document.getElementById('txt-install-btn').innerText = d.installBtn;
+      document.getElementById('txt-vault-nav').innerText = d.vaultNav;
+      document.getElementById('hero-badge').innerText = d.heroBadge;
+      document.getElementById('hero-title').innerText = d.heroTitle;
+      document.getElementById('hero-desc').innerText = d.heroDesc;
+      document.getElementById('txt-resume-label').innerText = d.resumeLabel;
+      document.getElementById('txt-resume-btn').innerText = d.resumeBtn;
+      document.getElementById('tree-main-heading').innerText = d.treeMainHeading;
+      document.getElementById('tree-sub-heading').innerText = d.treeSubHeading;
+      document.getElementById('hist-card-title').innerText = d.histTitle;
+      document.getElementById('hist-card-sub').innerText = d.histSub;
+      document.getElementById('macro-anc-title').innerText = d.macroAncTitle;
+      document.getElementById('micro-pre-title').innerText = d.microPreTitle;
+      document.getElementById('leaf-stone-title').innerText = d.leafStoneTitle;
+      document.getElementById('leaf-stone-desc').innerText = d.leafStoneDesc;
+      document.getElementById('txt-study-room-btn').innerText = d.studyRoomBtn;
+      document.getElementById('txt-upcoming-badge').innerText = d.upcomingBadge;
+      document.getElementById('polity-card-title').innerText = d.polityTitle;
+      document.getElementById('polity-card-sub').innerText = d.politySub;
+      document.getElementById('txt-polity-badge').innerText = d.polityBadge;
+      document.getElementById('feedback-heading').innerText = d.feedbackHeading;
+      document.getElementById('feedback-desc').innerText = d.feedbackDesc;
+      document.getElementById('btn-submit-query').innerText = d.submitQueryBtn;
+      document.getElementById('dock-home').innerText = d.dockHome;
+      document.getElementById('dock-search').innerText = d.dockSearch;
+      document.getElementById('dock-study').innerText = d.dockStudy;
+      document.getElementById('dock-vault').innerText = d.dockVault;
+    }
+
+    // Theme Switcher
+    function toggleDarkMode() {
+      document.documentElement.classList.toggle('dark');
+      localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+    }
+    if (localStorage.getItem('theme') === 'dark') document.documentElement.classList.add('dark');
+
+    // 1-Tap PWA Prompt
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      const btn = document.getElementById('btn-pwa-install');
+      if (btn) btn.classList.remove('hidden');
+    });
+
+    async function triggerPWAInstall() {
+      if (!deferredPrompt) return;
+      deferredPrompt.prompt();
+      const { outcome } = await deferredPrompt.userChoice;
+      if (outcome === 'accepted') {
+        document.getElementById('btn-pwa-install').classList.add('hidden');
+      }
+      deferredPrompt = null;
+    }
+
+    // Expandable Accordion
+    function toggleAccordion(branchId) {
+      const branch = document.getElementById(branchId);
+      const icon = document.getElementById(`icon-${branchId}`);
+      if (branch.classList.contains('hidden')) {
+        branch.classList.remove('hidden');
+        icon.classList.add('rotate-180');
+      } else {
+        branch.classList.add('hidden');
+        icon.classList.remove('rotate-180');
+      }
+    }
+
+    // Segregated Vault Storage Engine
+    function getVaultData() {
+      return JSON.parse(localStorage.getItem('pcscrack_vault') || '{"notes":[], "pyqs":[], "capsules":[]}');
+    }
+
+    function updateVaultBadge() {
+      const data = getVaultData();
+      const total = (data.notes || []).length + (data.pyqs || []).length + (data.capsules || []).length;
+      document.getElementById('vault-badge-count').innerText = total;
+    }
+
+    function openVaultModal(shelf = 'all') {
+      activeShelf = shelf;
+      document.getElementById('vault-modal').classList.remove('hidden');
+      filterVaultShelf(shelf);
+    }
+    function closeVaultModal() { document.getElementById('vault-modal').classList.add('hidden'); }
+
+    function filterVaultShelf(shelf) {
+      activeShelf = shelf;
+      ['all', 'notes', 'pyqs', 'capsules'].forEach(s => {
+        const btn = document.getElementById(`shelf-btn-${s}`);
+        if (btn) {
+          if (s === shelf) {
+            btn.className = "px-3 py-1 rounded-xl text-xs font-bold transition-all bg-indigo-600 text-white shadow-sm shrink-0";
+          } else {
+            btn.className = "px-3 py-1 rounded-xl text-xs font-bold transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 shrink-0";
+          }
+        }
+      });
+
+      const container = document.getElementById('vault-items-container');
+      const data = getVaultData();
+      let itemsToRender = [];
+
+      if (shelf === 'all' || shelf === 'notes') {
+        (data.notes || []).forEach(item => itemsToRender.push({ ...item, type: 'Notes', color: 'indigo' }));
+      }
+      if (shelf === 'all' || shelf === 'pyqs') {
+        (data.pyqs || []).forEach(item => itemsToRender.push({ ...item, type: 'PYQ Bank', color: 'emerald' }));
+      }
+      if (shelf === 'all' || shelf === 'capsules') {
+        (data.capsules || []).forEach(item => itemsToRender.push({ ...item, type: '60s Capsule', color: 'amber' }));
+      }
+
+      if (itemsToRender.length === 0) {
+        container.innerHTML = `
+          <div class="py-12 text-center text-slate-400 space-y-2">
+            <i data-lucide="inbox" class="w-8 h-8 mx-auto opacity-40"></i>
+            <p>Is shelf mein abhi koi saved content nahi hai.</p>
+            <p class="text-[11px]">Topic Study Room se save button daba kar content add karein.</p>
+          </div>
+        `;
+      } else {
+        container.innerHTML = itemsToRender.map(item => `
+          <div class="p-3.5 rounded-2xl bg-stone-50 dark:bg-slate-800/60 border border-stone-200 dark:border-slate-700 flex items-center justify-between gap-3">
+            <div class="space-y-1">
+              <div class="flex items-center gap-2">
+                <span class="text-[9px] font-mono px-2 py-0.5 rounded-md font-bold bg-${item.color}-100 dark:bg-${item.color}-950 text-${item.color}-600 dark:text-${item.color}-400">
+                  ${item.type}
+                </span>
+                <span class="text-[10px] font-mono text-slate-400">${item.size || '18 KB'}</span>
+              </div>
+              <h4 class="font-heading font-bold text-xs text-slate-900 dark:text-white">${item.topic_title}</h4>
+            </div>
+            <div class="flex items-center gap-2">
+              <a href="topic.html?id=${item.topic_id}" class="px-2.5 py-1 rounded-xl bg-indigo-600 text-white font-bold text-[11px] shadow-sm active:scale-95 transition-all">
+                Open
+              </a>
+              <button onclick="removeVaultItem('${item.type}', '${item.topic_id}')" class="p-1 rounded-lg text-slate-400 hover:text-rose-500">
+                <i data-lucide="trash-2" class="w-3.5 h-3.5"></i>
+              </button>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      document.getElementById('vault-total-size').innerText = `Total Cached: ${itemsToRender.length * 18} KB`;
+      lucide.createIcons();
+    }
+
+    function removeVaultItem(type, topicId) {
+      const data = getVaultData();
+      if (type === 'Notes') data.notes = (data.notes || []).filter(i => i.topic_id !== topicId);
+      if (type === 'PYQ Bank') data.pyqs = (data.pyqs || []).filter(i => i.topic_id !== topicId);
+      if (type === '60s Capsule') data.capsules = (data.capsules || []).filter(i => i.topic_id !== topicId);
+      localStorage.setItem('pcscrack_vault', JSON.stringify(data));
+      updateVaultBadge();
+      filterVaultShelf(activeShelf);
+    }
+
+    function clearAllVault() {
+      if (confirm("Kya aap saara offline vault data hatana chahte hain?")) {
+        localStorage.removeItem('pcscrack_vault');
+        updateVaultBadge();
+        filterVaultShelf(activeShelf);
+      }
+    }
+
+    // Feedback Desk Handler
+    function handleQuerySubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('query-name').value;
+      const statusBox = document.getElementById('query-status');
+      statusBox.innerText = `Dhanyawaad ${name}! Aapka message save ho gaya hai. Hum aapse jald sampark karenge.`;
+      statusBox.classList.remove('hidden');
+      e.target.reset();
+    }
+
+    // Search Functions
+    function openSearchModal() { document.getElementById('search-modal').classList.remove('hidden'); document.getElementById('spotlight-input').focus(); }
+    function closeSearchModal() { document.getElementById('search-modal').classList.add('hidden'); }
+    function handleSearchQuery(query) {
+      const res = document.getElementById('search-results-box');
+      if (query.trim().toLowerCase().includes('stone') || query.trim().toLowerCase().includes('belan') || query.trim().toLowerCase().includes('mehrgarh')) {
+        res.innerHTML = `
+          <a href="topic.html?id=stone_age" class="p-3 rounded-2xl bg-stone-50 dark:bg-slate-800 flex items-center justify-between hover:border-indigo-500 block">
+            <div>
+              <p class="font-bold text-slate-800 dark:text-white">The Stone Age (Palaeolithic, Mesolithic, Neolithic)</p>
+              <p class="text-[11px] text-slate-400">Belan Valley, Bhimbetka, Sarai Nahar Rai, Koldihwa</p>
+            </div>
+            <span class="text-xs text-indigo-500 font-bold">Open →</span>
+          </a>
+        `;
+      } else {
+        res.innerHTML = `<p class="text-slate-400 text-center py-6">Keywords match hone par live topics dikhenge.</p>`;
+      }
+    }
+
+    window.addEventListener('keydown', (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+        e.preventDefault();
+        openSearchModal();
+      }
+    });
+
+    // Check Last Active Topic for Resume Banner
+    const lastTopic = localStorage.getItem('pcscrack_last_topic');
+    if (lastTopic) {
+      document.getElementById('resume-banner').classList.remove('hidden');
+    }
+
+    // Init Language from Saved Preferences
+    const savedLang = localStorage.getItem('pcscrack_lang') || 'en';
+    setHomeLang(savedLang);
+
+    updateVaultBadge();
+    lucide.createIcons();
+  </script>
+</body>
+</html>
