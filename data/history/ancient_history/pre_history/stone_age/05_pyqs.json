@@ -1,0 +1,912 @@
+{
+  "topic_id": "stone_age",
+  "module_id": "pyqs",
+  "title": "Authentic Previous Year Question Bank",
+  "questions": [
+    {
+      "id": "pyq_01",
+      "exam": "UPPSC Prelims / Mains",
+      "question": {
+        "en": "The famous Prayag Prashasti (Allahabad Pillar Inscription), which chronicles the military conquests of Samudragupta, was composed by whom?",
+        "hi": "समुद्रगुप्त की सैन्य विजयों का विस्तृत विवरण देने वाली प्रसिद्ध 'प्रयाग प्रशस्ति' (इलाहाबाद स्तंभ अभिलेख) की रचना किसके द्वारा की गई थी?",
+        "hinglish": "Samudragupta ke military conquests ka detail account dene wali famous Prayag Prashasti kisne compose ki thi?"
+      },
+      "options": {
+        "en": ["Kalidasa", "Banabhatta", "Harisena", "Ravikirti"],
+        "hi": ["कालिदास", "बाणभट्ट", "हरिषेण", "रविकीर्ति"],
+        "hinglish": ["Kalidasa", "Banabhatta", "Harisena", "Ravikirti"]
+      },
+      "correct_index": 2,
+      "explanation": {
+        "en": "The Prayag Prashasti was composed by Harisena, the court poet of Gupta emperor Samudragupta, in classical Sanskrit using the Brahmi script.",
+        "hi": "प्रयाग प्रशस्ति की रचना गुप्त सम्राट समुद्रगुप्त के दरबारी कवि हरिषेण द्वारा ब्राह्मी लिपि और विशुद्ध संस्कृत में की गई थी।",
+        "hinglish": "Prayag Prashasti ko Samudragupta ke court poet Harisena ne Sanskrit language aur Brahmi script mein compose kiya tha."
+      }
+    },
+    {
+      "id": "pyq_02",
+      "exam": "UPSC Civil Services Prelims",
+      "question": {
+        "en": "With reference to ancient Indian history, the term 'NBPW' refers to:",
+        "hi": "प्राचीन भारतीय इतिहास के संदर्भ में, 'NBPW' शब्द किसे संदर्भित करता है?",
+        "hinglish": "Ancient Indian history ke context mein 'NBPW' term kis cheez ko refer karta hai?"
+      },
+      "options": {
+        "en": [
+          "A type of luxurious, glossy pottery associated with the Mahajanapada and Mauryan periods",
+          "A specific category of royal land grants given to Brahmanas",
+          "A guild of sea-merchants operating in peninsular India",
+          "A set of military codes governing Chola naval operations"
+        ],
+        "hi": [
+          "महाजनपद एवं मौर्य काल से संबद्ध एक अत्यधिक चमकदार व विलासितापूर्ण मृद्भांड",
+          "ब्राह्मणों को दिए जाने वाले विशेष भूमि अनुदान",
+          "प्रायद्वीपीय भारत में व्यापार करने वाली नाविक व्यापारियों की श्रेणी",
+          "चोल नौसेना के संचालन हेतु विशेष सैन्य संहिता"
+        ],
+        "hinglish": [
+          "Mahajanapada aur Mauryan era se judi luxurious aur glossy pottery",
+          "Brahmanas ko diye jane wale land grants",
+          "South India ke maritime merchant guilds",
+          "Chola naval empire ke warfare rules"
+        ]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "NBPW stands for Northern Black Polished Ware, a highly lustrous and glossy ceramic characteristic of the Second Urbanization during the Mahajanapada and Mauryan epochs[cite: 2].",
+        "hi": "NBPW का तात्पर्य 'उत्तरी काली चमकीली परंपरा' (Northern Black Polished Ware) से है, जो द्वितीय नगरीकरण (महाजनपद एवं मौर्य काल) का विशिष्ट मृद्भांड है[cite: 2]।",
+        "hinglish": "NBPW ka matlab Northern Black Polished Ware hai, jo Mahajanapadas aur Mauryan Second Urbanization ki glossy high-end pottery thi[cite: 2]."
+      }
+    },
+    {
+      "id": "pyq_03",
+      "exam": "UPPSC Prelims / RO-ARO",
+      "question": {
+        "en": "Which Chinese Buddhist pilgrim visited India during the reign of King Harshavardhana and recorded his memoirs in 'Si-Yu-Ki'?",
+        "hi": "किस चीनी बौद्ध यात्री ने सम्राट हर्षवर्धन के शासनकाल में भारत की यात्रा की और अपना विवरण 'सी-यू-की' (Si-Yu-Ki) में संकलित किया?",
+        "hinglish": "Kaunsa Chinese Buddhist pilgrim Harshavardhana ke reign mein aaya aur apni book 'Si-Yu-Ki' likhi?"
+      },
+      "options": {
+        "en": ["Fa-Hien", "I-Tsing", "Hiuen-Tsang (Xuanzang)", "Sung Yun"],
+        "hi": ["फाह्यान", "इत्सिंग", "ह्वेनसांग (युवान च्वांग)", "सुंग युन"],
+        "hinglish": ["Fa-Hien", "I-Tsing", "Hiuen-Tsang (Xuanzang)", "Sung Yun"]
+      },
+      "correct_index": 2,
+      "explanation": {
+        "en": "Hiuen-Tsang visited India during Harshavardhana's reign in the 7th century AD and composed 'Si-Yu-Ki'[cite: 2]. Fa-Hien visited earlier during Chandragupta II's reign[cite: 2].",
+        "hi": "ह्वेनसांग 7वीं शताब्दी में सम्राट हर्षवर्धन के काल में भारत आया और उसने 'सी-यू-की' लिखी[cite: 2]। फाह्यान गुप्त शासक चंद्रगुप्त द्वितीय के समय आया था[cite: 2]।",
+        "hinglish": "Hiuen-Tsang 7th century mein Harshavardhana ke court mein aaya tha aur 'Si-Yu-Ki' likhi thi; Fa-Hien Gupta king Chandragupta II ke waqt aaya tha[cite: 2]."
+      }
+    },
+    {
+      "id": "pyq_04",
+      "exam": "UPSC Civil Services Prelims",
+      "question": {
+        "en": "Consider the following statements regarding ancient Indian scripts and coinage:\n1. The deciphering of the Kharosthi script by James Prinsep was the key breakthrough in reading Ashokan edicts.\n2. The Indo-Greeks were the first rulers in India to issue coins bearing portraits and names of kings.\nWhich of the statements given above is/are correct?",
+        "hi": "प्राचीन भारतीय लिपियों एवं मुद्राओं के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n1. जेम्स प्रिंसेप द्वारा खरोष्ठी लिपि का उद्वाचन अशोक के अभिलेखों को पढ़ने में प्रमुख सफलता थी।\n2. भारत में राजाओं के चित्र एवं नाम वाले सिक्के जारी करने वाले प्रथम शासक हिन्द-यवन (Indo-Greeks) थे।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+        "hinglish": "Scripts aur coins se related statements par dhyan dein:\n1. James Prinsep ne Kharosthi script decipher karke Ashokan edicts padhe the.\n2. Indo-Greeks pehle rulers the jinhone king ke portrait aur name wale coins issue kiye.\nInme se kaunsa statement correct hai?"
+      },
+      "options": {
+        "en": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"],
+        "hi": ["केवल 1", "केवल 2", "1 और 2 दोनों", "न तो 1, न ही 2"],
+        "hinglish": ["1 only", "2 only", "Both 1 and 2", "Neither 1 nor 2"]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "Statement 1 is incorrect because James Prinsep deciphered the Brahmi script in 1837, not Kharosthi[cite: 2]. Statement 2 is correct as Indo-Greeks were the first to issue coins featuring rulers' portraits and names[cite: 2].",
+        "hi": "कथन 1 गलत है क्योंकि जेम्स प्रिंसेप ने 1837 में ब्राह्मी लिपि का उद्वाचन किया था[cite: 2]। कथन 2 सही है क्योंकि हिन्द-यवनों ने ही सर्वप्रथम राजाओं के नाम व चित्र वाले सिक्के जारी किए[cite: 2]।",
+        "hinglish": "Statement 1 galat hai kyunki Prinsep ne Brahmi script padhi thi[cite: 2]. Statement 2 sahi hai kyunki Indo-Greeks ne pehli baar portrait aur name inscribed coins chalaye the[cite: 2]."
+      }
+    },
+    {
+      "id": "pyq_05",
+      "exam": "UPPSC Prelims",
+      "question": {
+        "en": "The Hathigumpha Inscription in Udayagiri hills is a primary source of information for which ancient Indian ruler?",
+        "hi": "उदयगिरि पहाड़ियों का 'हाथीगुम्फा अभिलेख' किस प्राचीन भारतीय शासक के इतिहास का प्रमुख स्रोत है?",
+        "hinglish": "Udayagiri hills ka Hathigumpha Inscription kis ancient Indian ruler ke bare mein primary source hai?"
+      },
+      "options": {
+        "en": ["Ashoka Maurya", "Rudradaman I", "Kharavela of Kalinga", "Pulakesin II"],
+        "hi": ["अशोक मौर्य", "रुद्रदामन प्रथम", "कलिंग नरेश खारवेल", "पुलकेशिन द्वितीय"],
+        "hinglish": ["Ashoka Maurya", "Rudradaman I", "Kharavela of Kalinga", "Pulakesin II"]
+      },
+      "correct_index": 2,
+      "explanation": {
+        "en": "The Hathigumpha Inscription in Odisha gives an unbroken biographical and military record of King Kharavela of Kalinga in the Prakrit language using the Brahmi script[cite: 2].",
+        "hi": "हाथीगुम्फा अभिलेख (ओडिशा) कलिंग नरेश खारवेल के शासनकाल और अभियानों का प्राकृत भाषा और ब्राह्मी लिपि में वर्षवार विवरण देता है[cite: 2]।",
+        "hinglish": "Hathigumpha Inscription Prakrit/Brahmi mein Kalinga king Kharavela ke political aur military achievements ko record karta hai[cite: 2]."
+      }
+    },
+    {
+      "id": "pyq_06",
+      "exam": "UPPSC / UP RO-ARO Special",
+      "question": {
+        "en": "The Sohgaura Copper Plate Inscription, which mentions royal granaries established to mitigate famine, is located in which district of Uttar Pradesh?",
+        "hi": "दुर्भिक्ष (अकाल) के समय राहत हेतु अन्नागारों की स्थापना का उल्लेख करने वाला 'सोहगौरा ताम्रपत्र अभिलेख' उत्तर प्रदेश के किस जिले में स्थित है?",
+        "hinglish": "Famine ke time relief granaries banwane ka record dene wala Sohgaura Copper Plate UP ke kis district mein sthit hai?"
+      },
+      "options": {
+        "en": ["Mirzapur", "Gorakhpur", "Varanasi", "Prayagraj"],
+        "hi": ["मिर्जापुर", "गोरखपुर", "वाराणसी", "प्रयागराज"],
+        "hinglish": ["Mirzapur", "Gorakhpur", "Varanasi", "Prayagraj"]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "The Sohgaura copper plate is located in Gorakhpur, UP[cite: 2]. It is a rare pre-Ashokan Mauryan-era Brahmi inscription describing state relief granaries[cite: 2].",
+        "hi": "सोहगौरा ताम्रपत्र गोरखपुर (उप्र) में स्थित है[cite: 2]। यह अशोक-पूर्व का ब्राह्मी अभिलेख है जो अकाल के समय अन्नागारों के उपयोग का निर्देश देता है[cite: 2]।",
+        "hinglish": "Sohgaura plate Gorakhpur UP mein hai aur ye Mauryan era ka pre-Ashokan Brahmi inscription hai[cite: 2]."
+      }
+    },
+    {
+      "id": "pyq_07",
+      "exam": "UPSC / State PCS",
+      "question": {
+        "en": "The earliest undisputed evidence of settled agriculture in the Indian subcontinent comes from which archaeological site?",
+        "hi": "भारतीय उपमहाद्वीप में व्यवस्थित कृषि के प्राचीनतम साक्ष्य किस पुरातात्विक स्थल से प्राप्त हुए हैं?",
+        "hinglish": "Indian subcontinent ke andar settled agriculture ke earliest undisputed evidence kis site se mile hain?"
+      },
+      "options": {
+        "en": ["Brahmagiri", "Burzahom", "Mehrgarh", "Chirand"],
+        "hi": ["ब्रह्मगिरि", "बुर्जहोम", "मेहरगढ़", "चिरांद"],
+        "hinglish": ["Brahmagiri", "Burzahom", "Mehrgarh", "Chirand"]
+      },
+      "correct_index": 2,
+      "explanation": {
+        "en": "Mehrgarh in Balochistan provides the earliest evidence of settled agricultural life (wheat and barley cultivation c. 7000 BC) and animal husbandry in South Asia[cite: 3].",
+        "hi": "मेहरगढ़ (बलूचिस्तान) लगभग 7000 ई.पू. में गेहूं और जौ की खेती तथा पशुपालन के साथ भारतीय उपमहाद्वीप में कृषि का प्राचीनतम साक्ष्य प्रस्तुत करता है[cite: 3]।",
+        "hinglish": "Mehrgarh (Balochistan) c. 7000 BC se wheat aur barley farming ka subcontinent mein oldest evidence deta hai[cite: 3]."
+      }
+    },
+    {
+      "id": "pyq_08",
+      "exam": "UPSC Civil Services Prelims",
+      "question": {
+        "en": "With reference to the Mesolithic Age in India, consider the following statements:\n1. It was characterized predominantly by heavy unpolished core tools like hand-axes.\n2. The earliest evidence for the domestication of animals appears in this period.\n3. The practice of intentional burial of human bodies began during this age.\nWhich of the statements given above are correct?",
+        "hi": "भारत में मध्यपाषाण काल के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह काल मुख्य रूप से हस्तकुठार जैसे भारी व अनगढ़ कोर औजारों द्वारा पहचाना जाता है।\n2. पशुपालन के प्राचीनतम साक्ष्य इसी काल में दिखाई देते हैं।\n3. योजनाबद्ध रूप से शवों को दफनाने (शवाधान) की प्रथा इसी काल में आरंभ हुई।\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+        "hinglish": "Mesolithic Age se related statements dekhein:\n1. Isme heavy unpolished hand-axe core tools use hote the.\n2. Animal domestication ke earliest evidence is era mein mile.\n3. Intentional human dead bodies ko bury karne ka system is age mein shuru hua.\nInme se kaunse statements sahi hain?"
+      },
+      "options": {
+        "en": ["1 and 2 only", "2 and 3 only", "3 only", "1, 2 and 3"],
+        "hi": ["केवल 1 और 2", "केवल 2 और 3", "केवल 3", "1, 2 और 3"],
+        "hinglish": ["1 and 2 only", "2 and 3 only", "3 only", "1, 2 and 3"]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "Statement 1 is false (core hand-axes belong to Lower Palaeolithic; Mesolithic used microliths)[cite: 3]. Statements 2 and 3 are correct (Adamgarh/Bagor show animal domestication; Sarai Nahar Rai shows human burials)[cite: 3].",
+        "hi": "कथन 1 गलत है (हस्तकुठार निम्न पुरापाषाण काल के हैं; मध्यपाषाण काल में माइक्रोलिथ प्रयुक्त होते थे)[cite: 3]। कथन 2 और 3 सही हैं (आदमगढ़/बागोर से पशुपालन तथा सराय नाहर राय से शवाधान के साक्ष्य)[cite: 3]।",
+        "hinglish": "Statement 1 false hai kyunki hand-axes Lower Palaeolithic ke the[cite: 3]. Statement 2 aur 3 correct hain kyunki animal domestication aur intentional human burials Mesolithic se belong karte hain[cite: 3]."
+      }
+    },
+    {
+      "id": "pyq_09",
+      "exam": "UPPSC Prelims / RO-ARO",
+      "question": {
+        "en": "The archaeological evidence of burying domestic dogs along with their masters in pit graves was discovered at which Neolithic site?",
+        "hi": "गर्त-समाधियों में मालिक के शव के साथ पालतू कुत्ते को दफनाने का विशिष्ट पुरातात्विक साक्ष्य किस नवपाषाणिक स्थल से मिला है?",
+        "hinglish": "Grave pits ke andar master ke sath domestic dog ko bury karne ka unique evidence kis Neolithic site se excavated hua?"
+      },
+      "options": {
+        "en": ["Gufkral", "Mehrgarh", "Piklihal", "Burzahom"],
+        "hi": ["गुफकराल", "मेहरगढ़", "पिकलीहल", "बुर्जहोम"],
+        "hinglish": ["Gufkral", "Mehrgarh", "Piklihal", "Burzahom"]
+      },
+      "correct_index": 3,
+      "explanation": {
+        "en": "Burzahom in the Kashmir Valley is celebrated for its subterranean pit-dwellings and the distinct mortuary practice of burying domestic dogs with their masters[cite: 3].",
+        "hi": "कश्मीर घाटी स्थित बुर्जहोम अपने गड्ढा-घरों (pit-dwellings) तथा मालिक के साथ पालतू कुत्ते को दफनाने के साक्ष्यों के लिए प्रसिद्ध है[cite: 3]।",
+        "hinglish": "Burzahom (Kashmir) pit-dwellings aur master ke sath pet dog burial ke evidence ke liye famous hai[cite: 3]."
+      }
+    },
+    {
+      "id": "pyq_10",
+      "exam": "UPPSC Prelims Specific",
+      "question": {
+        "en": "The sites of Koldihwa and Mahagara in the Belan Valley (Uttar Pradesh) are historically significant for providing:",
+        "hi": "बेलन घाटी (उत्तर प्रदेश) में स्थित 'कोलडिहवा' और 'महागड़ा' ऐतिहासिक रूप से किस साक्ष्य हेतु महत्वपूर्ण हैं?",
+        "hinglish": "Belan Valley UP ke Koldihwa aur Mahagara sites historical perspective se kya provide karne ke liye famous hain?"
+      },
+      "options": {
+        "en": [
+          "The earliest discovery of iron metallurgy in North India",
+          "Extensive production centres of geometric microliths",
+          "The earliest evidence of rice cultivation in the world",
+          "Extensive multi-coloured natural cave paintings"
+        ],
+        "hi": [
+          "उत्तर भारत में लौह धातु विज्ञान के प्राचीनतम साक्ष्य",
+          "ज्यामितीय सूक्ष्म पाषाण औजारों के विशाल निर्माण केंद्र",
+          "विश्व में धान (चावल) की खेती के प्राचीनतम साक्ष्य",
+          "विशाल बहुरंगी प्राकृतिक गुफा चित्रकला"
+        ],
+        "hinglish": [
+          "North India mein iron tools ki pehli discovery",
+          "Geometric microliths ka industrial hub",
+          "World mein rice cultivation ke earliest archaeological proof",
+          "Large scale multi-color cave paintings"
+        ]
+      },
+      "correct_index": 2,
+      "explanation": {
+        "en": "Koldihwa and Mahagara in the Belan Valley yielded impressions of cultivated rice grains embedded in cord-impressed pottery, representing the earliest evidence of rice cultivation[cite: 3].",
+        "hi": "बेलन घाटी के कोलडिहवा और महागड़ा से डोरी-छाप बर्तनों में धान के दाने मिले हैं, जो चावल की खेती के प्राचीनतम वैश्विक प्रमाण हैं[cite: 3]।",
+        "hinglish": "Koldihwa aur Mahagara se cord-impressed pottery aur rice cultivation ke world's earliest evidence excavated hue hain[cite: 3]."
+      }
+    },
+    {
+      "id": "pyq_11",
+      "exam": "UPSC / State PCS",
+      "question": {
+        "en": "'Ash Mounds' are a diagnostic feature of Neolithic sites located in which geographical zone of India?",
+        "hi": "'राख के टीले' (Ash Mounds) भारत के किस भौगोलिक क्षेत्र के नवपाषाणिक स्थलों की प्रमुख पहचान हैं?",
+        "hinglish": "'Ash Mounds' India ke kis geographic zone ke Neolithic settlements ka diagnostic feature hain?"
+      },
+      "options": {
+        "en": ["Kashmir Valley", "Eastern Gangetic Plain", "Western Arid Belt", "South India (Deccan)"],
+        "hi": ["कश्मीर घाटी", "पूर्वी गंगा का मैदान", "पश्चिमी शुष्क क्षेत्र", "दक्षिण भारत (दक्कन)"],
+        "hinglish": ["Kashmir Valley", "Eastern Gangetic Plain", "Western Arid Belt", "South India (Deccan)"]
+      },
+      "correct_index": 3,
+      "explanation": {
+        "en": "Ash Mounds are distinctive to South Indian Neolithic sites like Piklihal, Brahmagiri, and Kupgal, formed by the periodic burning of accumulated cattle dung inside pastoral kraals[cite: 3].",
+        "hi": "राख के टीले दक्षिण भारत (पिकलीहल, कुपगल आदि) के नवपाषाण स्थलों की विशेषता हैं, जो पशु बाड़ों में गोबर के विशाल ढेरों के जलने से बने थे[cite: 3]।",
+        "hinglish": "Ash mounds South Indian sites (Piklihal, Kupgal) ka hallmark hain, jo pastoral cattle kraals mein cow-dung burnings se bane the[cite: 3]."
+      }
+    },
+    {
+      "id": "pyq_12",
+      "exam": "UPPSC Prelims",
+      "question": {
+        "en": "The first-ever extensive, elaborately styled inscription composed in pure classical Sanskrit is:",
+        "hi": "विशुद्ध संस्कृत भाषा में उत्कीर्ण किया गया भारत का प्रथम विस्तृत एवं दीर्घ अभिलेख कौन-सा है?",
+        "hinglish": "Pure classical Sanskrit mein compose kiya gaya pehla long inscription kaunsa hai?"
+      },
+      "options": {
+        "en": [
+          "Prayag Prashasti of Samudragupta",
+          "Aihole Inscription of Pulakesin II",
+          "Junagarh Rock Inscription of Rudradaman I",
+          "Nasik Prashasti of Gautamiputra Satakarni"
+        ],
+        "hi": [
+          "समुद्रगुप्त की प्रयाग प्रशस्ति",
+          "पुलकेशिन द्वितीय का ऐहोल अभिलेख",
+          "रुद्रदामन प्रथम का जूनागढ़ शिला अभिलेख",
+          "गौतमीपुत्र शातकर्णी की नासिक प्रशस्ति"
+        ],
+        "hinglish": [
+          "Samudragupta ki Prayag Prashasti",
+          "Pulakesin II ka Aihole Inscription",
+          "Rudradaman I ka Junagarh Rock Inscription",
+          "Gautamiputra Satakarni ki Nasik Prashasti"
+        ]
+      },
+      "correct_index": 2,
+      "explanation": {
+        "en": "The Junagarh Rock Inscription of Western Kshatrapa ruler Rudradaman I (c. 150 AD) is the earliest monumental record in chaste classical Sanskrit, recording the repair of Sudarshana Lake[cite: 2].",
+        "hi": "शक शासक रुद्रदामन प्रथम (लगभग 150 ई.) का जूनागढ़ अभिलेख विशुद्ध संस्कृत का पहला विस्तृत अभिलेख है, जिसमें सुदर्शन झील के जीर्णोद्धार का वर्णन है[cite: 2]।",
+        "hinglish": "Rudradaman I ka Junagarh Inscription (150 AD) chaste classical Sanskrit ka first long record hai jo Sudarshana lake restoration document karta hai[cite: 2]."
+      }
+    },
+    {
+      "id": "pyq_13",
+      "exam": "UPSC / UPPSC Prelims",
+      "question": {
+        "en": "Which famous court poet composed the Aihole Inscription, detailing the victory of Chalukyan king Pulakesin II over Emperor Harshavardhana?",
+        "hi": "सम्राट हर्षवर्धन पर चालुक्य नरेश पुलकेशिन द्वितीय की विजय का विवरण देने वाले 'ऐहोल अभिलेख' की रचना किस दरबारी कवि ने की थी?",
+        "hinglish": "Harshavardhana par Pulakesin II ki victory record karne wale Aihole Inscription ko kis court poet ne compose kiya tha?"
+      },
+      "options": {
+        "en": ["Ravikirti", "Harisena", "Banabhatta", "Dandin"],
+        "hi": ["रविकीर्ति", "हरिषेण", "बाणभट्ट", "दंडी"],
+        "hinglish": ["Ravikirti", "Harisena", "Banabhatta", "Dandin"]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Ravikirti, the Jain court poet of Pulakesin II, composed the Aihole inscription in Sanskrit at the Meguti temple[cite: 2].",
+        "hi": "पुलकेशिन द्वितीय के दरबारी कवि रविकीर्ति ने ऐहोल (कर्नाटक) के मेगुती मंदिर में संस्कृत भाषा में इस अभिलेख की रचना की थी[cite: 2]।",
+        "hinglish": "Ravikirti ne Pulakesin II ke patronage mein Sanskrit mein Aihole Inscription compose kiya tha[cite: 2]."
+      }
+    },
+    {
+      "id": "pyq_14",
+      "exam": "UP RO-ARO / State PCS",
+      "question": {
+        "en": "The famous biography 'Harshacharita' was authored by which ancient scholar?",
+        "hi": "सम्राट हर्षवर्धन की प्रसिद्ध जीवनी 'हर्षचरित' के लेखक निम्नलिखित में से कौन थे?",
+        "hinglish": "Harshavardhana ki famous biography 'Harshacharita' kis ancient scholar ne likhi thi?"
+      },
+      "options": {
+        "en": ["Kalhana", "Banabhatta", "Harisena", "Kautilya"],
+        "hi": ["कल्हण", "बाणभट्ट", "हरिषेण", "कौटिल्य"],
+        "hinglish": ["Kalhana", "Banabhatta", "Harisena", "Kautilya"]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "Banabhatta, the chief court poet of Emperor Harshavardhana, composed the 'Harshacharita' in Sanskrit[cite: 2].",
+        "hi": "हर्षवर्धन के दरबारी कवि बाणभट्ट ने संस्कृत में 'हर्षचरित' की रचना की थी[cite: 2]।",
+        "hinglish": "Banabhatta ne Harsha ke court mein Harshacharita compose ki thi[cite: 2]."
+      }
+    },
+    {
+      "id": "pyq_15",
+      "exam": "UPSC Civil Services Prelims",
+      "question": {
+        "en": "Kalhana's 'Rajatarangini', composed in the 12th century AD, is considered India's first true historical work. It chronicles the history of which region?",
+        "hi": "12वीं शताब्दी में रचित कल्हण की 'राजतरंगिणी' को भारत का प्रथम प्रामाणिक ऐतिहासिक ग्रंथ माना जाता है। यह किस क्षेत्र के इतिहास का वर्णन करती है?",
+        "hinglish": "Kalhana ki Rajatarangini (12th century) kis region ki history ko systematically chronicle karti hai?"
+      },
+      "options": {
+        "en": ["Bengal", "Gujarat", "Kashmir", "Malwa"],
+        "hi": ["बंगाल", "गुजरात", "कश्मीर", "मालवा"],
+        "hinglish": ["Bengal", "Gujarat", "Kashmir", "Malwa"]
+      },
+      "correct_index": 2,
+      "explanation": {
+        "en": "Kalhana's Rajatarangini is a verse chronicle of the kings of Kashmir, distinguished by its critical historical methodology[cite: 2].",
+        "hi": "कल्हण द्वारा रचित राजतरंगिणी कश्मीर के राजाओं का क्रमबद्ध इतिहास प्रस्तुत करती है तथा अपने वैज्ञानिक दृष्टिकोण हेतु प्रसिद्ध है[cite: 2]।",
+        "hinglish": "Rajatarangini Kashmir ke rulers ka systematic history text hai aur ise first objective historical work maana jata hai[cite: 2]."
+      }
+    },
+    {
+      "id": "pyq_16",
+      "exam": "UPPSC Prelims",
+      "question": {
+        "en": "The anonymous 1st-century maritime navigator's guide 'The Periplus of the Erythraean Sea' was composed in which language?",
+        "hi": "प्रथम शताब्दी का प्रसिद्ध समुद्री व्यापारिक ग्रंथ 'द पेरिप्लस ऑफ द एरिथ्रियन सी' मूलतः किस भाषा में लिखा गया था?",
+        "hinglish": "1st century AD ka famous maritime navigation manual 'Periplus of the Erythraean Sea' kis language mein likha gaya tha?"
+      },
+      "options": {
+        "en": ["Latin", "Greek", "Sanskrit", "Prakrit"],
+        "hi": ["लैटिन", "यूनानी (Greek)", "संस्कृत", "प्राकृत"],
+        "hinglish": ["Latin", "Greek", "Sanskrit", "Prakrit"]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "The Periplus was written in Greek by an anonymous navigator, describing Indian ports and Roman trade networks[cite: 2].",
+        "hi": "पेरिप्लस की रचना एक अज्ञात नाविक द्वारा यूनानी (Greek) भाषा में की गई थी, जिसमें भारतीय बंदरगाहों और रोमन व्यापार का वर्णन है[cite: 2]।",
+        "hinglish": "Periplus Greek language mein likha gaya naval guide tha jo Indo-Roman ports aur commodities ko describe karta hai[cite: 2]."
+      }
+    },
+    {
+      "id": "pyq_17",
+      "exam": "UPSC / State PCS",
+      "question": {
+        "en": "Why are people of the Lower Palaeolithic period in India frequently referred to as 'Quartzite Men'?",
+        "hi": "भारत में निम्न पुरापाषाण काल के मानव को अक्सर 'क्वार्टजाइट मैन' (Quartzite Men) क्यों कहा जाता है?",
+        "hinglish": "Lower Palaeolithic human population ko India mein 'Quartzite Men' kyun kaha jata hai?"
+      },
+      "options": {
+        "en": [
+          "They wore ornaments crafted exclusively from polished quartzite crystals",
+          "Their tools were fashioned predominantly from extremely hard quartzite rock",
+          "They worshipped megalithic stone pillars constructed of quartzite",
+          "They inhabited underground subterranean pits dug into quartzite bedrocks"
+        ],
+        "hi": [
+          "वे केवल क्वार्टजाइट क्रिस्टल से बने आभूषण पहनते थे",
+          "उनके अधिकांश भारी औजार अत्यंत कठोर क्वार्टजाइट पत्थर से बनाए जाते थे",
+          "वे क्वार्टजाइट के बने विशाल पाषाण स्तंभों की पूजा करते थे",
+          "वे क्वार्टजाइट चट्टानों में खोदे गए भूमिगत गड्ढों में रहते थे"
+        ],
+        "hinglish": [
+          "Wo quartzite stone ke ornaments pehante the",
+          "Unke core tools predominantly hard quartzite rock se bane hote the",
+          "Wo quartzite pillars ki religious worship karte the",
+          "Wo quartzite bedrock ke pit dwellings mein rehte the"
+        ]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "Because Lower Palaeolithic tools (hand-axes, cleavers, choppers) were manufactured predominantly from quartzite, archaeologists coined the term 'Quartzite Men'[cite: 3].",
+        "hi": "निम्न पुरापाषाण कालीन औजार (हस्तकुठार, विदारणी) मुख्यतः कठोर क्वार्टजाइट पत्थर से बने होने के कारण उस काल के मानव को 'क्वार्टजाइट मैन' कहा गया[cite: 3]।",
+        "hinglish": "Quartzite stone par heavy core tools banaye jane ki wajah se Lower Palaeolithic hunters ko 'Quartzite Men' bola gaya[cite: 3]."
+      }
+    },
+    {
+      "id": "pyq_18",
+      "exam": "UPPSC Prelims",
+      "question": {
+        "en": "Which valley in Uttar Pradesh provides an unbroken archaeological sequence from the Lower Palaeolithic to the Neolithic Age?",
+        "hi": "उत्तर प्रदेश की कौन-सी नदी घाटी निम्न पुरापाषाण काल से लेकर नवपाषाण काल तक का निरंतर सांस्कृतिक अनुक्रम प्रस्तुत करती है?",
+        "hinglish": "UP ki kaunsi river valley Lower Palaeolithic se lekar Neolithic tak complete cultural sequence show karti hai?"
+      },
+      "options": {
+        "en": ["Gomti Valley", "Belan Valley", "Ken Valley", "Chambal Valley"],
+        "hi": ["गोमती घाटी", "बेलन घाटी", "केन घाटी", "चंबल घाटी"],
+        "hinglish": ["Gomti Valley", "Belan Valley", "Ken Valley", "Chambal Valley"]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "The Belan Valley in Mirzapur/Prayagraj region preserves stratified layers from Lower Palaeolithic through Middle and Upper Palaeolithic, Mesolithic, into the Neolithic[cite: 3].",
+        "hi": "मिर्जापुर स्थित बेलन घाटी में निम्न पुरापाषाण से लेकर नवपाषाण काल तक के सभी चरणों के स्तरीकृत साक्ष्य एक साथ मिलते हैं[cite: 3]।",
+        "hinglish": "Mirzapur UP ki Belan Valley unbroken archaeological stratigraphy present karti hai[cite: 3]."
+      }
+    },
+    {
+      "id": "pyq_19",
+      "exam": "UPSC Civil Services Prelims",
+      "question": {
+        "en": "Stratified archaeological ash layers demonstrating the controlled, domestic utilization of fire were excavated at which Upper Palaeolithic site?",
+        "hi": "अग्नि के नियमित और नियंत्रित उपयोग को प्रमाणित करने वाले स्तरीकृत राख के अवशेष किस उच्च पुरापाषाणिक स्थल से प्राप्त हुए हैं?",
+        "hinglish": "Controlled fire use ko verify karne wale stratified ash layers kis Upper Palaeolithic site se excavated hue?"
+      },
+      "options": {
+        "en": ["Bhimbetka", "Kurnool Caves", "Soan Valley", "Bagor"],
+        "hi": ["भीमबेटका", "कुरनूल की गुफाएं", "सोहन घाटी", "बागोर"],
+        "hinglish": ["Bhimbetka", "Kurnool Caves", "Soan Valley", "Bagor"]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "Kurnool Caves in Andhra Pradesh yielded definitive stratified ash deposits, demonstrating the controlled domestic utilization of fire during the Upper Palaeolithic[cite: 3].",
+        "hi": "आंध्र प्रदेश की कुरनूल गुफाओं से उच्च पुरापाषाण काल में अग्नि के उपयोग के स्पष्ट राख अवशेष प्राप्त हुए हैं[cite: 3]।",
+        "hinglish": "Kurnool Caves (Andhra Pradesh) se excavated ash beds controlled fire application ko confirm karte hain[cite: 3]."
+      }
+    },
+    {
+      "id": "pyq_20",
+      "exam": "UPPSC Prelims / RO-ARO",
+      "question": {
+        "en": "The Neolithic site 'Chirand', celebrated for its prolific industry of tools manufactured from animal bones and deer antlers, is situated in which state?",
+        "hi": "पशुओं की हड्डियों और हिरण के सींगों से बने औजारों के प्रचुर निर्माण हेतु प्रसिद्ध नवपाषाण स्थल 'चिरांद' किस राज्य में स्थित है?",
+        "hinglish": "Animal bones aur deer antler tools ke massive production ke liye famous Neolithic site Chirand kis state mein hai?"
+      },
+      "options": {
+        "en": ["Uttar Pradesh", "Bihar", "Odisha", "Madhya Pradesh"],
+        "hi": ["उत्तर प्रदेश", "बिहार", "ओडिशा", "मध्य प्रदेश"],
+        "hinglish": ["Uttar Pradesh", "Bihar", "Odisha", "Madhya Pradesh"]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "Chirand is situated in the Saran district of Bihar on the northern bank of the Ganga, famous for bone tools and polished antler implements[cite: 3].",
+        "hi": "चिरांद बिहार के सारण जिले में गंगा के तट पर स्थित है, जो हिरण के सींगों से बने पाषाण-युगीन औजारों के लिए विख्यात है[cite: 3]।",
+        "hinglish": "Chirand Saran district (Bihar) mein sthit hai aur deer antler bone tool technology ka landmark center hai[cite: 3]."
+      }
+    },
+    {
+      "id": "pyq_21",
+      "exam": "UPSC / State PCS",
+      "question": {
+        "en": "The diagnostic tool kit of the Middle Palaeolithic period, predominantly made of flakes, is archaeologically termed the:",
+        "hi": "मध्य पुरापाषाण काल का शल्क-आधारित विशिष्ट उपकरण उद्योग पुरातात्विक दृष्टि से किस नाम से जाना जाता है?",
+        "hinglish": "Middle Palaeolithic ka flake-based tool industry archaeologically kis naam se jana jata hai?"
+      },
+      "options": {
+        "en": ["Soan Industry", "Nevasan Industry", "Acheulian Industry", "Microlithic Industry"],
+        "hi": ["सोहन उद्योग", "नेवासन उद्योग", "एश्यूलियन उद्योग", "माइक्रोलिथिक उद्योग"],
+        "hinglish": ["Soan Industry", "Nevasan Industry", "Acheulian Industry", "Microlithic Industry"]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "The Middle Palaeolithic flake culture (scrapers, points, borers) is known as the Nevasan Industry after the type-site Nevasa in Maharashtra[cite: 3].",
+        "hi": "मध्य पुरापाषाण काल के शल्क उद्योग (खुरचनी, वेधनी) को महाराष्ट्र के नेवासा स्थल के आधार पर 'नेवासन उद्योग' कहा जाता है[cite: 3]।",
+        "hinglish": "Middle Palaeolithic scrapers aur borers industry ko Nevasa (Maharashtra) ke naam par Nevasan Industry kehte hain[cite: 3]."
+      }
+    },
+    {
+      "id": "pyq_22",
+      "exam": "UPPSC Prelims",
+      "question": {
+        "en": "Sarai Nahar Rai and Mahadaha, which yielded evidence of Mesolithic burials with ornaments, are located in which district of UP?",
+        "hi": "मध्यपाषाण कालीन शवाधानों तथा आभूषणों के साक्ष्य प्रदान करने वाले स्थल 'सराय नाहर राय' और 'महदहा' उत्तर प्रदेश के किस जिले में स्थित हैं?",
+        "hinglish": "Mesolithic burials aur bone ornaments yield karne wale Sarai Nahar Rai aur Mahadaha UP ke kis district mein hain?"
+      },
+      "options": {
+        "en": ["Pratapgarh", "Mirzapur", "Sonbhadra", "Banda"],
+        "hi": ["प्रतापगढ़", "मिर्जापुर", "सोनभद्र", "बांदा"],
+        "hinglish": ["Pratapgarh", "Mirzapur", "Sonbhadra", "Banda"]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Sarai Nahar Rai, Mahadaha, and Damdama are major Mesolithic sites situated in the Pratapgarh district of Uttar Pradesh[cite: 3].",
+        "hi": "सराय नाहर राय, महदहा और दमदमा उत्तर प्रदेश के प्रतापगढ़ जिले में स्थित प्रमुख मध्यपाषाण स्थल हैं[cite: 3]।",
+        "hinglish": "Sarai Nahar Rai aur Mahadaha Pratapgarh district (UP) mein aate hain[cite: 3]."
+      }
+    },
+    {
+      "id": "pyq_23",
+      "exam": "UPSC Civil Services Prelims",
+      "question": {
+        "en": "The historical transition termed the 'Neolithic Revolution' by V. Gordon Childe primarily signifies:",
+        "hi": "वी. गॉर्डन चाइल्ड द्वारा प्रयुक्त 'नवपाषाण कालीन क्रांति' (Neolithic Revolution) की अवधारणा मूल रूप से क्या इंगित करती है?",
+        "hinglish": "V. Gordon Childe dwara di gayi 'Neolithic Revolution' concept mainly kya indicate karti hai?"
+      },
+      "options": {
+        "en": [
+          "The invention of bronze weapons to replace stone implements",
+          "The shift from predatory food-gathering to surplus food-production (agriculture and pastoralism)",
+          "The discovery of deep-mining techniques for iron ore extraction",
+          "The political consolidation of nomadic bands under royal monarchies"
+        ],
+        "hi": [
+          "पत्थर के औजारों के स्थान पर कांस्य हथियारों का आविष्कार",
+          "खाद्य-संग्राहक जीवन से निकलकर खाद्य-उत्पादक (कृषि एवं पशुपालन) जीवन में प्रवेश",
+          "लौह अयस्क के खनन हेतु गहरी खदानों की तकनीक का विकास",
+          "घुमंतू शिकारी कबीलों का राजतंत्रीय व्यवस्था में विलय"
+        ],
+        "hinglish": [
+          "Stone tools ke badle bronze weapons ka widespread use",
+          "Food-gatherer nomadic state se surplus food-producer (farming and pastoralism) stage mein transition",
+          "Deep mining aur iron technology ka advent",
+          "Monarchical states ka emergence"
+        ]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "Gordon Childe defined the Neolithic Revolution as the revolutionary shift from food-gathering to surplus food-producing through agriculture and animal domestication[cite: 3].",
+        "hi": "गॉर्डन चाइल्ड ने कृषि और पशुपालन के माध्यम से आखेटक-संग्राहक जीवन से खाद्य-उत्पादक समाज में परिवर्तन को 'नवपाषाण क्रांति' कहा[cite: 3]।",
+        "hinglish": "Gordon Childe ne hunting-gathering se permanent agriculture and food production mein shift ko Neolithic Revolution ka naam diya tha[cite: 3]."
+      }
+    },
+    {
+      "id": "pyq_24",
+      "exam": "UP RO-ARO / State PCS",
+      "question": {
+        "en": "The largest and most systematically documented Mesolithic site in India, located on the Kothari River in Rajasthan, is:",
+        "hi": "राजस्थान में कोठारी नदी पर स्थित भारत का सबसे बड़ा और सुव्यवस्थित मध्यपाषाण स्थल कौन-सा है?",
+        "hinglish": "Rajasthan mein Kothari river par situated India ki largest Mesolithic site kaunsi hai?"
+      },
+      "options": {
+        "en": ["Bagor", "Tilwara", "Langhnaj", "Adamgarh"],
+        "hi": ["बागोर", "तिलवाड़ा", "लंघनाज", "आदमगढ़"],
+        "hinglish": ["Bagor", "Tilwara", "Langhnaj", "Adamgarh"]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Bagor on the Kothari River in Rajasthan is the largest and best-documented Mesolithic site in India[cite: 3].",
+        "hi": "बागोर (भीलवाड़ा, राजस्थान) कोठारी नदी के किनारे स्थित भारत का सबसे बड़ा मध्यपाषाण स्थल है[cite: 3]।",
+        "hinglish": "Bagor (Rajasthan) India ka largest Mesolithic hub hai[cite: 3]."
+      }
+    },
+    {
+      "id": "pyq_25",
+      "exam": "UPSC / UPPSC Prelims",
+      "question": {
+        "en": "The Painted Grey Ware (PGW) ceramic tradition is archaeologically associated with which historical epoch?",
+        "hi": "चित्रित धूसर मृद्भांड (PGW) परंपरा पुरातात्विक रूप से किस ऐतिहासिक काल से संबद्ध है?",
+        "hinglish": "Painted Grey Ware (PGW) ceramic style kis historical period se linked hai?"
+      },
+      "options": {
+        "en": ["Harappan Urban Culture", "Later Vedic Period", "Mauryan Empire", "Early Mesolithic"],
+        "hi": ["हड़प्पा नगरीय संस्कृति", "उत्तर वैदिक काल", "मौर्य साम्राज्य", "प्रारंभिक मध्यपाषाण काल"],
+        "hinglish": ["Harappan Civilization", "Later Vedic Period", "Mauryan Empire", "Early Mesolithic"]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "Painted Grey Ware (PGW) is strictly associated with the Later Vedic Period and early Iron Age settlements in the Gangetic plains[cite: 2].",
+        "hi": "चित्रित धूसर मृद्भांड (PGW) उत्तर वैदिक काल और उत्तरी भारत के आरंभिक लौह युग से संबंधित है[cite: 2]।",
+        "hinglish": "PGW Later Vedic period aur iron age Gangetic plains se associated hai[cite: 2]."
+      }
+    },
+    {
+      "id": "pyq_26",
+      "exam": "UPPSC Prelims",
+      "question": {
+        "en": "Which rock shelter complex in Madhya Pradesh preserves prehistoric paintings spanning from the Upper Palaeolithic to the medieval era?",
+        "hi": "मध्य प्रदेश का कौन-सा शैल आश्रय स्थल उच्च पुरापाषाण काल से लेकर मध्यकाल तक के शैल चित्रों को सुरक्षित रखता है?",
+        "hinglish": "Madhya Pradesh ka kaunsa rock shelter complex Upper Palaeolithic se lekar medieval period tak ke cave paintings preserve karta hai?"
+      },
+      "options": {
+        "en": ["Bhimbetka", "Ajanta", "Ellora", "Bagh"],
+        "hi": ["भीमबेटका", "अजंता", "एलोरा", "बाघ"],
+        "hinglish": ["Bhimbetka", "Ajanta", "Ellora", "Bagh"]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "Bhimbetka in Raisen (MP) contains rock shelters with parietal paintings beginning in the Upper Palaeolithic and flourishing through the Mesolithic[cite: 2, 3].",
+        "hi": "भीमबेटका (रायसेन, मप्र) की गुफाओं में उच्च पुरापाषाण और मध्यपाषाण काल से लेकर बाद के कालों के प्रसिद्ध शैल चित्र मिलते हैं[cite: 2, 3]।",
+        "hinglish": "Bhimbetka (MP) ke rock overhangs prehistoric paintings ka world heritage treasure hain[cite: 2, 3]."
+      }
+    },
+    {
+      "id": "pyq_27",
+      "exam": "UPSC Civil Services Prelims",
+      "question": {
+        "en": "The science of deciphering ancient and historical handwriting, scripts, and letterforms across centuries is called:",
+        "hi": "विभिन्न शताब्दियों में प्राचीन एवं ऐतिहासिक हस्तलेखों, लिपियों और अक्षरों के स्वरूप के विकास का अध्ययन क्या कहलाता है?",
+        "hinglish": "Ancient scripts aur historical handwriting ke development aur decipherment ki science ko kya bolte hain?"
+      },
+      "options": {
+        "en": ["Epigraphy", "Numismatics", "Paleography", "Archaeology"],
+        "hi": ["पुरालेखशास्त्र (Epigraphy)", "मुद्राशास्त्र (Numismatics)", "पुरातन लिपि शास्त्र (Paleography)", "पुरातत्व (Archaeology)"],
+        "hinglish": ["Epigraphy", "Numismatics", "Paleography", "Archaeology"]
+      },
+      "correct_index": 2,
+      "explanation": {
+        "en": "Paleography is the study of ancient and historical handwriting and scripts[cite: 2]. Epigraphy is the study of inscriptions on hard media[cite: 2].",
+        "hi": "प्राचीन हस्तलेखों और लिपियों के स्वरूप का अध्ययन 'पुरातन लिपि शास्त्र' (Paleography) कहलाता है[cite: 2]। अभिलेखों का अध्ययन 'पुरालेखशास्त्र' (Epigraphy) है[cite: 2]।",
+        "hinglish": "Ancient scripts aur letter writing study ko Paleography kehte hain, jabki inscriptions study ko Epigraphy bolte hain[cite: 2]."
+      }
+    },
+    {
+      "id": "pyq_28",
+      "exam": "UPPSC / State PCS",
+      "question": {
+        "en": "Early Punch-Marked coins (c. 6th century BC) in ancient India were made predominantly of which metal?",
+        "hi": "प्राचीन भारत के आरंभिक आहत (पंच-मार्क) सिक्के (छठी शताब्दी ई.पू.) मुख्यतः किस धातु से बनाए जाते थे?",
+        "hinglish": "Ancient India ke early Punch-Marked coins (6th century BC) mainly kis metal se banaye jaate the?"
+      },
+      "options": {
+        "en": ["Gold", "Silver", "Lead", "Tin"],
+        "hi": ["सोना", "चांदी (रजत)", "सीसा", "टिन"],
+        "hinglish": ["Gold", "Silver", "Lead", "Tin"]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "Punch-marked coins were manufactured predominantly in silver, and occasionally in copper, bearing punched symbols without text[cite: 2].",
+        "hi": "आहत सिक्के मुख्य रूप से चांदी (रजत) और कभी-कभी तांबे से बनाए जाते थे, जिन पर प्रतीक ठप्पा मारकर अंकित होते थे[cite: 2]।",
+        "hinglish": "Punch-marked coins predominantly silver metal ke the, jinpar dies se symbols punch kiye jate the[cite: 2]."
+      }
+    },
+    {
+      "id": "pyq_29",
+      "exam": "UP RO-ARO Special",
+      "question": {
+        "en": "The Dashavatara temple at Deogarh, which represents an evolutionary milestone in early structural temple architecture, is situated in which district of UP?",
+        "hi": "आरंभिक मंदिर वास्तुकला का ऐतिहासिक मील का पत्थर 'देवगढ़ का दशावतार मंदिर' उत्तर प्रदेश के किस जिले में स्थित है?",
+        "hinglish": "Early temple architecture ka classic Dashavatara temple Deogarh UP ke kis district mein sthit hai?"
+      },
+      "options": {
+        "en": ["Lalitpur", "Jhansi", "Jalaun", "Banda"],
+        "hi": ["ललितपुर", "झांसी", "जालौन", "बांदा"],
+        "hinglish": ["Lalitpur", "Jhansi", "Jalaun", "Banda"]
+      },
+      "correct_index": 0,
+      "explanation": {
+        "en": "The Gupta-era Dashavatara temple of Deogarh is located in the Lalitpur district (earlier part of Jhansi) of Uttar Pradesh[cite: 2].",
+        "hi": "गुप्तकालीन दशावतार मंदिर उत्तर प्रदेश के ललितपुर जिले में स्थित है[cite: 2]।",
+        "hinglish": "Deogarh Dashavatara temple Lalitpur district (UP) mein sthit hai[cite: 2]."
+      }
+    },
+    {
+      "id": "pyq_30",
+      "exam": "UPSC Civil Services Prelims",
+      "question": {
+        "en": "Which dynastic coinage was celebrated for high gold purity and depiction of rulers playing musical instruments like the Veena?",
+        "hi": "किस राजवंश के सिक्के उच्च स्वर्ण शुद्धता तथा राजाओं द्वारा वीणा वादन जैसे व्यक्तिगत कलात्मक दृश्यों के चित्रण हेतु प्रसिद्ध हैं?",
+        "hinglish": "Kis dynasty ke gold coins high purity aur ruler ke Veena-playing poses ke liye famous hain?"
+      },
+      "options": {
+        "en": ["Kushan", "Satavahana", "Gupta", "Mauryan"],
+        "hi": ["कुषाण", "सातवाहन", "गुप्त", "मौर्य"],
+        "hinglish": ["Kushan", "Satavahana", "Gupta", "Mauryan"]
+      },
+      "correct_index": 2,
+      "explanation": {
+        "en": "Gupta gold coins (Dinars) exhibited artistic finesse, notably Samudragupta playing the Veena and Kumaragupta as archer/horseman[cite: 2].",
+        "hi": "गुप्त सम्राट समुद्रगुप्त के कुछ सिक्कों पर उसे वीणा बजाते हुए दिखाया गया है, जो उच्च कलात्मकता के प्रतीक हैं[cite: 2]।",
+        "hinglish": "Gupta dynasty ke gold coins par Samudragupta ko Veena play karte hue depict kiya gaya tha[cite: 2]."
+      }
+    },
+    {
+      "id": "pyq_31",
+      "exam": "UPPSC Prelims",
+      "question": {
+        "en": "The famous Buddhist chronicles 'Dipavamsa' and 'Mahavamsa', which provide valuable collateral information about Ashoka, were composed in which country?",
+        "hi": "सम्राट अशोक के विषय में महत्वपूर्ण जानकारी प्रदान करने वाले प्रसिद्ध बौद्ध इतिवृत्त 'दीपवंश' और 'महावंश' की रचना किस देश में हुई थी?",
+        "hinglish": "Ashoka ke life aur missions par crucial facts dene wale Buddhist chronicles 'Dipavamsa' aur 'Mahavamsa' kahan compose hue the?"
+      },
+      "options": {
+        "en": ["Myanmar (Burma)", "Sri Lanka (Ceylon)", "Thailand (Siam)", "Tibet"],
+        "hi": ["म्यांमार (बर्मा)", "श्रीलंका (सिंहल द्वीप)", "थाईलैंड", "तिब्बत"],
+        "hinglish": ["Myanmar", "Sri Lanka", "Thailand", "Tibet"]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "The Dipavamsa and Mahavamsa are Pali chronicles of Sri Lanka that furnish critical cross-references regarding Ashoka's patronage and Buddhist missions[cite: 2].",
+        "hi": "दीपवंश और महावंश श्रीलंका (सिंहल द्वीप) के पालि ग्रंथ हैं, जो अशोक के इतिहास के पुनर्निर्माण में सहायक हैं[cite: 2]।",
+        "hinglish": "Dipavamsa aur Mahavamsa Sri Lankan Buddhist chronicles hain jo Ashokan history ke key sources hain[cite: 2]."
+      }
+    },
+    {
+      "id": "pyq_32",
+      "exam": "UPSC / State PCS",
+      "question": {
+        "en": "The legendary Tamil Sangam literature was composed during royal patronages organized in which ancient city?",
+        "hi": "प्राचीन तमिल संगम साहित्य की रचना किस ऐतिहासिक नगर में आयोजित परिषदों (संगमों) में हुई थी?",
+        "hinglish": "Classical Tamil Sangam literature kis city mein assemble ki gayi councils ke dauran compose hui thi?"
+      },
+      "options": {
+        "en": ["Kanchipuram", "Madurai", "Puhar (Kaveripattinam)", "Tanjore"],
+        "hi": ["कांचीपुरम", "मदुरै", "पुहार (कावेरीपट्टनम)", "तंजौर"],
+        "hinglish": ["Kanchipuram", "Madurai", "Puhar", "Tanjore"]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "The Tamil Sangams (literary assemblies) were held under the patronage of the Pandya kings in the city of Madurai[cite: 2].",
+        "hi": "पाण्ड्य शासकों के संरक्षण में प्राचीन तमिल संगम परिषदों का आयोजन मदुरै नगर में हुआ था[cite: 2]।",
+        "hinglish": "Pandyan rulers ke patronage mein Sangam assemblies Madurai mein convene hui theen[cite: 2]."
+      }
+    },
+    {
+      "id": "pyq_33",
+      "exam": "UPPSC Prelims / RO-ARO",
+      "question": {
+        "en": "Fa-Hien visited India during the reign of which ancient Indian monarch?",
+        "hi": "प्रसिद्ध चीनी यात्री फाह्यान ने किस प्राचीन भारतीय सम्राट के शासनकाल में भारत की यात्रा की थी?",
+        "hinglish": "Famous Chinese monk Fa-Hien kis ruler ke period mein India aaya tha?"
+      },
+      "options": {
+        "en": ["Chandragupta Maurya", "Ashoka", "Chandragupta II 'Vikramaditya'", "Harshavardhana"],
+        "hi": ["चंद्रगुप्त मौर्य", "अशोक", "चंद्रगुप्त द्वितीय 'विक्रमादित्य'", "हर्षवर्धन"],
+        "hinglish": ["Chandragupta Maurya", "Ashoka", "Chandragupta II 'Vikramaditya'", "Harshavardhana"]
+      },
+      "correct_index": 2,
+      "explanation": {
+        "en": "Fa-Hien visited during the reign of Gupta ruler Chandragupta II Vikramaditya to seek authentic Buddhist Vinaya manuscripts[cite: 2].",
+        "hi": "फाह्यान गुप्त शासक चंद्रगुप्त द्वितीय 'विक्रमादित्य' के समय बौद्ध धर्मग्रंथों की खोज में भारत आया था[cite: 2]।",
+        "hinglish": "Fa-Hien Chandragupta II Vikramaditya ke reign mein India aaya tha[cite: 2]."
+      }
+    },
+    {
+      "id": "pyq_34",
+      "exam": "UPSC Civil Services Prelims",
+      "question": {
+        "en": "Al-Biruni, who authored the celebrated objective treatise 'Kitab-ul-Hind' (Tahqiq-i-Hind), visited India in which century?",
+        "hi": "भारतीय दर्शन एवं विज्ञान का वैज्ञानिक विश्लेषण प्रस्तुत करने वाली पुस्तक 'किताब-उल-हिंद' के लेखक अल-बरूनी किस शताब्दी में भारत आए थे?",
+        "hinglish": "'Kitab-ul-Hind' ke author Al-Biruni kis century mein India visit kiya tha?"
+      },
+      "options": {
+        "en": ["8th Century AD", "11th Century AD", "13th Century AD", "15th Century AD"],
+        "hi": ["8वीं शताब्दी ईस्वी", "11वीं शताब्दी ईस्वी", "13वीं शताब्दी ईस्वी", "15वीं शताब्दी ईस्वी"],
+        "hinglish": ["8th Century AD", "11th Century AD", "13th Century AD", "15th Century AD"]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "Al-Biruni accompanied Mahmud of Ghazni to India in the early 11th century AD and composed his masterpiece 'Kitab-ul-Hind'[cite: 2].",
+        "hi": "अल-बरूनी 11वीं शताब्दी के आरंभ में महमूद गजनवी के साथ भारत आया और 'किताब-उल-हिंद' लिखी[cite: 2]।",
+        "hinglish": "Al-Biruni 11th century AD ke start mein India aaya tha[cite: 2]."
+      }
+    },
+    {
+      "id": "pyq_35",
+      "exam": "UPPSC Prelims",
+      "question": {
+        "en": "The archaeological site of 'Adamgarh', which yielded the earliest evidence of animal domestication in India, is situated in which state?",
+        "hi": "भारत में पशुपालन के प्राचीनतम साक्ष्य प्रदान करने वाला पुरातात्विक स्थल 'आदमगढ़' किस राज्य में स्थित है?",
+        "hinglish": "Animal domestication ke early evidence provide karne wali prehistoric site Adamgarh kis state mein sthit hai?"
+      },
+      "options": {
+        "en": ["Rajasthan", "Madhya Pradesh", "Gujarat", "Maharashtra"],
+        "hi": ["राजस्थान", "मध्य प्रदेश", "गुजरात", "महाराष्ट्र"],
+        "hinglish": ["Rajasthan", "Madhya Pradesh", "Gujarat", "Maharashtra"]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "Adamgarh is situated in the Hoshangabad district of Madhya Pradesh, celebrated for early evidence of domesticated animal remains[cite: 3].",
+        "hi": "आदमगढ़ मध्य प्रदेश के होशंगाबाद (नर्मदापुरम) जिले में स्थित है, जहाँ से मध्यपाषाण युगीन पशुपालन के प्रमाण मिले हैं[cite: 3]।",
+        "hinglish": "Adamgarh Madhya Pradesh (Hoshangabad) mein sthit hai[cite: 3]."
+      }
+    },
+    {
+      "id": "pyq_36",
+      "exam": "UPSC / State PCS",
+      "question": {
+        "en": "The characteristic stone implements of the Mesolithic Age, typically measuring between 1 cm and 8 cm in length, are termed:",
+        "hi": "मध्यपाषाण काल के विशिष्ट लघु पाषाण उपकरण, जिनकी लंबाई सामान्यतः 1 से 8 सेमी होती है, क्या कहलाते हैं?",
+        "hinglish": "Mesolithic Age ke characteristic tiny stone implements (1 to 8 cm) ko kya kaha jata hai?"
+      },
+      "options": {
+        "en": ["Macroliths", "Microliths", "Neoliths", "Pebble Tools"],
+        "hi": ["मैक्रोलिथ", "माइक्रोलिथ (सूक्ष्म पाषाण)", "नियोलिथ", "पेबुल उपकरण"],
+        "hinglish": ["Macroliths", "Microliths", "Neoliths", "Pebble Tools"]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "Microliths are small geometric stone blades (1 to 8 cm) used as points or barbs on arrows and sickles during the Mesolithic Age[cite: 3].",
+        "hi": "माइक्रोलिथ (सूक्ष्म पाषाण उपकरण) 1 से 8 सेमी आकार के नुकीले पत्थर के औजार थे जो मध्यपाषाण काल की प्रमुख पहचान हैं[cite: 3]।",
+        "hinglish": "Microliths 1 se 8 cm ke tiny tools the jo Mesolithic weapons mein haft kiye jate the[cite: 3]."
+      }
+    },
+    {
+      "id": "pyq_37",
+      "exam": "UPPSC Prelims",
+      "question": {
+        "en": "Gufkral, a Neolithic site famous for its subterranean pit-dwellings and polished bone needles, literally translates to:",
+        "hi": "गर्त-आवासों (pit-dwellings) तथा हड्डी के सुई-औजारों के लिए प्रसिद्ध नवपाषाणिक स्थल 'गुफकराल' का शाब्दिक अर्थ क्या है?",
+        "hinglish": "Pit-dwellings aur bone tools ke liye famous Neolithic site 'Gufkral' ka literal meaning kya hota hai?"
+      },
+      "options": {
+        "en": ["Cave of the Hunter", "Cave of the Potter", "Valley of the Dead", "Hill of the Cattle"],
+        "hi": ["शिकारी की गुफा", "कुम्हार की गुफा", "मृतकों की घाटी", "पशुओं की पहाड़ी"],
+        "hinglish": ["Cave of the Hunter", "Cave of the Potter", "Valley of the Dead", "Hill of the Cattle"]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "Gufkral in Kashmir literally means the 'Cave of the Potter' (Guf = Cave, Kral = Potter)[cite: 3].",
+        "hi": "कश्मीर के गुफकराल का शाब्दिक अर्थ 'कुम्हार की गुफा' (Guf = गुफा, Kral = कुम्हार) होता है[cite: 3]।",
+        "hinglish": "Kashmir mein Gufkral ka literal translation 'Cave of the Potter' hota hai[cite: 3]."
+      }
+    },
+    {
+      "id": "pyq_38",
+      "exam": "UP RO-ARO / State PCS",
+      "question": {
+        "en": "At which Mesolithic site in Gujarat were 14 human skeletons and rhinoceros bones excavated alongside geometric microliths?",
+        "hi": "गुजरात के किस मध्यपाषाण स्थल से ज्यामितीय माइक्रोलिथ के साथ 14 मानव कंकाल और गैंडे की अस्थियां प्राप्त हुई हैं?",
+        "hinglish": "Gujarat ki kis Mesolithic site se 14 human skeletons aur rhinoceros faunal remains mile the?"
+      },
+      "options": {
+        "en": ["Lothal", "Langhnaj", "Rangpur", "Dholavira"],
+        "hi": ["लोथल", "लंघनाज", "रंगपुर", "धौलावीरा"],
+        "hinglish": ["Lothal", "Langhnaj", "Rangpur", "Dholavira"]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "Langhnaj in Mehsana district of Gujarat is a prominent Mesolithic site that yielded 14 human skeletons and wild animal bones[cite: 3].",
+        "hi": "गुजरात के मेहसाणा जिले का लंघनाज एक महत्वपूर्ण मध्यपाषाण स्थल है जहाँ से 14 मानव कंकाल प्राप्त हुए थे[cite: 3]।",
+        "hinglish": "Langhnaj (Gujarat) se 14 human burials aur animal bones excavate hui theen[cite: 3]."
+      }
+    },
+    {
+      "id": "pyq_39",
+      "exam": "UPSC Civil Services Prelims",
+      "question": {
+        "en": "A distinctive technological breakthrough marking the Upper Palaeolithic period across the Indian subcontinent was:",
+        "hi": "भारतीय उपमहाद्वीप में उच्च पुरापाषाण काल को चिन्हित करने वाली विशिष्ट तकनीकी उपलब्धि क्या थी?",
+        "hinglish": "Upper Palaeolithic period ka landmark technological advancement kaunsa tha?"
+      },
+      "options": {
+        "en": [
+          "The manufacture of heavy unpolished pebble choppers",
+          "The production of parallel-sided blades and engraving burins",
+          "The construction of multi-room kiln-burnt brick houses",
+          "The mass wheel-spinning of glazed red pottery"
+        ],
+        "hi": [
+          "भारी अनगढ़ पेबुल चापर औजारों का निर्माण",
+          "समानांतर किनारों वाले ब्लेड और उत्कीर्णन हेतु ब्यूरिन (Burin) का निर्माण",
+          "पक्की ईंटों के बहु-कक्षीय मकानों का निर्माण",
+          "चाक पर चमकीले लाल मृद्भांडों का सामूहिक उत्पादन"
+        ],
+        "hinglish": [
+          "Heavy unpolished pebble choppers ka construction",
+          "Parallel-sided blades aur burins ka manufacture",
+          "Burnt brick houses ka settlement",
+          "Wheel-made red pottery production"
+        ]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "The Upper Palaeolithic is distinguished by specialized blade and burin industries struck from prepared prismatic stone cores, alongside bone tools[cite: 3].",
+        "hi": "उच्च पुरापाषाण काल की मुख्य विशेषता समानांतर ब्लेड और छेनी के समान ब्यूरिन औजारों का निर्माण है[cite: 3]।",
+        "hinglish": "Upper Palaeolithic phase prismatic core se nikale gaye parallel blades aur burins ke liye jana jata hai[cite: 3]."
+      }
+    },
+    {
+      "id": "pyq_40",
+      "exam": "UPPSC Prelims / RO-ARO",
+      "question": {
+        "en": "Piklihal, Maski, and Brahmagiri in Karnataka are renowned in Indian prehistory as:",
+        "hi": "कर्नाटक के पिकलीहल, मास्की और ब्रह्मगिरि भारतीय प्रागितिहास में मुख्य रूप से किस रूप में प्रसिद्ध हैं?",
+        "hinglish": "Karnataka ke Piklihal, Maski aur Brahmagiri prehistory mein kis form mein famous hain?"
+      },
+      "options": {
+        "en": [
+          "Early Lower Palaeolithic pebble hand-axe workshops",
+          "Neolithic pastoral settlements characterized by Ash Mounds",
+          "Imperial Mauryan naval ship-building docks",
+          "Mesolithic coastal fishing sand dune stations"
+        ],
+        "hi": [
+          "आरंभिक निम्न पुरापाषाण युगीन पेबुल हस्तकुठार कार्यशालाएं",
+          "राख के टीलों (Ash Mounds) से चिन्हित नवपाषाण युगीन चरवाहा बस्तियां",
+          "मौर्यकालीन शाही नौसैनिक पोत निर्माण गोदी (Docks)",
+          "तटीय मध्यपाषाण युगीन मत्स्य आखेट केंद्र"
+        ],
+        "hinglish": [
+          "Lower Palaeolithic pebble tool workshops",
+          "Neolithic pastoral settlements jo Ash Mounds se characterized hain",
+          "Mauryan naval docks",
+          "Mesolithic coastal fishing centers"
+        ]
+      },
+      "correct_index": 1,
+      "explanation": {
+        "en": "Piklihal, Maski, and Brahmagiri are classic South Indian Neolithic sites known for pastoral cattle kraals, ash mounds, and polished stone celts[cite: 3].",
+        "hi": "पिकलीहल, मास्की और ब्रह्मगिरि दक्षिण भारत के प्रमुख नवपाषाण स्थल हैं जो चरवाहा संस्कृति और राख के टीलों के लिए जाने जाते हैं[cite: 3]।",
+        "hinglish": "Piklihal, Maski aur Brahmagiri South Indian Neolithic sites hain jo ash mounds aur pastoral settlements ko preserve karte hain[cite: 3]."
+      }
+    }
+  ]
+}
