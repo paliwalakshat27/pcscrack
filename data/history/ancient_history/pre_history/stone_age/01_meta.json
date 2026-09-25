@@ -1,0 +1,47 @@
+{
+  "topic_id": "stone_age",
+  "hierarchy": {
+    "subject": "General Studies 1",
+    "macro": "Ancient Indian History",
+    "micro": "Pre-Historic Period & Early Man",
+    "sub_micro": "The Stone Age (Palaeolithic, Mesolithic, Neolithic)"
+  },
+  "active_modules": [
+    {
+      "id": "notes",
+      "label": "📖 Notes",
+      "file": "02_notes.json",
+      "type": "swipe_palettes"
+    },
+    {
+      "id": "traps",
+      "label": "⚠️ Traps (12)",
+      "file": "03_traps.json",
+      "type": "trap_radar"
+    },
+    {
+      "id": "spatial",
+      "label": "🗺️ Map",
+      "file": "04_spatial.json",
+      "type": "spatial_viewer"
+    },
+    {
+      "id": "pyqs",
+      "label": "🎯 PYQs (25)",
+      "file": "05_pyqs.json",
+      "type": "pyq_bank"
+    },
+    {
+      "id": "recall",
+      "label": "🎮 Recall",
+      "file": "06_recall.json",
+      "type": "recall_games"
+    },
+    {
+      "id": "capsule",
+      "label": "💊 60s Capsule",
+      "file": "07_capsule.json",
+      "type": "capsule_scan"
+    }
+  ]
+}
