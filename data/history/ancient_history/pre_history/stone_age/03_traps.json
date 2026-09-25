@@ -1,0 +1,217 @@
+{
+  "topic_id": "stone_age",
+  "module_id": "traps",
+  "title": "Examiner Trap Radar",
+  "traps": [
+    {
+      "trap_id": "TRAP_01",
+      "exam_reference": "UPSC Civil Services / UPPSC Prelims",
+      "trap_statement": {
+        "en": "James Prinsep deciphered the Kharosthi script in 1837, unlocking Ashokan edicts across the subcontinent.",
+        "hi": "जेम्स प्रिंसेप ने 1837 में खरोष्ठी लिपि को पढ़कर अशोक के अधिकांश अभिलेखों को उजागर किया[cite: 2]।",
+        "hinglish": "James Prinsep ne 1837 mein Kharosthi script ko pehli baar decipher kiya tha[cite: 2]."
+      },
+      "reality_fact": {
+        "en": "James Prinsep deciphered the Brahmi script in 1837, not Kharosthi[cite: 2]. Brahmi was written left-to-right and formed the foundation for reading major Ashokan edicts[cite: 2].",
+        "hi": "जेम्स प्रिंसेप ने 1837 में ब्राह्मी लिपि का सफल उद्वाचन किया था, न कि खरोष्ठी का[cite: 2]। ब्राह्मी लिपि बाईं से दाईं ओर लिखी जाती है[cite: 2]।",
+        "hinglish": "James Prinsep ne Brahmi script ko 1837 mein decipher kiya tha, na ki Kharosthi ko[cite: 2]."
+      }
+    },
+    {
+      "trap_id": "TRAP_02",
+      "exam_reference": "UPPSC Special Focus",
+      "trap_statement": {
+        "en": "Punch-Marked coins were the earliest coins to display royal portraits and inscriptions of ruling kings[cite: 2].",
+        "hi": "आहत (पंच-मार्क) सिक्के भारत के प्रथम सिक्के थे जिन पर राजाओं के नाम एवं चित्र अंकित थे[cite: 2]।",
+        "hinglish": "Punch-marked coins par sabse pehle kings ke naam aur portraits stamp kiye gaye the[cite: 2]."
+      },
+      "reality_fact": {
+        "en": "Punch-marked coins (c. 6th century BC) bore punched symbols but lacked any text, titles, or royal portraits[cite: 2]. The Indo-Greeks were the first to issue coins featuring rulers' portraits and names[cite: 2].",
+        "hi": "आहत सिक्कों (छठी शताब्दी ई.पू.) पर केवल प्रतीक ठप्पे से बने होते थे; कोई लेख या चित्र नहीं था[cite: 2]। राजाओं के नाम व चित्र वाले सिक्के सर्वप्रथम हिन्द-यवन (Indo-Greek) शासकों ने जारी किए[cite: 2]।",
+        "hinglish": "Punch-marked coins par sirf punched symbols the[cite: 2]. Ruler ke portraits aur names pehli baar Indo-Greeks ne introduce kiye the[cite: 2]."
+      }
+    },
+    {
+      "trap_id": "TRAP_03",
+      "exam_reference": "UPSC Prelims Standard",
+      "trap_statement": {
+        "en": "Systematic domestication of animals began during the Neolithic agricultural revolution[cite: 3].",
+        "hi": "पशुपालन की व्यवस्थित शुरुआत नवपाषाण युगीन कृषि क्रांति के दौरान हुई[cite: 3]।",
+        "hinglish": "Pashupalan ya animal domestication ki shuruat Neolithic age se maani jaati hai[cite: 3]."
+      },
+      "reality_fact": {
+        "en": "The earliest clear archaeological evidence for animal domestication appears in the Mesolithic Age at Adamgarh (MP) and Bagor (Rajasthan)[cite: 3].",
+        "hi": "पशुपालन के प्राचीनतम स्पष्ट साक्ष्य मध्यपाषाण काल (Mesolithic Age) में आदमगढ़ (मप्र) और बागोर (राजस्थान) से प्राप्त होते हैं[cite: 3]।",
+        "hinglish": "Animal domestication sabse pehle Mesolithic age mein Adamgarh aur Bagor se record hui thi[cite: 3]."
+      }
+    },
+    {
+      "trap_id": "TRAP_04",
+      "exam_reference": "UPPSC & State PCS Trap",
+      "trap_statement": {
+        "en": "Koldihwa and Mahagara in the Belan Valley provide the earliest evidence of wheat and barley farming in the subcontinent[cite: 3].",
+        "hi": "बेलन घाटी के कोलडिहवा एवं महागड़ा से उपमहाद्वीप में गेहूं और जौ की खेती के प्राचीनतम प्रमाण मिलते हैं[cite: 3]।",
+        "hinglish": "Koldihwa aur Mahagara se wheat aur barley farming ke earliest evidence milte hain[cite: 3]."
+      },
+      "reality_fact": {
+        "en": "Koldihwa and Mahagara provide the earliest evidence of rice cultivation[cite: 3]. The earliest evidence for wheat and barley farming comes from Mehrgarh in Balochistan[cite: 3].",
+        "hi": "कोलडिहवा और महागड़ा चावल (धान) की खेती के प्राचीनतम साक्ष्य देते हैं[cite: 3]। गेहूं और जौ की खेती के प्राचीनतम प्रमाण मेहरगढ़ (बलूचिस्तान) से मिले हैं[cite: 3]।",
+        "hinglish": "Koldihwa aur Mahagara rice cultivation ke liye famous hain, jabki wheat aur barley ke earliest traces Mehrgarh se aate hain[cite: 3]."
+      }
+    },
+    {
+      "trap_id": "TRAP_05",
+      "exam_reference": "UPSC Multi-Statement Trap",
+      "trap_statement": {
+        "en": "Neolithic pit-dwellings and domestic dog burials alongside masters are characteristic of Gufkral[cite: 3].",
+        "hi": "मालिक के साथ पालतू कुत्ते को दफनाने और गर्त-आवास (pit-dwellings) की प्रमुख परंपरा गुफकराल की विशेषता है[cite: 3]।",
+        "hinglish": "Dog burial with master aur pit-dwellings ka primary trademark site Gufkral hai[cite: 3]."
+      },
+      "reality_fact": {
+        "en": "While both Burzahom and Gufkral feature pit-dwellings, the specific practice of burying domestic dogs with their masters in grave pits was unearthed at Burzahom[cite: 3].",
+        "hi": "यद्यपि गर्त-आवास दोनों जगह हैं, कब्र में मालिक के साथ कुत्ते को दफनाने का विशिष्ट साक्ष्य बुर्जहोम से मिला है[cite: 3]।",
+        "hinglish": "Grave pit ke andar master ke sath domestic dog burial ka evidence Burzahom ka unique feature hai[cite: 3]."
+      }
+    },
+    {
+      "trap_id": "TRAP_06",
+      "exam_reference": "Ceramic Stratigraphy Trap",
+      "trap_statement": {
+        "en": "Northern Black Polished Ware (NBPW) was the diagnostic ceramic pottery of the Later Vedic Iron Age[cite: 2].",
+        "hi": "उत्तरी काली चमकीली परंपरा (NBPW) उत्तर वैदिक कालीन लौह युग का मुख्य मृद्भांड था[cite: 2]।",
+        "hinglish": "NBPW pottery Later Vedic era ki diagnostic pottery mani jaati hai[cite: 2]."
+      },
+      "reality_fact": {
+        "en": "The Later Vedic Period is associated with Painted Grey Ware (PGW)[cite: 2]. NBPW is the hallmark of the Mahajanapada and Mauryan eras (the Second Urbanization)[cite: 2].",
+        "hi": "उत्तर वैदिक काल की पहचान चित्रित धूसर मृद्भांड (PGW) से है[cite: 2]। NBPW महाजनपद एवं मौर्य काल (द्वितीय नगरीकरण) से संबद्ध है[cite: 2]।",
+        "hinglish": "Later Vedic period PGW pottery se related hai, jabki NBPW Mahajanapada aur Mauryan urban phase ka luxury ware tha[cite: 2]."
+      }
+    },
+    {
+      "trap_id": "TRAP_07",
+      "exam_reference": "UPPSC Epigraphy Trap",
+      "trap_statement": {
+        "en": "The Prayag Prashasti of Samudragupta was the first-ever long inscription composed in chaste Sanskrit[cite: 2].",
+        "hi": "समुद्रगुप्त की प्रयाग प्रशस्ति विशुद्ध संस्कृत में उत्कीर्ण होने वाला भारत का पहला विस्तृत अभिलेख थी[cite: 2]।",
+        "hinglish": "Chaste classical Sanskrit mein likha gaya pehla long inscription Prayag Prashasti tha[cite: 2]."
+      },
+      "reality_fact": {
+        "en": "The Junagarh Rock Inscription of Saka ruler Rudradaman I is the first-ever long inscription in chaste Sanskrit, preceding the Gupta era[cite: 2].",
+        "hi": "विशुद्ध संस्कृत का पहला लंबा अभिलेख शक शासक रुद्रदामन प्रथम का जूनागढ़ अभिलेख है[cite: 2]।",
+        "hinglish": "Pehla comprehensive pure Sanskrit inscription Rudradaman ka Junagarh Rock Inscription hai[cite: 2]."
+      }
+    },
+    {
+      "trap_id": "TRAP_08",
+      "exam_reference": "South Indian Archaeology",
+      "trap_statement": {
+        "en": "Ash Mounds at South Indian Neolithic sites like Piklihal were created by extensive religious sacrificial fire rituals[cite: 3].",
+        "hi": "दक्षिण भारत के पिकलीहल जैसे नवपाषाण स्थलों पर प्राप्त राख के टीले धार्मिक अग्नि यज्ञों के अवशेष हैं[cite: 3]।",
+        "hinglish": "South Indian Neolithic sites ke Ash Mounds religious fire sacrifices ke through create hue the[cite: 3]."
+      },
+      "reality_fact": {
+        "en": "Ash Mounds (Piklihal, Utnur, Kupgal) were formed by the burning of massive accumulations of cattle dung in seasonal pastoral pens[cite: 3].",
+        "hi": "राख के टीले (Ash Mounds) मौसमी चरवाहा शिविरों में मवेशियों के बाड़ों में जमा गोबर के बड़े ढेरों के जलने से बने थे[cite: 3]।",
+        "hinglish": "Ash Mounds pastoral kraals ke andar accumulated cow dung ke periodic jalne se bani vitrified ash thi[cite: 3]."
+      }
+    },
+    {
+      "trap_id": "TRAP_09",
+      "exam_reference": "Palaeolithic Stratigraphy",
+      "trap_statement": {
+        "en": "Microlithic tools and blade-burins were the signature implements of Lower Palaeolithic 'Quartzite Men'[cite: 3].",
+        "hi": "सूक्ष्म पाषाण औजार (Microliths) और ब्लेड-ब्यूरिन निम्न पुरापाषाण काल के 'क्वार्टजाइट मैन' के प्रमुख हथियार थे[cite: 3]।",
+        "hinglish": "Lower Palaeolithic Quartzite Men microliths aur blade-burin tools banate the[cite: 3]."
+      },
+      "reality_fact": {
+        "en": "Lower Palaeolithic 'Quartzite Men' fashioned heavy core tools: hand-axes, cleavers, and choppers[cite: 3]. Microliths belong to the Mesolithic, and blade-burins to the Upper Palaeolithic[cite: 3].",
+        "hi": "निम्न पुरापाषाण काल में हस्तकुठार, विदारणी और चापर जैसे भारी कोर औजार प्रयुक्त होते थे[cite: 3]। माइक्रोलिथ मध्यपाषाण और ब्लेड-ब्यूरिन उच्च पुरापाषाण की पहचान हैं[cite: 3]।",
+        "hinglish": "Lower Palaeolithic tools heavy core tools the (hand-axes, cleavers)[cite: 3]. Microliths Mesolithic ke the aur blade-burins Upper Palaeolithic ke[cite: 3]."
+      }
+    },
+    {
+      "trap_id": "TRAP_10",
+      "exam_reference": "Foreign Chroniclers Matching",
+      "trap_statement": {
+        "en": "Fa-Hien authored 'Si-Yu-Ki' after visiting the court and assemblies of Emperor Harshavardhana[cite: 2].",
+        "hi": "फाह्यान ने सम्राट हर्षवर्धन के दरबार की यात्रा की और 'सी-यू-की' नामक यात्रा वृत्तांत लिखा[cite: 2]।",
+        "hinglish": "Fa-Hien ne Harshavardhana ke time visit karke 'Si-Yu-Ki' book likhi thi[cite: 2]."
+      },
+      "reality_fact": {
+        "en": "Hiuen-Tsang (Xuanzang) visited during Harshavardhana's reign and wrote 'Si-Yu-Ki'[cite: 2]. Fa-Hien visited during the reign of Chandragupta II in the Gupta period[cite: 2].",
+        "hi": "हर्षवर्धन के काल में ह्वेनसांग आया था और उसने 'सी-यू-की' लिखी[cite: 2]। फाह्यान गुप्त सम्राट चंद्रगुप्त द्वितीय के समय आया था[cite: 2]।",
+        "hinglish": "Harshavardhana ke samay Hiuen-Tsang ne 'Si-Yu-Ki' compile ki thi; Fa-Hien Chandragupta II ke era mein aaya tha[cite: 2]."
+      }
+    },
+    {
+      "trap_id": "TRAP_11",
+      "exam_reference": "Material Technology Trap",
+      "trap_statement": {
+        "en": "Chirand in Bihar is renowned for producing heavy Acheulian quartzite hand-axes and cleavers[cite: 3].",
+        "hi": "बिहार का चिरांद भारी एश्यूलियन क्वार्टजाइट हस्तकुठारों और विदारणियों के निर्माण के लिए विख्यात है[cite: 3]।",
+        "hinglish": "Chirand (Bihar) massive quartzite hand-axes aur heavy stone cleavers ke liye jana jata hai[cite: 3]."
+      },
+      "reality_fact": {
+        "en": "Chirand is a famous Neolithic site celebrated for its tools and weapons crafted from animal bones and deer antlers[cite: 3].",
+        "hi": "चिरांद एक प्रमुख नवपाषाण स्थल है जो हिरण के सींगों और पशुओं की हड्डियों से बने औजारों के लिए जाना जाता है[cite: 3]।",
+        "hinglish": "Chirand stone tools ke bajaye deer antler aur animal bone tools ke huge assemblage ke liye landmark site hai[cite: 3]."
+      }
+    },
+    {
+      "trap_id": "TRAP_12",
+      "exam_reference": "Fire Evidence Trap",
+      "trap_statement": {
+        "en": "Stratified archaeological ash layers proving the controlled use of fire were excavated at Soan Valley[cite: 3].",
+        "hi": "अग्नि के नियमित प्रयोग को प्रमाणित करने वाले राख के स्तरीकृत अवशेष सोहन घाटी से उत्खनित किए गए[cite: 3]।",
+        "hinglish": "Fire use ko confirm karne wale excavated ash layers Soan Valley se discovered hue the[cite: 3]."
+      },
+      "reality_fact": {
+        "en": "Stratified ash layers indicating controlled domestic fire use were excavated in the Kurnool Caves of Andhra Pradesh (Upper Palaeolithic)[cite: 3].",
+        "hi": "अग्नि के उपयोग के साक्ष्य प्रस्तुत करने वाले राख के अवशेष आंध्र प्रदेश की कुरनूल गुफाओं (उच्च पुरापाषाण काल) से मिले हैं[cite: 3]।",
+        "hinglish": "Ash layers Kurnool Caves (Andhra Pradesh) se mili hain, jo Upper Palaeolithic human habitations se link hoti hain[cite: 3]."
+      }
+    },
+    {
+      "trap_id": "TRAP_13",
+      "exam_reference": "Mauryan Epigraphy Trap",
+      "trap_statement": {
+        "en": "The Sohgaura copper plate inscription is an Ashokan edict ordering the propagation of Dhamma in Uttar Pradesh[cite: 2].",
+        "hi": "सोहगौरा ताम्रपत्र अभिलेख उत्तर प्रदेश में धम्म प्रचार हेतु जारी किया गया एक अशोककालीन अभिलेख है[cite: 2]।",
+        "hinglish": "Sohgaura copper plate Dhamma propagation ke liye banwaya gaya Ashokan edict hai[cite: 2]."
+      },
+      "reality_fact": {
+        "en": "The Sohgaura Copper Plate (Gorakhpur, UP) is a rare pre-Ashokan Brahmi inscription documenting relief granaries built to sustain the populace during famine[cite: 2].",
+        "hi": "सोहगौरा ताम्रपत्र (गोरखपुर, उप्र) अशोक-पूर्व का ब्राह्मी अभिलेख है, जो अकाल (दुर्भिक्ष) के समय अन्नागारों के उपयोग का निर्देश देता है[cite: 2]।",
+        "hinglish": "Sohgaura plate pre-Ashokan Brahmi inscription hai, jisme famine relief ke time state granary distribution recorded hai[cite: 2]."
+      }
+    },
+    {
+      "trap_id": "TRAP_14",
+      "exam_reference": "Kalinga Epigraphy Trap",
+      "trap_statement": {
+        "en": "The Hathigumpha Inscription of Kharavela was composed in classical Sanskrit using Kharosthi script[cite: 2].",
+        "hi": "खारवेल का हाथीगुम्फा अभिलेख खरोष्ठी लिपि और संस्कृत भाषा में रचित है[cite: 2]।",
+        "hinglish": "Hathigumpha Inscription Kharosthi script aur pure Sanskrit mein compose hua tha[cite: 2]."
+      },
+      "reality_fact": {
+        "en": "The Hathigumpha Inscription (Udayagiri, Odisha) is composed in the Prakrit language using the Brahmi script[cite: 2].",
+        "hi": "हाथीगुम्फा अभिलेख (ओडिशा) प्राकृत भाषा और ब्राह्मी लिपि में उत्कीर्ण है[cite: 2]।",
+        "hinglish": "Hathigumpha Inscription Prakrit language aur Brahmi script mein likha gaya hai[cite: 2]."
+      }
+    },
+    {
+      "trap_id": "TRAP_15",
+      "exam_reference": "Peninsular Inscription Trap",
+      "trap_statement": {
+        "en": "The Aihole Inscription details the total military conquest of Harshavardhana over the Chalukya ruler Pulakesin II[cite: 2].",
+        "hi": "ऐहोल अभिलेख चालुक्य शासक पुलकेशिन द्वितीय पर सम्राट हर्षवर्धन की अंतिम सैन्य विजय का वर्णन करता है[cite: 2]।",
+        "hinglish": "Aihole Inscription Harsha dwara Pulakesin II ko harane ka historic record hai[cite: 2]."
+      },
+      "reality_fact": {
+        "en": "The Aihole Inscription, composed in Sanskrit by court poet Ravikirti, celebrates Pulakesin II's decisive victory in defeating Harshavardhana's southern advance[cite: 2].",
+        "hi": "ऐहोल अभिलेख में रविकीर्ति ने चालुक्य नरेश पुलकेशिन द्वितीय द्वारा सम्राट हर्षवर्धन को पराजित करने का वर्णन किया है[cite: 2]।",
+        "hinglish": "Aihole Inscription mein Pulakesin II dwara Harshavardhana ko Narmada par defeat karne ka record hai[cite: 2]."
+      }
+    }
+  ]
+}
