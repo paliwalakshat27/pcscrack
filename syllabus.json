@@ -1,0 +1,44 @@
+[
+  {
+    "subject_id": "gs1",
+    "subject_title": "Indian History & Culture",
+    "subject_sub": "Ancient, Medieval, Modern & Art-Culture",
+    "badge": "GS1",
+    "branches": [
+      {
+        "branch_id": "ancient_history",
+        "macro_title": "Ancient Indian History",
+        "macro_unit": "Macro Unit 01",
+        "status": "ACTIVE",
+        "sub_branches": [
+          {
+            "sub_title": "Pre-Historic Period & Early Man",
+            "topics": [
+              {
+                "topic_id": "stone_age",
+                "title": "The Stone Age",
+                "desc": "Verbatim notes, Belan Valley, Bhimbetka, Mehrgarh.",
+                "path": "data/history/ancient_history/pre_history/stone_age/",
+                "is_live": true
+              },
+              {
+                "topic_id": "chalcolithic",
+                "title": "Indus Valley Civilization & Chalcolithic",
+                "desc": "Harappan town planning, copper hoards, trade networks.",
+                "path": "data/history/ancient_history/proto_history/ivc/",
+                "is_live": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": "gs2",
+    "subject_title": "Indian Polity & Governance",
+    "subject_sub": "Preamble, Fundamental Rights & Framework",
+    "badge": "GS2",
+    "branches": []
+  }
+]
