@@ -1,0 +1,819 @@
+{
+  "topic_id": "stone_age",
+  "module_id": "notes",
+  "cards": [
+    {
+      "palette_id": "palette_01",
+      "badge": "Historiography",
+      "sub_badge": "Sources 1.1",
+      "title": "Historical Methodology & Foundations",
+      "overview": {
+        "en": "History is not a collection of stories; it is an empirical science of reconstructing the human past strictly based on verifiable material and textual evidence. Understanding sources is foundational for Civil Services examinations as analytical and factual questions are repeatedly framed directly from this domain.",
+        "hi": "इतिहास केवल कहानियों का संग्रह नहीं है; यह उपलब्ध साक्ष्यों के आधार पर अतीत के पुनर्निर्माण का एक विज्ञान है। सिविल सेवा परीक्षाओं (प्रारंभिक एवं मुख्य) के लिए इन स्रोतों की स्पष्ट समझ अनिवार्य है, क्योंकि सीधे स्रोत-आधारित प्रश्न बार-बार पूछे जाते हैं।",
+        "hinglish": "History koi kalpanik kahaniyon ka collection nahi hai, balki verifiable physical aur written evidence ke dum par past ko reconstruct karne ki empirical science hai[cite: 2]. Prelims aur Mains dono ke liye historical sources ki understanding base banati hai[cite: 2]."
+      },
+      "sub_phases": [
+        {
+          "phase_name": "Classification of Historical Evidence",
+          "tool_badge": "Epistemology",
+          "points": [
+            {
+              "label": "Primary Source Bifurcation",
+              "en": "Historical sources are categorized into two major empirical domains: Archaeological Sources (direct physical remains) and Literary Sources (indigenous writings and foreign travelers' records)[cite: 2].",
+              "hi": "ऐतिहासिक स्रोतों को दो प्रमुख श्रेणियों में विभाजित किया जाता है: पुरातात्विक स्रोत (प्रत्यक्ष भौतिक अवशेष) तथा साहित्यिक स्रोत (देशी ग्रंथ एवं विदेशी यात्रियों के विवरण)[cite: 2]।",
+              "hinglish": "Historical sources ko do primary categories mein divide kiya jata hai: Archaeological Sources (material remains) aur Literary Sources (native texts aur foreign accounts)[cite: 2]."
+            },
+            {
+              "label": "Archaeological Epistemic Superiority",
+              "en": "Archaeological data is considered comparatively more reliable and objective than literary accounts because material artifacts are immune to retrospective narrative manipulation, copyist interpolations, or courtier bias (even though subjective interpretive bias by the modern historian remains possible)[cite: 2].",
+              "hi": "पुरातात्विक साक्ष्यों को साहित्यिक स्रोतों की तुलना में अधिक विश्वसनीय माना जाता है क्योंकि भौतिक अवशेषों में पक्षपातपूर्ण आख्यान या बाद के संशोधनों की गुंजाइश नहीं होती (यद्यपि आधुनिक व्याख्या में पूर्वाग्रह संभव है)[cite: 2]।",
+              "hinglish": "Archaeological sources ko literary records se zyada dependable mana jata hai kyunki physical artifacts kisi darbaari manipulation ya baad ke textual alteration se surakshit rehte hain[cite: 2]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "palette_id": "palette_02",
+      "badge": "Epigraphy",
+      "sub_badge": "Inscriptions",
+      "title": "Epigraphical Heritage: Pillars, Plates & Scripts",
+      "overview": {
+        "en": "Inscriptions are texts incised into durable physical media such as stone, metals, pillars, cliffs, and pottery[cite: 2]. The systematic study of inscriptions is termed Epigraphy[cite: 2]. Because they are contemporary to the events they document, inscriptions serve as the single most reliable primary source for ancient Indian chronology, political boundaries, and governance[cite: 2].",
+        "hi": "शिलाओं, धातुओं, स्तंभों और मृद्भांडों जैसी कठोर सतहों पर उत्कीर्ण लेख अभिलेख कहलाते हैं, और इनका वैज्ञानिक अध्ययन पुरालेखशास्त्र (Epigraphy) कहलाता है[cite: 2]। समकालीन होने के कारण ये प्राचीन इतिहास के सबसे प्रामाणिक स्रोत हैं[cite: 2]।",
+        "hinglish": "Stone, metal sheets, caves aur pottery par likhe gaye engraved texts ko Inscriptions kehte hain, aur inki scientific study ko Epigraphy kaha jata hai[cite: 2]. Contemporary hone ki wajah se ye absolute historical precision provide karte hain[cite: 2]."
+      },
+      "sub_phases": [
+        {
+          "phase_name": "Linguistic & Paleographical Taxonomy",
+          "tool_badge": "Scripts",
+          "points": [
+            {
+              "label": "Language Progression",
+              "en": "Early inscriptions were predominantly composed in Prakrit (3rd century BC to 10th century AD)[cite: 2]. Sanskrit emerged prominently later, alongside extensive usage of regional vernacular languages across peninsular India[cite: 2].",
+              "hi": "आरंभिक अभिलेख मुख्यतः प्राकृत भाषा में (तीसरी शताब्दी ई.पू. से 10वीं शताब्दी ईस्वी) उत्कीर्ण किए गए थे; बाद में संस्कृत एवं विभिन्न क्षेत्रीय भाषाओं का व्यापक प्रयोग हुआ[cite: 2]।",
+              "hinglish": "Pehle ke maximum inscriptions Prakrit mein mile (3rd century BC se 10th century AD), jiske baad pure Sanskrit aur regional vernacular languages use hone lageen[cite: 2]."
+            },
+            {
+              "label": "Brahmi Script",
+              "en": "Written horizontally from Left to Right[cite: 2]. It represents the ancestral paleographical root of nearly all modern indigenous Indian scripts[cite: 2]. Brahmi was famously deciphered in 1837 by James Prinsep, an officer of the Calcutta Mint[cite: 2].",
+              "hi": "ब्राह्मी लिपि बाईं से दाईं ओर लिखी जाती है[cite: 2]। यह अधिकांश आधुनिक भारतीय लिपियों की जननी है[cite: 2]। इसे 1837 ईस्वी में जेम्स प्रिंसेप द्वारा सफलतापूर्वक पढ़ा (decipher) गया था[cite: 2]।",
+              "hinglish": "Brahmi script Left to Right likhi jaati hai aur yahi modern Indian scripts ki mother script hai[cite: 2]. 1837 mein James Prinsep ne ise pehli baar decipher karke historic breakthrough diya[cite: 2]."
+            },
+            {
+              "label": "Kharosthi Script",
+              "en": "Written from Right to Left, derived from Aramaic forms, and deployed extensively across North-Western India (Gandhara region)[cite: 2].",
+              "hi": "खरोष्ठी लिपि दाईं से बाईं ओर लिखी जाती थी और इसका प्रयोग मुख्य रूप से पश्चिमोत्तर भारत में होता था[cite: 2]।",
+              "hinglish": "Kharosthi script Right to Left likhi jaati thi aur ye predominantly North-Western India (frontier regions) mein use hoti thi[cite: 2]."
+            }
+          ]
+        },
+        {
+          "phase_name": "Master Epigraphic Record Matrix",
+          "tool_badge": "Critical Inscriptions",
+          "points": [
+            {
+              "label": "Sohgaura Copper Plate Inscription (Gorakhpur, UP)",
+              "en": "Belongs to the Mauryan era[cite: 2]. Written in pre-Ashokan Brahmi script and Prakrit language, it explicitly records state-mandated relief granaries built to sustain the public during severe drought/famine[cite: 2].",
+              "hi": "सोहगौरा ताम्रपत्र (गोरखपुर, उत्तर प्रदेश): मौर्यकालीन अभिलेख, जो दुर्भिक्ष (अकाल) के समय जनता के उपयोग हेतु बनाए गए अन्नागारों का उल्लेख करता है[cite: 2]। यह अशोक-पूर्व की कुछ चुनिंदा ब्राह्मी कृतियों में से एक है[cite: 2]।",
+              "hinglish": "Sohgaura Copper Plate (Gorakhpur, UP) Mauryan period ka hai, jo famine relief granaries ka document detailed karta hai aur ye rare pre-Ashokan Brahmi records mein aata hai[cite: 2]."
+            },
+            {
+              "label": "Ashokan Edicts",
+              "en": "Composed in Prakrit, Greek, and Aramaic using Brahmi and Kharosthi scripts[cite: 2]. These edicts articulate state policy, moral code (Dhamma), and administrative justice across the subcontinent, from Kandahar to Karnataka[cite: 2].",
+              "hi": "अशोक के अभिलेख: लोक कल्याण और 'धम्म' पर आधारित राजकीय आदेश[cite: 2]। भारत, नेपाल, पाकिस्तान और अफगानिस्तान में विस्तृत, जो मौर्यकालीन शासन व्यवस्था के अमूल्य साक्ष्य हैं[cite: 2]।",
+              "hinglish": "Ashokan Edicts pure Indian subcontinent mein phaile hain jo Mauryan imperial polity, welfare administration aur Dhamma code ko document karte hain[cite: 2]."
+            },
+            {
+              "label": "Hathigumpha Inscription of Kharavela (Udayagiri, Odisha)",
+              "en": "Engraved in Prakrit language using Brahmi script on Udayagiri hills[cite: 2]. It details a comprehensive year-by-year biographical record of King Kharavela of Kalinga, including military campaigns, public welfare canal extensions, and religious donations[cite: 2].",
+              "hi": "हाथीगुम्फा अभिलेख (उदयगिरि, ओडिशा): कलिंग राजा खारवेल की उपलब्धियों और सैन्य अभियानों का वर्षवार प्राकृत भाषा और ब्राह्मी लिपि में उत्कीर्ण विवरण[cite: 2]।",
+              "hinglish": "Kharavela ka Hathigumpha Inscription (Odisha) Prakrit/Brahmi mein Kalinga ruler ke continuous annual political achievements aur canal building works ko chronicle karta hai[cite: 2]."
+            },
+            {
+              "label": "Prayag Prashasti (Allahabad Pillar Inscription)",
+              "en": "Composed in classical Sanskrit prose and verse (Champu style) by court poet Harisena using Brahmi script[cite: 2]. It records the genealogical ancestry, comprehensive geopolitical conquests (Aryavarta, Dakshinapatha, border states), and noble virtues of Gupta Emperor Samudragupta[cite: 2].",
+              "hi": "प्रयाग प्रशस्ति (इलाहाबाद स्तंभ अभिलेख): समुद्रगुप्त के दरबारी कवि हरिषेण द्वारा ब्राह्मी लिपि और विशुद्ध संस्कृत में रचित[cite: 2]। यह समुद्रगुप्त की दिग्विजयों और व्यक्तिगत गुणों का सजीव वर्णन करता है[cite: 2]।",
+              "hinglish": "Prayag Prashasti ko Harisena ne Sanskrit language mein compose kiya, jo Gupta ruler Samudragupta ke conquest policy aur military campaigns ka authoritative record hai[cite: 2]."
+            },
+            {
+              "label": "Aihole Inscription of Pulakesin II (Karnataka)",
+              "en": "Composed in high Sanskrit by court poet Ravikirti at the Meguti Jain temple[cite: 2]. It details the genealogy of the Western Chalukyas and explicitly records Pulakesin II's decisive victory over Harshavardhana on the banks of the Narmada River[cite: 2].",
+              "hi": "ऐहोल अभिलेख (कर्नाटक): चालुक्य नरेश पुलकेशिन द्वितीय के दरबारी कवि रविकीर्ति द्वारा संस्कृत में रचित, जिसमें पुलकेशिन द्वितीय द्वारा हर्षवर्द्धन की पराजय का स्पष्ट उल्लेख है[cite: 2]।",
+              "hinglish": "Ravikirti dwara compose kiya gaya Aihole Inscription Western Chalukyan military power aur Narmada par Harshavardhana ki retreat ka key evidence hai[cite: 2]."
+            },
+            {
+              "label": "Junagarh Rock Inscription of Rudradaman I",
+              "en": "Dated c. 150 AD, it is historic as the first-ever extensive, elaborately styled inscription in chaste classical Sanskrit[cite: 2]. It documents the construction and subsequent repair of Sudarshana Lake (originally engineered under Chandragupta Maurya and Ashoka) without imposing emergency taxes on the subjects[cite: 2].",
+              "hi": "जूनागढ़ शिला अभिलेख (रुद्रदामन प्रथम): विशुद्ध संस्कृत का प्रथम विस्तृत अभिलेख[cite: 2]। इसमें सुदर्शन झील के जीर्णोद्धार और प्रजा पर बिना अतिरिक्त कर लगाए उसके पुनर्निर्माण का वर्णन है[cite: 2]।",
+              "hinglish": "Saka ruler Rudradaman ka Junagarh Inscription pure classical Sanskrit ka pehla monumental inscription hai, jisme Sudarshana Lake restoration ka full account milta hai[cite: 2]."
+            },
+            {
+              "label": "Nasik Prashasti of Gautamiputra Satakarni",
+              "en": "Inscribed in cave premises by his mother, Gautami Balashri[cite: 2]. It records his military recovery of Satavahana prestige, destruction of the Kshaharata dynasty (Nahapana), and his self-designation as 'Eka-Brahmana' (peerless Brahmana)[cite: 2].",
+              "hi": "नासिक प्रशस्ति: सातवाहन शासक गौतमीपुत्र शातकर्णी की माता गौतमी बलश्री द्वारा उत्कीर्ण, जिसमें शातकर्णी के विजय अभियानों और उपलब्धियों का विवरण है[cite: 2]।",
+              "hinglish": "Gautami Balashri dwara banwaya gaya Nasik Inscription Gautamiputra Satakarni ke military prowess aur Satavahana empire revival ko document karta hai[cite: 2]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "palette_id": "palette_03",
+      "badge": "Numismatics",
+      "sub_badge": "Monetary Economics",
+      "title": "Numismatics: Currency Evolution & Economic Diagnostics",
+      "overview": {
+        "en": "The study of coins and metallic currency is termed Numismatics[cite: 2]. Beyond being medium of exchange, ancient coinage provides crucial diagnostic markers regarding sovereign political territories, dynastic chronologies, metallurgic skill, religious iconography, and the macroeconomic health of ancient empires[cite: 2].",
+        "hi": "सिक्कों के अध्ययन को मुद्राशास्त्र (Numismatics) कहा जाता है[cite: 2]। सिक्के किसी साम्राज्य की आर्थिक स्थिति, धातु विज्ञान, कला, व्यापारिक विस्तार एवं शासकों की धार्मिक मान्यताओं की बहुमूल्य जानकारी प्रदान करते हैं[cite: 2]।",
+        "hinglish": "Coins aur currency ke systematic study ko Numismatics bolte hain[cite: 2]. Coinage se direct economic stability, trade networks, metallic purity aur political authority establish hoti hai[cite: 2]."
+      },
+      "sub_phases": [
+        {
+          "phase_name": "Chronological Coinage Transitions",
+          "tool_badge": "Currency Eras",
+          "points": [
+            {
+              "label": "Punch-Marked Coins (Aahat Sikka: c. 6th Century BC)",
+              "en": "The earliest standardized metallic currency in India[cite: 2]. Minted predominantly in silver, and occasionally copper, irregular or square in shape[cite: 2]. They bore stamped symbols (sun, tree, hill, crescent, wheel) punched using dies, but completely lacked text, dates, or royal portraits[cite: 2].",
+              "hi": "आहत सिक्के (Punch-Marked Coins): भारत के प्राचीनतम सिक्के (छठी शताब्दी ई.पू.)[cite: 2]। चांदी व तांबे से निर्मित इन सिक्कों पर विभिन्न प्रतीक ठप्पे मारकर अंकित किए जाते थे, किंतु इन पर कोई लेख या राजा का चित्र नहीं होता था[cite: 2]।",
+              "hinglish": "Punch-Marked Coins India ke sabse early metallic coins hain[cite: 2]. Inpe distinct administrative/religious symbols punch kiye jaate the lekin koi written inscription ya ruler image nahi hoti thi[cite: 2]."
+            },
+            {
+              "label": "Indo-Greek Monetary Revolution",
+              "en": "Indo-Greek rulers were the first in Indian numismatic history to issue coins bearing the distinct portrait, royal titles, and names of issuing monarchs alongside bilingual/bi-scriptural legends[cite: 2]. This established a transformative paradigm for identifying individual rulers and dates[cite: 2].",
+              "hi": "हिन्द-यवन (Indo-Greek) सिक्के: भारत में सर्वप्रथम राजाओं के नाम, उपाधियां और उनके स्पष्ट चित्र अंकित सिक्कों को जारी करने का श्रेय हिन्द-यवन शासकों को जाता है[cite: 2]।",
+              "hinglish": "Indo-Greeks ne India mein pehli baar rulers ke portrait, names aur bi-scriptural legends ke sath coins issue karke numismatic design ko reform kiya[cite: 2]."
+            },
+            {
+              "label": "Kushan Dynastic Minting",
+              "en": "Kushans issued an extensive volume of high-purity gold coins (Dinar/Suvarna) alongside copper coinage[cite: 2]. This reflects buoyant international Silk Road commerce, high purchasing power, and active balance of trade with the Roman Empire[cite: 2]. Their coins depicted a syncretic pantheon of Brahmanical, Buddhist, Greek, and Iranian deities[cite: 2].",
+              "hi": "कुषाण सिक्के: कुषाणों ने भारी मात्रा में उत्कृष्ट स्वर्ण मुद्राएं और तांबे के सिक्के जारी किए, जो उनके समृद्ध विदेशी व्यापार और आर्थिक समृद्धि के प्रमाण हैं[cite: 2]। इन पर भारतीय तथा विदेशी दोनों प्रकार के देवताओं के चित्र मिलते हैं[cite: 2]।",
+              "hinglish": "Kushan empire ne massive quantity mein gold currency circulate ki, jo prosperous international transit trade aur broad religious syncretism ko display karti hai[cite: 2]."
+            },
+            {
+              "label": "Gupta Numismatic Artistry & Degeneration",
+              "en": "Gupta coinage represents the zenith of indigenous artistic engraving and numismatic elegance, depicting rulers in diverse personalized poses (e.g., Samudragupta playing the Veena, Kumaragupta as Archer and Horseman)[cite: 2]. Crucially, the declining gold purity and increased alloy adulteration observed in Later Gupta issues directly reflect structural fiscal stress and trade contraction[cite: 2].",
+              "hi": "गुप्तकालीन सिक्के: अपनी उच्च कलात्मकता और स्वर्ण शुद्धता के लिए विख्यात हैं (जैसे समुद्रगुप्त का वीणा वादन, अश्वमेध प्रकार)[cite: 2]। परवर्ती गुप्त सिक्कों में सोने की शुद्धता में आई गिरावट आर्थिक संकट और व्यापारिक ह्रास को दर्शाती है[cite: 2]।",
+              "hinglish": "Gupta gold coins artistic mastery represent karte hain (Veena-player type, Archer type)[cite: 2]. Par Later Gupta coins mein metallic gold purity ka girna severe economic stress aur trade slump ka direct proof hai[cite: 2]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "palette_id": "palette_04",
+      "badge": "Material Remains",
+      "sub_badge": "Ceramic Stratigraphy",
+      "title": "Monuments, Structural Sites & Ceramic Markers",
+      "overview": {
+        "en": "Archaeological excavation of structural monuments, religious edifices, and ceramic remnants uncovers the material lifestyle, artistic sophistication, town planning, and patronage patterns of past societies[cite: 2]. Pottery, in particular, acts as the definitive stratigraphic signature of successive historical horizons[cite: 2].",
+        "hi": "उत्खनित स्थल, मंदिर, स्तूप, विहार और मृद्भांड समाज के भौतिक विकास, वास्तुशिल्प और सांस्कृतिक स्वरूप को उद्घाटित करते हैं[cite: 2]। मृद्भांड विभिन्न ऐतिहासिक कालखंडों की पहचान हेतु प्रमुख पुरातात्विक सूचक माने जाते हैं[cite: 2]।",
+        "hinglish": "Monumental ruins, religious architecture aur pottery archaeological horizons ko date karne aur socio-economic urbanization ko understand karne ke permanent anchors hain[cite: 2]."
+      },
+      "sub_phases": [
+        {
+          "phase_name": "Monumental & Architectural Horizons",
+          "tool_badge": "Monuments",
+          "points": [
+            {
+              "label": "Pre-historic Cave Sanctuaries",
+              "en": "Bhimbetka rock shelters (Madhya Pradesh) preserve continuous sequences of parietal rock art depicting hunting, collective dancing, and daily survival mechanics of Stone Age bands[cite: 2].",
+              "hi": "प्रागैतिहासिक स्थल: भीमबेटका (मध्य प्रदेश) की गुफा चित्रकारी पाषाण युगीन मानव के शिकार और दैनिक जीवन के दृश्य प्रस्तुत करती है[cite: 2]।",
+              "hinglish": "Bhimbetka (MP) cave rock art Stone Age human bands ke communal life, hunting rituals aur subsistence activities ko illustrate karta hai[cite: 2]."
+            },
+            {
+              "label": "Proto-Historic Urban Layouts",
+              "en": "Excavated Harappan centers (Harappa, Mohenjo-Daro) exhibit sophisticated orthogonal grid planning, hydraulic drainage engineering, and standardization of structural kiln-burnt bricks[cite: 2].",
+              "hi": "हड़प्पा सभ्यता के स्थल: मोहनजोदड़ो और हड़प्पा का नगर नियोजन, सुव्यवस्थित जल निकासी और उन्नत वास्तुकला को प्रदर्शित करता है[cite: 2]।",
+              "hinglish": "Mohenjo-Daro aur Harappa ki planned grid town layouts aur advanced drainage systems first urbanization ki engineering mastery show karte hain[cite: 2]."
+            },
+            {
+              "label": "Buddhist & Brahmanical Monumental Complexes",
+              "en": "Stupas, Chaityas, and Viharas (e.g., Sanchi Stupa) chronicle religious patronage and doctrinal expansion[cite: 2]. Early structural temples (e.g., the Dashavatara temple at Deogarh, Lalitpur, UP) preserve the evolutionary birth of classical Nagara temple architecture and iconographic pantheons[cite: 2].",
+              "hi": "धार्मिक वास्तुकला: सांची जैसे स्तूप बौद्ध धर्म के प्रसार का प्रमाण हैं, जबकि देवगढ़ का दशावतार मंदिर (ललितपुर, उप्र) मंदिर वास्तुकला के क्रमिक विकास का महत्वपूर्ण साक्ष्य है[cite: 2]।",
+              "hinglish": "Sanchi Stupa Buddhist spatial design ko reflect karta hai, jabki Deogarh temple (UP) classical Gupta structural temple architecture aur iconography ka prime milestone hai[cite: 2]."
+            }
+          ]
+        },
+        {
+          "phase_name": "Pottery Stratigraphy Matrix",
+          "tool_badge": "Ceramic Horizons",
+          "points": [
+            {
+              "label": "Ochre Coloured Pottery (OCP)",
+              "en": "Associated with the early Copper Hoard Cultures and peripheral early Vedic horizon[cite: 2]. Characterized by an ochre-orange wash, highly weathered surfaces, and fragile ill-fired core fabric[cite: 2].",
+              "hi": "गेरुए रंग के मृद्भांड (OCP): ताम्र संचय संस्कृति (Copper Hoard Culture) तथा आरंभिक वैदिक काल के समकालीन[cite: 2]। यह कमजोर बनावट और गेरुए रंग के लेप वाले होते हैं[cite: 2]।",
+              "hinglish": "Ochre Coloured Pottery (OCP) Copper Hoard Culture aur early contact period se related hai, jisme weathered ochre slip dekha jata hai[cite: 2]."
+            },
+            {
+              "label": "Painted Grey Ware (PGW)",
+              "en": "Associated strictly with the Later Vedic Period and the dawn of regular Iron Age metallurgy in Northern India[cite: 2]. Distinguished by fine, well-levigated grey clay bodies painted with precise black geometric lines and swastikas[cite: 2].",
+              "hi": "चित्रित धूसर मृद्भांड (PGW): उत्तर वैदिक काल और लौह युग से संबद्ध[cite: 2]। यह महीन चिकनी मिट्टी से बने धूसर रंग के बर्तन होते हैं जिन पर काले रंग से ज्यामितीय आकृतियां चित्रित की जाती थीं[cite: 2]।",
+              "hinglish": "Painted Grey Ware (PGW) Later Vedic period aur Gangetic Iron Age settlemensts se linked hai, jisme uniform grey surface par geometric black painted patterns hote hain[cite: 2]."
+            },
+            {
+              "label": "Northern Black Polished Ware (NBPW)",
+              "en": "Associated with the Mahajanapada era, Mauryan administrative expansion, and the Second Urbanization[cite: 2]. Represents the absolute pinnacle of ancient Indian ceramic technology, possessing an ultra-glossy, mirror-like black lustrous finish signifying elite consumer status and urban surplus[cite: 2].",
+              "hi": "उत्तरी काली चमकीली परंपरा (NBPW): महाजनपद काल और मौर्य साम्राज्य से संबद्ध[cite: 2]। यह अत्यधिक चमकदार, शीशे जैसी काली पॉलिश वाले विशिष्ट बर्तन हैं जो द्वितीय नगरीकरण और उच्च तकनीकी कुशलता के प्रतीक हैं[cite: 2]।",
+              "hinglish": "Northern Black Polished Ware (NBPW) Mahajanapadas aur Mauryan Second Urbanization ka hallmark hai, jisme mirror-like black lustre milta hai[cite: 2]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "palette_id": "palette_05",
+      "badge": "Literary Records",
+      "sub_badge": "Indigenous Literature",
+      "title": "Indigenous Literary Archives: Sacred & Secular",
+      "overview": {
+        "en": "Indigenous textual sources comprise religious scripture and secular analytical literature authored within the subcontinent[cite: 2]. While religious literature yields incidental insights into societal structures and ritual worldviews, secular records furnish direct accounts of law, statecraft, administration, and dynastic history[cite: 2].",
+        "hi": "देशी साहित्यिक स्रोतों में धार्मिक ग्रंथ और धर्मनिरपेक्ष रचनाएं सम्मिलित हैं[cite: 2]। धार्मिक ग्रंथ समाज और संस्कृति का अप्रत्यक्ष चित्र प्रस्तुत करते हैं, जबकि धर्मनिरपेक्ष साहित्य शासन, विधि और इतिहास का प्रत्यक्ष साक्ष्य देते हैं[cite: 2]।",
+        "hinglish": "Indigenous literature sacred scriptures aur secular legal-administrative treaties mein partitioned hai, jo ancient social stratification aur political mechanics ko disclose karta hai[cite: 2]."
+      },
+      "sub_phases": [
+        {
+          "phase_name": "Religious Literary Corpora",
+          "tool_badge": "Sacred Corpora",
+          "points": [
+            {
+              "label": "Brahmanical Corpus",
+              "en": "Includes the 4 Vedas (Rigveda, Samaveda, Yajurveda, Atharvaveda), Brahmanas, Aranyakas, Upanishads, Epics (Ramayana, Mahabharata), Dharmashastras/Smritis, and the 18 major Puranas[cite: 2]. While theological, the Puranas preserve royal genealogies (Vamsanucharita) invaluable for reconstructing Mauryan, Sunga, Kanva, Andhra/Satavahana, and Gupta dynastic lines[cite: 2].",
+              "hi": "ब्राह्मण (हिंदू) साहित्य: वेद, उपनिषद, आरण्यक, पुराण, रामायण, महाभारत और स्मृतियां[cite: 2]। पुराणों में विभिन्न राजवंशों की वंशावलियां प्राप्त होती हैं जो राजनीतिक इतिहास के पुनर्निर्माण में सहायक हैं[cite: 2]।",
+              "hinglish": "Vedas, Upanishads aur major Puranas theological texts hain, lekin Puranic royal genealogies ancient dynasties ki chronology establish karne mein critical hain[cite: 2]."
+            },
+            {
+              "label": "Buddhist Canon & Chronicles",
+              "en": "Preserved in Pali within the Tripitakas: Vinaya Pitaka (monastic discipline rules), Sutta Pitaka (Buddha's discourses), and Abhidhamma Pitaka (philosophical-metaphysical analysis)[cite: 2]. Jataka tales (500+ stories of Buddha's previous births) depict vivid socio-economic conditions, guild trade, and folklore[cite: 2]. Sri Lankan chronicles, the Dipavamsa and Mahavamsa, provide essential cross-corroboration for Ashoka's life and Buddhist missions[cite: 2].",
+              "hi": "बौद्ध साहित्य: पालि भाषा में रचित त्रिपिटक (विनय, सुत्त, अभिधम्म)[cite: 2]। जातक कथाएं बुद्ध के पूर्व जन्मों के माध्यम से तत्कालीन सामाजिक-आर्थिक स्थिति को उजागर करती हैं[cite: 2]। दीपवंश और महावंश जैसे श्रीलंकाई इतिवृत्त अशोक के इतिहास के मुख्य स्रोत हैं[cite: 2]।",
+              "hinglish": "Pali Tripitakas aur Jataka tales Buddhist monasticism aur 6th century BC socio-economic reality show karte hain, jabki Dipavamsa-Mahavamsa Ashoka ke foreign missions ko document karte hain[cite: 2]."
+            },
+            {
+              "label": "Jain Agamas",
+              "en": "Composed in Ardhamagadhi Prakrit[cite: 2]. Texts such as the Acharanga Sutra, Kalpa Sutra (Bhadrabahu), and Parishishtaparvan (Hemachandra) provide critical information on Mahavira's life, Jain monastic codes, and Chandragupta Maurya's later life[cite: 2].",
+              "hi": "जैन साहित्य: प्राकृत भाषा में लिखे गए 'आगम' ग्रंथ, जो महावीर स्वामी के उपदेशों, जैन भिक्षु आचार और तत्कालीन व्यापारिक गतिविधियों का वर्णन करते हैं[cite: 2]।",
+              "hinglish": "Prakrit Jain Agamas Mahavira's philosophical principles, monastic rules aur urban merchant patronage patterns ko record karte hain[cite: 2]."
+            }
+          ]
+        },
+        {
+          "phase_name": "Secular, Legal & Creative Compositions",
+          "tool_badge": "Secular Corpora",
+          "points": [
+            {
+              "label": "Dharmashastras & Legal Treatises",
+              "en": "Societal legal compendia such as Manusmriti, Yajnavalkya Smriti, and Narada Smriti codify Varna duties, inheritance rights, criminal penalties, and civil jurisdiction[cite: 2].",
+              "hi": "धर्मशास्त्र: मनुस्मृति जैसे विधि ग्रंथ, जो समाज के विभिन्न वर्गों के कर्तव्यों, कानूनों और वर्णाश्रम धर्म को संहिताबद्ध करते हैं[cite: 2]।",
+              "hinglish": "Manusmriti jaise legal Dharmashastras social order, civil laws, varna duties aur jurisprudence ko define karte hain[cite: 2]."
+            },
+            {
+              "label": "Kautilya's Arthashastra",
+              "en": "A profound, pragmatic Sanskrit treatise on statecraft, espionage, economic mobilization, taxation, and the Saptanga theory of sovereign power during the Mauryan empire[cite: 2].",
+              "hi": "कौटिल्य का अर्थशास्त्र: मौर्यकालीन शासन व्यवस्था, राजनीति, कराधान और सैन्य रणनीति पर संस्कृत का एक बेजोड़ और प्रमाणिक ग्रंथ[cite: 2]।",
+              "hinglish": "Kautilya ka Arthashastra ancient Indian statecraft, intelligence networks, public finance aur geopolitical diplomacy ka foundational work hai[cite: 2]."
+            },
+            {
+              "label": "Kalhana's Rajatarangini (River of Kings)",
+              "en": "Composed in 12th century AD in Sanskrit, chronicling the dynastic history of Kashmir[cite: 2]. Regarded by modern historiography as the first true, objective, and scientifically critical work of history in ancient India, consulting previous inscriptions, charters, and coins[cite: 2].",
+              "hi": "कल्हण की राजतरंगिणी: कश्मीर के इतिहास पर आधारित 12वीं शताब्दी की रचना[cite: 2]। इसे भारत का पहला वैज्ञानिक और निष्पक्ष ऐतिहासिक ग्रंथ माना जाता है[cite: 2]।",
+              "hinglish": "Kalhana ki Rajatarangini Kashmir ki chronology trace karti hai aur ise India ka first scientific, evidence-critical historical text maana jata hai[cite: 2]."
+            },
+            {
+              "label": "Biographical & Courtly Works",
+              "en": "Banabhatta's Harshacharita (celebrated Sanskrit biographical prose of Emperor Harshavardhana)[cite: 2].",
+              "hi": "दरबारी एवं जीवनी साहित्य: बाणभट्ट द्वारा रचित 'हर्षचरित' (सम्राट हर्षवर्धन की जीवनी)[cite: 2]।",
+              "hinglish": "Banabhatta ka Harshacharita 7th-century Pushyabhuti administration aur royal court dynamics ko depict karta hai[cite: 2]."
+            },
+            {
+              "label": "Early Dravidian Sangam Literature",
+              "en": "The earliest classical literature of South India, composed in ancient Tamil during assemblies (Sangams) in Madurai[cite: 2]. Anthologies like Ettuthokai and Pattupattu provide invaluable primary evidence on the political history, war, romantic chivalry, and maritime commerce of the Chera, Chola, and Pandya kingdoms[cite: 2].",
+              "hi": "संगम साहित्य: प्राचीन तमिल भाषा में रचित दक्षिण भारत का सबसे प्राचीन साहित्य[cite: 2]। यह चेर, चोल और पाण्ड्य राजाओं के प्रशासन, युद्ध और समृद्ध समुद्री व्यापार की अनमोल जानकारी देता है[cite: 2]।",
+              "hinglish": "Tamil Sangam corpus ancient South Indian Chera-Chola-Pandya kingdoms, agrarian ecosystems aur Roman maritime trade ka richest textual record hai[cite: 2]."
+            },
+            {
+              "label": "Creative Dramatic Works",
+              "en": "Masterpieces by classical dramatists like Kalidasa (Abhijnanashakuntalam, Meghaduta, Malavikagnimitram) and Vishakhadatta (Mudrarakshasa) illuminating socio-cultural lifeways, gender roles, court intrigue, and urban culture during Gupta and Post-Gupta eras[cite: 2].",
+              "hi": "नाट्य एवं काव्य: कालिदास की रचनाएं (अभिज्ञानशाकुंतलम) तथा विशाखदत्त की कृतियां, जो गुप्तकालीन सामाजिक और दरबारी जीवन की झलक दिखाती हैं[cite: 2]।",
+              "hinglish": "Kalidasa ke creative dramas aur Vishakhadatta ka Mudrarakshasa Gupta period ke refined culture aur high-politics ke mirrors hain[cite: 2]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "palette_id": "palette_06",
+      "badge": "External Accounts",
+      "sub_badge": "Foreign Chroniclers",
+      "title": "Foreign Travelogues: Classical, Chinese & Arab",
+      "overview": {
+        "en": "Accounts authored by foreign diplomats, religious pilgrims, and merchants are uniquely crucial because they provide an external, outsider perspective on socio-economic reality, unburdened by internal domestic court obligations or varna-caste biases[cite: 2].",
+        "hi": "विदेशी यात्रियों, राजदूतों और व्यापारियों के यात्रा वृत्तांत इतिहास लेखन में अत्यंत महत्वपूर्ण हैं क्योंकि वे भारतीय समाज का निष्पक्ष बाहरी दृष्टिकोण प्रस्तुत करते हैं[cite: 2]।",
+        "hinglish": "Foreign travelogues impartial observation provide karte hain, jo Indian internal caste/court orthodoxies se independent observation record karte the[cite: 2]."
+      },
+      "sub_phases": [
+        {
+          "phase_name": "Graeco-Roman Classical Records",
+          "tool_badge": "Mediterranean",
+          "points": [
+            {
+              "label": "Megasthenes ('Indica')",
+              "en": "Seleucid ambassador sent to the Pataliputra court of Chandragupta Maurya[cite: 2]. Although his original manuscript is lost, extended excerpts survive in writings of Arrian, Strabo, and Diodorus[cite: 2]. Describes the 7-class division of Indian society, municipal committee administration of Pataliputra, and the absence of chattel slavery as understood in Greece[cite: 2].",
+              "hi": "मेगस्थनीज ('इण्डिका'): चंद्रगुप्त मौर्य के दरबार में सेल्यूकस का यूनानी राजदूत[cite: 2]। इसने मौर्यकालीन प्रशासन, पाटलिपुत्र नगर व्यवस्था और समाज के 7 वर्गों का विस्तृत वर्णन किया[cite: 2]।",
+              "hinglish": "Megasthenes ne Indica mein Pataliputra municipal board system, Mauryan military board administration aur 7-tier societal structure mention kiya[cite: 2]."
+            },
+            {
+              "label": "The Periplus of the Erythraean Sea (c. 80 AD)",
+              "en": "Composed by an anonymous Greek navigator exploring the Red Sea, Arabian Sea, and Indian Ocean[cite: 2]. Provides an extraordinary empirical gazetteer of ancient Indian ports (Barygaza/Bharuch, Muziris, Arikamedu), trade routes, commodities, and commercial exchange balances with the Roman Empire[cite: 2].",
+              "hi": "पेरिप्लस ऑफ द एरिथ्रियन सी (लगभग 80 ईस्वी): एक अज्ञात यूनानी नाविक द्वारा रचित[cite: 2]। यह भारतीय बंदरगाहों (जैसे भड़ौच, मुज़िरिस) और रोम साम्राज्य के साथ समुद्री व्यापार का सटीक विवरण देता है[cite: 2]।",
+              "hinglish": "Periplus ek anonymous merchant guide hai jo Indo-Roman maritime sea routes, active ports aur export items (spices, textiles) ko map karti hai[cite: 2]."
+            },
+            {
+              "label": "Ptolemy's 'Geography' & Pliny's 'Naturalis Historia'",
+              "en": "Ptolemy documented early geopolitical geography and cartography of India[cite: 2]. Pliny (1st century AD) famously lamented the enormous annual drain of Roman gold into India in exchange for luxury goods like spices and silk[cite: 2].",
+              "hi": "टॉलमी ('जियोग्राफी') तथा प्लिनी ('नेचुरल हिस्टोरिका'): टॉलमी ने भारत का भौगोलिक वर्णन किया, जबकि प्लिनी ने भारत द्वारा रोम के स्वर्ण भंडार को सोखने पर चिंता व्यक्त की[cite: 2]।",
+              "hinglish": "Ptolemy ne India ki scientific geography record ki, jabki Pliny ne Roman bullion ke Indian spices ke badle outflow par grief express kiya[cite: 2]."
+            }
+          ]
+        },
+        {
+          "phase_name": "Chinese Buddhist Pilgrim Travelogues",
+          "tool_badge": "Pilgrims",
+          "points": [
+            {
+              "label": "Fa-Hien (Faxian: Early 5th Century AD)",
+              "en": "Traveled on foot across Central Asia into Northern India during the reign of Gupta Emperor Chandragupta II Vikramaditya to collect authentic Vinaya monastic texts[cite: 2]. Left records documenting a peaceful society, mild penal code without capital punishment, vegetarianism, and the tragic isolation of Chandalas[cite: 2].",
+              "hi": "फाह्यान: चंद्रगुप्त द्वितीय 'विक्रमादित्य' के समय भारत आया[cite: 2]। बौद्ध धर्मग्रंथों की खोज में आए फाह्यान ने गुप्तकालीन समाज की शांति, अहिंसा और चांडालों की स्थिति का उल्लेख किया[cite: 2]।",
+              "hinglish": "Fa-Hien Gupta ruler Chandragupta II ke time aaya tha; usne pure monastic culture, peaceful administration aur untouchables ki status record ki[cite: 2]."
+            },
+            {
+              "label": "Hiuen-Tsang (Xuanzang: 7th Century AD)",
+              "en": "Known as the 'Prince of Pilgrims'[cite: 2]. Visited India during the reign of King Harshavardhana of Kannauj[cite: 2]. Studied at Nalanda Mahavihara under Abbot Shilabhadra, attended Harsha's Kannauj Assembly and Prayag Maha-Moksha-Parishad[cite: 2]. His travelogue, 'Si-Yu-Ki' (Buddhist Records of the Western World), serves as an indispensable primary encyclopedia for 7th-century politics, urban decline, feudalization, and Buddhism[cite: 2].",
+              "hi": "ह्वेनसांग (युवान च्वांग): 'यात्रियों का राजकुमार', जो सम्राट हर्षवर्धन के काल में भारत आया[cite: 2]। इसकी प्रसिद्ध रचना 'सी-यू-की' (Si-Yu-Ki) नालंदा विश्वविद्यालय, कन्नौज सभा तथा 7वीं सदी के भारत की राजनीतिक-सामाजिक स्थिति का विस्तृत दर्पण है[cite: 2]।",
+              "hinglish": "Hiuen-Tsang Harsha ke court mein raha, Nalanda mein padhai ki, aur apni book 'Si-Yu-Ki' mein 7th-century Indian administration aur education system describe kiya[cite: 2]."
+            },
+            {
+              "label": "I-Tsing (Yijing: Late 7th Century AD)",
+              "en": "Arrived via maritime sea route decades after Hiuen-Tsang[cite: 2]. Resided at Nalanda for over a decade, producing detailed monographs on Buddhist monastic codes, curriculum, rules of hygiene, and food habits of monks[cite: 2].",
+              "hi": "इत्सिंग: ह्वेनसांग के बाद समुद्री मार्ग से भारत आया[cite: 2]। इसने नालंदा विश्वविद्यालय में रहकर बौद्ध विहारों के दैनिक आचरण, अध्ययन और भिक्षुओं की जीवनचर्या पर विस्तृत ग्रंथ लिखे[cite: 2]।",
+              "hinglish": "I-Tsing ne Nalanda mein stay karke Buddhist monastery governance, hygiene rituals aur curriculum patterns ko detail mein compile kiya[cite: 2]."
+            }
+          ]
+        },
+        {
+          "phase_name": "Arab Geographers & Polymaths",
+          "tool_badge": "Medieval Link",
+          "points": [
+            {
+              "label": "Al-Biruni ('Kitab-ul-Hind' / 'Tahqiq-i-Hind')",
+              "en": "Persian polymath who accompanied Mahmud of Ghazni in the early 11th century[cite: 2]. Learned Sanskrit, studied the Bhagavad Gita, Puranas, and Patanjali's Yoga Sutras[cite: 2]. Composed a deeply scientific, objective, and sociological dissection of Indian astronomy, mathematics, caste orthodoxy, idol worship, philosophy, and legal systems[cite: 2].",
+              "hi": "अल-बरूनी ('किताब-उल-हिंद'): 11वीं सदी में भारत आया[cite: 2]। इसने संस्कृत सीखी और भारतीय धर्म, विज्ञान, ज्योतिष, जाति व्यवस्था और दर्शन का अत्यंत निष्पक्ष एवं वैज्ञानिक विश्लेषण प्रस्तुत किया[cite: 2]।",
+              "hinglish": "Al-Biruni ne 'Kitab-ul-Hind' mein Indian science, religion, caste rules aur astronomy ka scientific and critical review write-up document kiya[cite: 2]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "palette_id": "palette_07",
+      "badge": "Terminology",
+      "sub_badge": "Sources 1.1",
+      "title": "Lexicon of Historical Methodologies",
+      "overview": {
+        "en": "Rigorous mastery over specialized academic terminology is essential for clearing competitive examination conceptual questions and elimination traps[cite: 2].",
+        "hi": "इतिहास लेखन से संबंधित विशिष्ट पारिभाषिक शब्दावली का ज्ञान परीक्षा में अवधारणात्मक प्रश्नों को हल करने के लिए अपरिहार्य है[cite: 2]।",
+        "hinglish": "Historical methodology ke technical key-terms prelims statements decode karne aur conceptual traps eliminate karne ke liye compulsory hain[cite: 2]."
+      },
+      "sub_phases": [
+        {
+          "phase_name": "Core Technical Lexicon",
+          "tool_badge": "Terminology",
+          "points": [
+            {
+              "label": "Epigraphy",
+              "en": "The scientific discipline of identifying, deciphering, analyzing, and classifying inscriptions or epigraphs on hard surfaces (stone, copper plates, pillars) according to dates and cultural contexts[cite: 2]. Example: Deciphering the Ashokan Minor Rock Edicts to track administrative boundaries[cite: 2].",
+              "hi": "पुरालेखशास्त्र (Epigraphy): कठोर सतहों पर उत्कीर्ण अभिलेखों के अर्थ, कालक्रम और संदर्भ का वैज्ञानिक अध्ययन[cite: 2]। उदाहरण: मौर्य नीतियों को समझने हेतु अशोक के अभिलेखों का विश्लेषण[cite: 2]।",
+              "hinglish": "Inscriptions ki scientific identification, dating aur contextual reading ki science ko Epigraphy bolte hain[cite: 2]."
+            },
+            {
+              "label": "Numismatics",
+              "en": "The systematic study or collection of monetary instruments, including coins, tokens, paper money, and related bullion dies[cite: 2]. Example: Analyzing the debasement of gold in Skandagupta's coins to diagnose fiscal crisis[cite: 2].",
+              "hi": "मुद्राशास्त्र (Numismatics): सिक्कों और अन्य मौद्रिक माध्यमों का अध्ययन[cite: 2]। उदाहरण: गुप्तकालीन स्वर्ण सिक्कों के धातु परीक्षण से तत्कालीन आर्थिक स्वास्थ्य का आकलन[cite: 2]।",
+              "hinglish": "Coins aur currency artifacts ke study aur metallic analysis ko Numismatics bolte hain[cite: 2]."
+            },
+            {
+              "label": "Paleography",
+              "en": "The scientific study of ancient and historic handwriting, letterforms, and decipherment of historical scripts and manuscripts over chronological horizons[cite: 2]. Example: James Prinsep's tracking of Brahmi letter glyphs across centuries[cite: 2].",
+              "hi": "पुरातन लिपि शास्त्र (Paleography): प्राचीन काल के हस्तलेखों और लिपियों के स्वरूप के विकास का ऐतिहासिक अध्ययन[cite: 2]। उदाहरण: जेम्स प्रिंसेप द्वारा प्राचीन ब्राह्मी अक्षरों के स्वरूप का अध्ययन[cite: 2]।",
+              "hinglish": "Ancient scripts aur letterforms ke handwriting development aur deciphering process ko Paleography kehte hain[cite: 2]."
+            },
+            {
+              "label": "Prashasti",
+              "en": "A Sanskrit technical term for a royal panegyric, eulogy, or formal inscription composed by court poets specifically to praise the valor, genealogy, conquests, and pious virtues of their royal patrons[cite: 2]. Example: Harisena's Prayag Prashasti on Samudragupta[cite: 2].",
+              "hi": "प्रशस्ति (Prashasti): राजा या उसके पूर्वजों की प्रशंसा में दरबारी कवियों द्वारा रचे गए औपचारिक अभिलेख[cite: 2]। उदाहरण: समुद्रगुप्त की प्रशंसा में रचित प्रयाग प्रशस्ति[cite: 2]।",
+              "hinglish": "Court poets dwara apne patron kings ki victories aur genealogy ki tareef mein likhi gayi formal eulogy ko Prashasti kehte hain[cite: 2]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "palette_id": "palette_08",
+      "badge": "Pre-History",
+      "sub_badge": "Stone Age 1.2",
+      "title": "The Dawn of Humanity: Pre-historic Frameworks",
+      "overview": {
+        "en": "The Pre-historic era designates the vast phase of human history prior to the invention of reading and writing[cite: 3]. Human history in this era is reconstructed entirely through material archaeological remains: lithic (stone) tools, fossilized skeletal remains, and habitation debris[cite: 3]. The Stone Age is classified into three grand epochs—Palaeolithic, Mesolithic, and Neolithic—based on the technological evolution and typology of lithic implements[cite: 3].",
+        "hi": "प्रागैतिहासिक काल मानव इतिहास का वह लंबा दौर है जब लेखन कला का आविष्कार नहीं हुआ था[cite: 3]। इसका ज्ञान पूर्णतः पुरातात्विक साक्ष्यों—पत्थर के औजारों, अस्थियों और बस्तियों के अवशेषों पर आधारित है[cite: 3]। प्रयुक्त पाषाण उपकरणों के स्वरूप और तकनीक के आधार पर इसे तीन कालों में बांटा गया है: पुरापाषाण काल, मध्यपाषाण काल और नवपाषाण काल[cite: 3]।",
+        "hinglish": "Pre-historic period writing technology ke invention se pehle ka span hai jiska knowledge completely archaeological lithic artifacts aur skeletal remains se derive hota hai[cite: 3]. Tool technology ke base par ise Palaeolithic, Mesolithic aur Neolithic mein classify karte hain[cite: 3]."
+      },
+      "sub_phases": [
+        {
+          "phase_name": "Palaeolithic Subsistence & Life",
+          "tool_badge": "Old Stone Age",
+          "points": [
+            {
+              "label": "Chronological Span & Economy",
+              "en": "The Palaeolithic Age (c. 500,000 BC – 10,000 BC) encompasses the Pleistocene geological epoch (Ice Age)[cite: 3]. Human groups lived as obligate nomadic hunter-gatherers, consuming wild game, roots, and berries[cite: 3]. They possessed zero knowledge of agriculture, animal domestication, or pottery manufacture, finding shelter in natural rock caves and overhangs[cite: 3].",
+              "hi": "पुरापाषाण काल (लगभग 5,00,000 ई.पू. - 10,000 ई.पू.): मानव इतिहास का सबसे लंबा काल[cite: 3]। इस काल का मानव घुमंतू शिकारी और खाद्य-संग्राहक (Hunter-Gatherer) था, जिसे कृषि, पशुपालन या मृद्भांड निर्माण का कोई ज्ञान नहीं था[cite: 3]।",
+              "hinglish": "Palaeolithic era Ice Age ke dauran chala jahan insaan strictly nomadic hunter-gatherer bankar natural caves mein rehta tha; agriculture ya pottery ka absolute zero existence tha[cite: 3]."
+            },
+            {
+              "label": "Mastery of Fire",
+              "en": "The discovery and deliberate harnessing of fire stands as the paramount transformative technological leap of the Palaeolithic age, providing warmth in glacial climates, protection against apex predators, and cooked nutrition[cite: 3].",
+              "hi": "अग्नि का आविष्कार: पुरापाषाण काल की सबसे क्रांतिकारी उपलब्धि थी, जिसने शीत ऋतु से सुरक्षा, हिंसक पशुओं से बचाव और भोजन पकाने का मार्ग खोला[cite: 3]।",
+              "hinglish": "Fire ka discovery Palaeolithic age ka turning point tha, jisne predatory protection aur cooked diet enable kiya[cite: 3]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "palette_id": "palette_09",
+      "badge": "Palaeolithic",
+      "sub_badge": "Lower Palaeolithic",
+      "title": "Lower Palaeolithic: Core Tools & Quartzite Men",
+      "overview": {
+        "en": "The Lower Palaeolithic horizon (c. 500,000 BC – 50,000 BC) forms the opening chapter of human industry, distinguished by the fashioning of massive, unpolished core lithics struck from river pebbles[cite: 3].",
+        "hi": "निम्न पुरापाषाण काल (लगभग 5,00,000 - 50,000 ई.पू.): यह मानव औजार निर्माण की आरंभिक अवस्था है, जो भारी और अनगढ़ क्रोड (Core) उपकरणों द्वारा चिन्हित होती है[cite: 3]।",
+        "hinglish": "Lower Palaeolithic horizon massive raw core tools aur heavy pebble tools ka era tha, jahan tool surface par koi polish nahi hoti thi[cite: 3]."
+      },
+      "sub_phases": [
+        {
+          "phase_name": "Typology, Material & Spatial Horizons",
+          "tool_badge": "Core Tools",
+          "points": [
+            {
+              "label": "Lithic Typology",
+              "en": "Characterized by heavy, unpolished core implements designed for rough chopping, crushing, and digging: Hand-axes (Bifaces), Cleavers, and Choppers[cite: 3].",
+              "hi": "उपकरण प्रारूप: हस्तकुठार (Hand-axes), विदारणी (Cleavers), और खंडक (Choppers) जैसे भारी और खुरदरे कोर औजार प्रयुक्त होते थे[cite: 3]।",
+              "hinglish": "Lower Palaeolithic tool kit mein heavy core tools the jaise hand-axes, cleavers aur choppers[cite: 3]."
+            },
+            {
+              "label": "Quartzite Men Phenomenon",
+              "en": "Tools were predominantly fashioned from extremely hard, metamorphic quartzite rock; hence, early hominid populations of this horizon in India are historically designated as 'Quartzite Men'[cite: 3].",
+              "hi": "क्वार्टजाइट मैन (Quartzite Men): औजार मुख्यतः अत्यंत कठोर 'क्वार्टजाइट' पत्थर से बनाए जाते थे, इसी कारण पुरापाषाण कालीन मानव को भारत में 'क्वार्टजाइट मैन' भी कहा जाता है[cite: 3]।",
+              "hinglish": "Raw material predominantly hard metamorphic Quartzite stone tha, isiliye early humans ko historically 'Quartzite Men' kehte hain[cite: 3]."
+            },
+            {
+              "label": "Soan Valley Complex (Punjab, Pakistan)",
+              "en": "Located along the Soan River basin; world-famous for its Pebble tool tradition, especially Chopper-Chopping tools[cite: 3].",
+              "hi": "सोहन नदी घाटी (वर्तमान पाकिस्तान): यह चापर-चॉपिंग और पेबुल (बटिकाश्म) परंपरा के औजारों के लिए विख्यात है[cite: 3]।",
+              "hinglish": "Soan Valley pebble industry aur Chopper-Chopping core traditions ke liye internationally famous Lower Palaeolithic site hai[cite: 3]."
+            },
+            {
+              "label": "Belan Valley Complex (Mirzapur, UP)",
+              "en": "A monumental stratigraphic site providing an unbroken, continuous cultural sequence demonstrating evolution from Lower Palaeolithic through Middle and Upper Palaeolithic, directly into the Mesolithic and Neolithic horizons[cite: 3].",
+              "hi": "बेलन घाटी (मिर्जापुर, उत्तर प्रदेश): अत्यंत महत्वपूर्ण स्थल, जहां निम्न पुरापाषाण काल से लेकर नवपाषाण काल तक का निरंतर सांस्कृतिक अनुक्रम प्राप्त होता है[cite: 3]।",
+              "hinglish": "Belan Valley (Mirzapur, UP) complete continuous stratigraphy show karti hai—Lower Palaeolithic se lekar Neolithic tak continuous human sequence[cite: 3]."
+            },
+            {
+              "label": "Bhimbetka Cave Shelters (Raisen, MP)",
+              "en": "Famous for natural quartzite rock shelters exhibiting early human occupation traces and basal levels of parietal art[cite: 3].",
+              "hi": "भीमबेटका (मध्य प्रदेश): प्राकृतिक शैल आश्रयों और प्राचीनतम गुफा आवासों के लिए प्रसिद्ध[cite: 3]।",
+              "hinglish": "Bhimbetka (MP) ke rock shelters early human bands ke natural caves aur habitation floors preserve karte hain[cite: 3]."
+            },
+            {
+              "label": "Attirampakkam (Kortallayar Basin, Tamil Nadu)",
+              "en": "Yields some of the absolute earliest Acheulian bifacial hand-axe stone tools in South Asia, dating back well over a million years[cite: 3].",
+              "hi": "अत्तिरम्पक्कम (तमिलनाडु): दक्षिण एशिया में प्राचीनतम पाषाण औजारों (एश्यूलियन हस्तकुठार) के प्रमुख स्थलों में से एक[cite: 3]।",
+              "hinglish": "Attirampakkam (Tamil Nadu) South Asia ki oldest Acheulian hand-axe industries represent karta hai[cite: 3]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "palette_id": "palette_10",
+      "badge": "Palaeolithic",
+      "sub_badge": "Middle Palaeolithic",
+      "title": "Middle Palaeolithic: The Flake Tool Revolution",
+      "overview": {
+        "en": "The Middle Palaeolithic horizon (c. 50,000 BC – 40,000 BC) represents a decisive technological pivot from heavy core implements to specialized, lightweight tools manufactured from knocked-off stone flakes[cite: 3].",
+        "hi": "मध्य पुरापाषाण काल (लगभग 50,000 - 40,000 ई.पू.): यह भारी कोर औजारों के स्थान पर पत्थर के 'शल्क' (Flakes) से बने हल्के और धारदार औजारों के उपयोग का काल है[cite: 3]।",
+        "hinglish": "Middle Palaeolithic mein lithic technology shift hui: heavy stone cores ke bajaye core se strike kiye gaye sharp flakes se customized tools banne lage[cite: 3]."
+      },
+      "sub_phases": [
+        {
+          "phase_name": "Nevasan Flake Industry & Petrography",
+          "tool_badge": "Flake Tools",
+          "points": [
+            {
+              "label": "Tool Kit Evolution",
+              "en": "Characterized by specialized flake tools: Scrapers (for dressing hides and scraping wood), Borers/Awls (for punching perforations), and sharp Points[cite: 3]. Known archaeologically as the Nevasan Industry after the type-site Nevasa (Maharashtra)[cite: 3].",
+              "hi": "उपकरण विविधता: स्क्रेपर (खुरचनी), बोरर (वेधनी), और प्वाइंट्स (तीर के नुकीले सिरे)[cite: 3]। यह शल्क-आधारित तकनीक थी जिसे नेवासा (महाराष्ट्र) के नाम पर नेवासन उद्योग भी कहा जाता है[cite: 3]।",
+              "hinglish": "Scrapers, Borers aur sharp Points jaise specialized lightweight tools bane jo hide scraping aur piercing tasks ke liye the[cite: 3]."
+            },
+            {
+              "label": "Petrological Raw Material Shift",
+              "en": "In addition to coarse quartzite, hominids systematically exploited fine-grained cryptocrystalline siliceous stones: Chert, Jasper, Agate, and Chalcedony, enabling razor-sharp working edges[cite: 3].",
+              "hi": "कच्चा माल: क्वार्टजाइट के साथ-साथ अब चर्ट (Chert) और जैस्पर (Jasper) जैसे सूक्ष्म-कणों वाले चिकने पत्थरों का व्यापक उपयोग होने लगा[cite: 3]।",
+              "hinglish": "Coarse quartzite ke alawa Chert, Jasper aur Chalcedony jaise fine-grained minerals adopt kiye gaye jisse sharper edges produce hui[cite: 3]."
+            },
+            {
+              "label": "Key Geographic Horizons",
+              "en": "Sites widely distributed along the Narmada River Valley, Tungabhadra River Valley, and the Potwar Plateau[cite: 3].",
+              "hi": "प्रमुख स्थल: नर्मदा नदी घाटी, तुंगभद्रा नदी घाटी, तथा पोटवार का पठार[cite: 3]।",
+              "hinglish": "Narmada Valley, Tungabhadra drainage aur Potwar plateau is phase ke prime clusters hain[cite: 3]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "palette_id": "palette_11",
+      "badge": "Palaeolithic",
+      "sub_badge": "Upper Palaeolithic",
+      "title": "Upper Palaeolithic: Homo Sapiens, Blades & Art",
+      "overview": {
+        "en": "The Upper Palaeolithic horizon (c. 40,000 BC – 10,000 BC) coincides with the terminal phase of the Pleistocene Ice Age[cite: 3]. The climate shifted toward progressive warming and aridity, accompanied by biological and technological milestones: the emergence of anatomically modern humans (Homo sapiens), blade-burin industries, bone tool manufacture, and the birth of parietal cave art[cite: 3].",
+        "hi": "उच्च पुरापाषाण काल (लगभग 40,000 - 10,000 ई.पू.): यह हिमयुग का अंतिम चरण था जब जलवायु तुलनात्मक रूप से गर्म होने लगी थी[cite: 3]। आधुनिक मानव (होमो सेपियन्स) का प्रादुर्भाव, समानांतर ब्लेड औजार, हड्डी के उपकरण तथा गुफा चित्रकला का आरंभ इस काल की प्रमुख विशेषताएं हैं[cite: 3]।",
+        "hinglish": "Upper Palaeolithic Ice Age ka last phase tha jahan climate warmer hone laga[cite: 3]. Homo sapiens ka arrival, parallel blade technology, bone tools aur Bhimbetka cave paintings is era ke main hallmarks hain[cite: 3]."
+      },
+      "sub_phases": [
+        {
+          "phase_name": "Technological & Cognitive Breakthroughs",
+          "tool_badge": "Blade & Burin",
+          "points": [
+            {
+              "label": "Blade and Burin Industry",
+              "en": "Production of long, parallel-sided slender flint blades struck from prepared prismatic cores[cite: 3]. Specialized chiseling tools known as Burins were created to carve wood, bone, and antlers[cite: 3].",
+              "hi": "ब्लेड और ब्यूरिन उद्योग: लंबे, समानांतर किनारों वाले तीक्ष्ण ब्लेड और उत्कीर्णन हेतु छेनी के समान ब्यूरिन (Burins) का निर्माण[cite: 3]।",
+              "hinglish": "Prismatic core se long parallel-sided razor blades aur engraving ke liye burins manufacture kiye gaye[cite: 3]."
+            },
+            {
+              "label": "Bone Tool Manufacture",
+              "en": "Systematic utilization of animal bones, horns, and ivory to craft needles, harpoons, and points alongside stone implements[cite: 3].",
+              "hi": "हड्डी के उपकरण: पत्थरों के साथ-साथ पशुओं की हड्डियों और सींगों से बने सुई, भाले और औजारों का व्यापक प्रयोग[cite: 3]।",
+              "hinglish": "Lithics ke sath animal bones aur antlers se specialized bone implements aur needles craft hone lage[cite: 3]."
+            },
+            {
+              "label": "Key Sites Matrix",
+              "en": "Belan Valley (UP), Chota Nagpur Plateau (Jharkhand), and Kurnool Caves (Andhra Pradesh)[cite: 3]. Crucially, Kurnool Caves yielded clear evidence of stratified ash and charcoal, confirming the mastery and controlled indoor domestic use of fire[cite: 3].",
+              "hi": "प्रमुख स्थल: बेलन घाटी (उप्र), छोटानागपुर पठार (झारखंड) और कुरनूल की गुफाएं (आंध्र प्रदेश)[cite: 3]। विशेष रूप से कुरनूल की गुफाओं में राख के साक्ष्य मिले हैं, जो अग्नि के नियमित उपयोग को प्रमाणित करते हैं[cite: 3]।",
+              "hinglish": "Belan Valley, Chota Nagpur plateau aur Kurnool Caves (AP) key sites hain[cite: 3]. Kurnool caves mein excavated ash layers fire ke controlled domestic usage ko authenticate karti hain[cite: 3]."
+            },
+            {
+              "label": "Dawn of Parietal Rock Art",
+              "en": "The earliest artistic expression emerged in this phase[cite: 3]. Green and dark red pigment rock paintings depicting large animals (bison, tigers, elephants) and dynamic hunting scenes at Bhimbetka (MP) belong to the terminal Upper Palaeolithic[cite: 3].",
+              "hi": "कला का प्रादुर्भाव: इस काल में मानव कलात्मक अभिव्यक्ति का उदय हुआ[cite: 3]। भीमबेटका में बड़े जंगली पशुओं और शिकार के दृश्यों के लाल व हरे रंग के रेखाचित्र इसी काल के हैं[cite: 3]।",
+              "hinglish": "Parietal cave art shuru hui; Bhimbetka ki earliest dynamic animal hunting cave paintings Upper Palaeolithic layer se belong karti hain[cite: 3]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "palette_id": "palette_12",
+      "badge": "Mesolithic",
+      "sub_badge": "Middle Stone Age",
+      "title": "The Mesolithic Age: Microliths & Domestic Transitions",
+      "overview": {
+        "en": "The Mesolithic Age (c. 10,000 BC – 6,000 BC) served as the vital transitional cultural bridge connecting Palaeolithic nomadic foraging with Neolithic sedentary food production[cite: 3]. It coincided with the onset of the Holocene geological epoch, bringing a warmer, drier climate, melting ice, and the proliferation of open grasslands, which altered wild game populations[cite: 3].",
+        "hi": "मध्यपाषाण काल (लगभग 10,000 - 6,000 ई.पू.): पुरापाषाण काल और नवपाषाण काल के मध्य का संक्रमण काल था[cite: 3]। होलोसीन युग के आरंभ के साथ जलवायु गर्म व शुष्क हुई, जिससे वनस्पति और जीव-जंतुओं में भारी परिवर्तन आया[cite: 3]।",
+        "hinglish": "Mesolithic period (10,000-6,000 BC) transitional bridge tha[cite: 3]. Holocene warm climate ke aane se flora aur fauna transform hue aur human foraging methods deeply alter ho gaye[cite: 3]."
+      },
+      "sub_phases": [
+        {
+          "phase_name": "Subsistence, Tools & Social Behaviors",
+          "tool_badge": "Microliths",
+          "points": [
+            {
+              "label": "Subsistence Strategy",
+              "en": "Populations engaged in hunting smaller, fleet-footed animals (deer, boar, hares) alongside extensive fishing, fowling, and gathering of wild plant grains[cite: 3].",
+              "hi": "जीवनशैली: छोटे और फुर्तीले जानवरों का शिकार, मत्स्य पालन (मछली पकड़ना) और पक्षियों का आखेट जीवन का मुख्य आधार बना[cite: 3]।",
+              "hinglish": "Hunting-gathering continue rahi lekin focus smaller agile animals, riverine fishing aur bird fowling par expand ho gaya[cite: 3]."
+            },
+            {
+              "label": "The Microlith Technology",
+              "en": "The diagnostic lithic signature of the Mesolithic is the Microlith—tiny, geometrically shaped stone blades measuring just 1 to 8 cm in length (crescents, trapezes, triangles)[cite: 3]. Microliths were rarely used standalone; they were hafted onto bone or wooden shafts using resin to construct serrated composite sickles, barbed spearheads, and arrowheads[cite: 3].",
+              "hi": "सूक्ष्म पाषाण उपकरण (Microliths): 1 से 8 सेमी आकार के अत्यंत छोटे, नुकीले और ज्यामितीय पत्थर के औजार[cite: 3]। इन्हें लकड़ी या हड्डी के हत्थों में जोड़कर तीर, भाले और दरांती जैसे संयुक्त औजार बनाए जाते थे[cite: 3]।",
+              "hinglish": "Microliths 1 se 8 cm ke tiny stone tools the jo composite weapons (arrows, harpoons, serrated sickles) mein haft kiye jaate the[cite: 3]."
+            },
+            {
+              "label": "Earliest Animal Domestication",
+              "en": "Crucial paradigm shift: the world's earliest documented archaeological evidence for the systematic domestication of animals appears in this period, notably at Adamgarh (Madhya Pradesh) and Bagor (Rajasthan)[cite: 3].",
+              "hi": "पशुपालन के प्रथम साक्ष्य: इसी काल में पशुपालन की शुरुआत हुई[cite: 3]। आदमगढ़ (मध्य प्रदेश) और बागोर (राजस्थान) से पशुपालन के प्राचीनतम साक्ष्य प्राप्त हुए हैं[cite: 3]।",
+              "hinglish": "Animal domestication ke earliest undisputed archaeological proof Adamgarh (MP) aur Bagor (Rajasthan) se Mesolithic period mein record hue[cite: 3]."
+            },
+            {
+              "label": "Intentional Human Burials",
+              "en": "The Mesolithic marks the earliest definitive emergence of structured, intentional mortuary customs and human burials[cite: 3]. Skeletons interred in excavated pits with personal grave goods (bone ornaments, shells, lithic tools) demonstrate early metaphysical concepts of an afterlife[cite: 3].",
+              "hi": "शवाधान (अंतिम संस्कार): मानव द्वारा शवों को योजनाबद्ध रूप से दफनाने के प्रथम स्पष्ट साक्ष्य[cite: 3]। कब्रों में आभूषण और उपकरण मिलना पारलौकिक विश्वास की ओर संकेत करता है[cite: 3]।",
+              "hinglish": "Human graves aur intentional burial customs Mesolithic mein establish hue, jahan dead bodies ke sath grave goods aur shell ornaments mile[cite: 3]."
+            }
+          ]
+        },
+        {
+          "phase_name": "Key Mesolithic Sites Matrix",
+          "tool_badge": "Excavated Sites",
+          "points": [
+            {
+              "label": "Bagor (Bhilwara, Rajasthan)",
+              "en": "Situated on the Kothari river; the largest, most systematically documented Mesolithic settlement in India, with extensive microlithic debris and early animal domestication strata[cite: 3].",
+              "hi": "बागोर (राजस्थान): कोठारी नदी के तट पर स्थित, भारत का सबसे बड़ा और सुव्यवस्थित मध्यपाषाण स्थल[cite: 3]।",
+              "hinglish": "Bagor (Rajasthan) India ki largest Mesolithic site hai jahan massive microlithic deposits aur animal bone assemblages excavated hue[cite: 3]."
+            },
+            {
+              "label": "Adamgarh (Hoshangabad, MP)",
+              "en": "Yields extensive microlith assemblages alongside faunal remains proving early cattle and sheep/goat domestication[cite: 3].",
+              "hi": "आदमगढ़ (मध्य प्रदेश): पशुपालन के प्रारंभिक साक्ष्य और सूक्ष्म पाषाण औजारों के लिए प्रसिद्ध[cite: 3]।",
+              "hinglish": "Adamgarh (MP) animal domestication ke early empirical evidence provide karta hai[cite: 3]."
+            },
+            {
+              "label": "Sarai Nahar Rai & Mahadaha (Pratapgarh, UP)",
+              "en": "Monumental sites displaying formal human graves, double burials (joint male-female skeletons in a single pit), microliths, hearths, and burial goods like shell necklace ornaments[cite: 3].",
+              "hi": "सराय नाहर राय एवं महदहा (प्रतापगढ़, उत्तर प्रदेश): कंकालों के योजनाबद्ध शवाधान, संयुक्त समाधियों और हड्डी/सींग के आभूषणों के लिए विख्यात[cite: 3]।",
+              "hinglish": "Sarai Nahar Rai aur Mahadaha (Pratapgarh, UP) multiple human burials, hearths aur shell ornaments ke liye landmark sites hain[cite: 3]."
+            },
+            {
+              "label": "Langhnaj (Mehsana, Gujarat)",
+              "en": "Yielded human skeletons, wild animal bones, and significant lithic processing debitage[cite: 3].",
+              "hi": "लंघनाज (गुजरात): मानव कंकालों, पशु अस्थियों और सूक्ष्म पाषाण उद्योग के लिए महत्वपूर्ण[cite: 3]।",
+              "hinglish": "Langhnaj (Gujarat) human skeletal remains aur dense microlithic layers contain karta hai[cite: 3]."
+            },
+            {
+              "label": "Bhimbetka Mesolithic Parietal Art",
+              "en": "Abundant rock art compositions depicting communal collective dancing, family interactions, fishing, birthing, and sexual scenes, painted primarily using red and white mineral pigments[cite: 3].",
+              "hi": "भीमबेटका शैल चित्र: मध्यपाषाण काल के चित्रों में सामूहिक नृत्य, शिकार, मछली पकड़ना और सामाजिक-पारिवारिक जीवन का सजीव अंकन है[cite: 3]।",
+              "hinglish": "Bhimbetka ke Mesolithic rock art panels community dance, domestic life aur collective animal hunts display karte hain[cite: 3]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "palette_id": "palette_13",
+      "badge": "Neolithic",
+      "sub_badge": "Neolithic Revolution",
+      "title": "The Neolithic Revolution: Food Production & Village Life",
+      "overview": {
+        "en": "The Neolithic Age (c. 6,000 BC – 4,000 BC) marked a fundamental transformation in human history, historically termed by V. Gordon Childe as the 'Neolithic Revolution'[cite: 3]. Human groups transitioned permanently from being predatory food-gatherers to surplus food-producers, catalyzing settled village life, population explosion, property concepts, and craft specialization[cite: 3].",
+        "hi": "नवपाषाण काल (लगभग 6,000 - 4,000 ई.पू.): मानव जीवन में युगांतरकारी परिवर्तन का काल, जिसे 'नवपाषाण कालीन क्रांति' (Neolithic Revolution) कहा जाता है[cite: 3]। मानव खाद्य-संग्राहक से 'खाद्य-उत्पादक' (किसान) बन गया[cite: 3]।",
+        "hinglish": "Neolithic period mein human society predator-gatherer se surplus food-producer ban gayi, jise Gordon Childe ne 'Neolithic Revolution' term kiya[cite: 3]."
+      },
+      "sub_phases": [
+        {
+          "phase_name": "Four Pillars of the Revolution",
+          "tool_badge": "Four Pillars",
+          "points": [
+            {
+              "label": "Pillar 1: Invention of Agriculture",
+              "en": "Deliberate planting, harvesting, and genetic selection of cereal crops: Wheat (emmer, einkorn), Barley, Rice, Ragi, and Millets[cite: 3].",
+              "hi": "कृषि का आविष्कार: गेहूं, जौ, चावल और रागी जैसी फसलों की नियमित व्यवस्थित खेती का आरंभ[cite: 3]।",
+              "hinglish": "Systematic agriculture originate hui: wheat, barley, rice aur millets cultivate hone lage[cite: 3]."
+            },
+            {
+              "label": "Pillar 2: Universal Animal Domestication",
+              "en": "Widespread pastoral penning of cattle (humped zebu), sheep, goats, and pigs for milk, meat, wool, hide, and field traction[cite: 3].",
+              "hi": "पशुपालन का विस्तार: गाय-बैल, भेड़, बकरी और सूअर का बड़े पैमाने पर दूध, मांस व कृषि कार्य हेतु पालन[cite: 3]।",
+              "hinglish": "Systematic pastoralism faili: cattle, sheep, goats draft work aur dairy needs ke liye domesticate hue[cite: 3]."
+            },
+            {
+              "label": "Pillar 3: Sedentary Village Communities",
+              "en": "The demands of agricultural crop cycles necessitated permanent habitation; wandering bands built permanent sedentary villages with circular or rectangular huts made of mud-brick, wattle, and daub[cite: 3].",
+              "hi": "स्थाई बस्तियां (Sedentary Life): फसलों की देखभाल हेतु घुमंतू जीवन समाप्त हुआ और मिट्टी-ईंटों के गोल या आयताकार स्थायी मकानों के गांवों का निर्माण हुआ[cite: 3]।",
+              "hinglish": "Crops ki irrigation aur care ke liye permanent villages construct hue; mud-brick mud houses build hone lage[cite: 3]."
+            },
+            {
+              "label": "Pillar 4: Ceramic Technology (Pottery)",
+              "en": "Surplus grain storage and cooking mandated containers[cite: 3]. Humans invented pottery—initially shaped by hand and dried in the sun, subsequently produced via the fast potter's wheel and fired in kilns[cite: 3].",
+              "hi": "मृद्भांड निर्माण (Pottery): अनाज संग्रहण और भोजन पकाने हेतु बर्तनों की आवश्यकता ने चाक पर निर्मित पक्के मिट्टी के बर्तनों के आविष्कार को जन्म दिया[cite: 3]।",
+              "hinglish": "Grain surplus preserve karne aur cooking ke liye handmade aur wheel-turned fired pottery develop hui[cite: 3]."
+            }
+          ]
+        },
+        {
+          "phase_name": "Lithic Tools: Ground & Polished Celts",
+          "tool_badge": "Polished Celts",
+          "points": [
+            {
+              "label": "Polished Stone Celts",
+              "en": "Unlike rough Palaeolithic flints, Neolithic tools were subjected to systematic pecking, grinding, and fine polishing[cite: 3]. Polished axes (celts), adzes, and chisels provided durable, razor-sharp impact edges necessary for felling dense forests, tilling soil, and deep carpentry[cite: 3].",
+              "hi": "घर्षित एवं पालिशदार पाषाण उपकरण: कुल्हाड़ियां (Celts) और बसूले पत्थर को घिसकर और पालिश करके बनाए गए, जो जंगलों की कटाई और कृषि भूमि तैयार करने में अत्यंत प्रभावी सिद्ध हुए[cite: 3]।",
+              "hinglish": "Neolithic stone tools grinded aur polished celts the, jo forest clearing aur heavy agricultural tillage facilitate karte the[cite: 3]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "palette_id": "palette_14",
+      "badge": "Neolithic Geography",
+      "sub_badge": "Key Neolithic Sites",
+      "title": "Neolithic Geography: The Subcontinental Matrix",
+      "overview": {
+        "en": "Neolithic settlements adapted innovatively across diverse regional ecologies of the Indian subcontinent, from the arid Baluchistan passes and Kashmir valleys to the Gangetic alluvium and the granite plateaus of South India[cite: 3].",
+        "hi": "नवपाषाण कालीन बस्तियों का विस्तार भारतीय उपमहाद्वीप के विभिन्न भौगोलिक क्षेत्रों में उनकी विशिष्ट पारिस्थितिकी के अनुसार हुआ[cite: 3]।",
+        "hinglish": "Neolithic communities subcontinent ke alag-alag ecological terrains (Baluchistan hills, Kashmir valleys, Gangetic basin aur Deccan) par settle hui[cite: 3]."
+      },
+      "sub_phases": [
+        {
+          "phase_name": "Regional Neolithic Archaeological Matrix",
+          "tool_badge": "Excavated Sites",
+          "points": [
+            {
+              "label": "Mehrgarh (Kachi Plain, Balochistan, Pakistan)",
+              "en": "Situated on the Bolan River/pass[cite: 3]. The earliest known agrarian Neolithic site in the Indian subcontinent (dating back c. 7000 BC)[cite: 3]. Uncovers an extraordinary continuous stratigraphic evolution from aceramic (pre-pottery) Neolithic, through mud-brick multi-room granaries, wheat and barley farming, and cattle domestication, right into the Chalcolithic and Mature Harappan urban horizon[cite: 3].",
+              "hi": "मेहरगढ़ (बलूचिस्तान, पाकिस्तान): भारतीय उपमहाद्वीप में कृषि का सबसे प्राचीन ज्ञात स्थल (लगभग 7000 ई.पू.)[cite: 3]। यहाँ से गेहूं और जौ की खेती, कच्ची ईंटों के आयताकार मकान, अन्नागार तथा हड़प्पा सभ्यता तक का अनवरत सांस्कृतिक विकास क्रम मिलता है[cite: 3]।",
+              "hinglish": "Mehrgarh (Balochistan) South Asia ki earliest farming site hai (c. 7000 BC); wheat-barley cultivation, mud-brick houses aur continuous Harappan transition preserve karta hai[cite: 3]."
+            },
+            {
+              "label": "Burzahom & Gufkral (Kashmir Valley)",
+              "en": "World-famous for unique Pit-Dwellings (underground circular/oval subterranean chambers dug into karewa soil with wooden post-holes to shield against freezing Himalayan winds)[cite: 3]. Burzahom preserves a unique, famous mortuary practice: intentional burial of domestic hunting dogs alongside their masters in the same grave pit[cite: 3]. Gufkral ('cave of the potter') preserves bone harpoons and polished stone celts[cite: 3].",
+              "hi": "बुर्जहोम एवं गुफकराल (कश्मीर): भूमिगत गड्ढा-घर (गर्त-आवास या Pit-dwellings) के लिए विख्यात[cite: 3]। बुर्जहोम में मालिक के शव के साथ उसके पालतू कुत्ते को दफनाने की अनूठी प्रथा के स्पष्ट साक्ष्य प्राप्त हुए हैं[cite: 3]।",
+              "hinglish": "Burzahom aur Gufkral pit-dwelling architecture ke liye famous hain; Burzahom mein master ke sath domestic dog burial ka unique custom excavated hua[cite: 3]."
+            },
+            {
+              "label": "Chirand (Saran, Bihar)",
+              "en": "Celebrated for its extraordinary and voluminous industry of polished tools and weapons fashioned from animal bones, particularly deer antlers, in an alluvial setting[cite: 3].",
+              "hi": "चिरांद (सारण, बिहार): गंगा घाटी का प्रमुख नवपाषाण स्थल, जो हिरण के सींगों और पशुओं की हड्डियों से बने भारी मात्रा में औजारों और हथियारों के लिए प्रसिद्ध है[cite: 3]।",
+              "hinglish": "Chirand (Bihar) bone tool technology ka major site hai jahan deer antlers se craft kiye gaye hundreds of tools mile[cite: 3]."
+            },
+            {
+              "label": "Koldihwa & Mahagara (Belan Valley, UP)",
+              "en": "Globally monumental archaeological sites yielding the earliest undisputed archaeological evidence for the systematic cultivation of domesticated rice (Oryza sativa) in the world, associated with cord-impressed pottery[cite: 3].",
+              "hi": "कोलडिहवा एवं महागड़ा (बेलन घाटी, उत्तर प्रदेश): विश्व में धान (चावल) की खेती के प्राचीनतम पुरातात्विक साक्ष्य प्रदान करने वाले वैश्विक ख्याति प्राप्त स्थल[cite: 3]।",
+              "hinglish": "Koldihwa aur Mahagara (Belan Valley, UP) world ke earliest rice cultivation evidence aur cord-impressed pottery represent karte hain[cite: 3]."
+            },
+            {
+              "label": "South Indian Neolithic Ash Mounds Complex",
+              "en": "Prominent sites in Karnataka and Tamil Nadu: Piklihal, Brahmagiri, Maski, Hallur, Tekkalakota, and Paiyampalli[cite: 3]. Distinguished by colossal Ash Mounds (Budihal, Utnur, Kupgal)—vast accumulations of vitrified white-grey ash formed by the periodic ritual burning of massive cow-dung heaps collected within seasonal pastoral cattle kraals[cite: 3]. Piklihal confirms extensive pastoralism and cattle breeding[cite: 3].",
+              "hi": "दक्षिण भारतीय स्थल एवं राख के टीले (Ash Mounds): पिकलीहल, ब्रह्मगिरि, मास्की, हल्लूर (कर्नाटक) तथा पय्यमपल्ली (तमिलनाडु)[cite: 3]। यहाँ मवेशी बाड़ों में गोबर के विशाल ढेरों के जलने से बने 'राख के टीले' (Ash Mounds) नवपाषाण कालीन चरवाहा संस्कृति के प्रतीक हैं[cite: 3]।",
+              "hinglish": "Piklihal, Maski, Brahmagiri aur Hallur jaise South Indian sites 'Ash Mounds' ke liye jane jate hain, jo accumulated cattle-dung ke seasonal ritual burnings se bane the[cite: 3]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "palette_id": "palette_15",
+      "badge": "Terminology",
+      "sub_badge": "Stone Age 1.2",
+      "title": "Lexicon of Pre-historic Anthropology",
+      "overview": {
+        "en": "Definitions of core prehistoric conceptual keywords to solidify structural clarity for civil services evaluation[cite: 3].",
+        "hi": "प्रागैतिहासिक मानव विज्ञान एवं पुरातात्विक शब्दावली की स्पष्ट परिभाषाएं[cite: 3]।",
+        "hinglish": "Pre-historic technical concepts ki operational definitions prelims questions decode karne ke liye[cite: 3]."
+      },
+      "sub_phases": [
+        {
+          "phase_name": "Anthropological Lexicon",
+          "tool_badge": "Terminology",
+          "points": [
+            {
+              "label": "Hunter-Gatherer",
+              "en": "A member of a nomadic, mobile band of people whose subsistence relies entirely on foraging wild uncultivated vegetation, fishing, and tracking wild animals, lacking any practice of deliberate crop farming[cite: 3]. Example: Palaeolithic and Mesolithic bands[cite: 3].",
+              "hi": "शिकारी-खाद्य संग्राहक (Hunter-Gatherer): घुमंतू समुदाय जो शिकार, मत्स्य और जंगली कंदमूल पर निर्भर होता है, तथा कृषि का कोई ज्ञान नहीं रखता[cite: 3]।",
+              "hinglish": "Wo nomadic human bands jo wild hunting, fishing aur natural forest gathering par survive karte hain without agriculture[cite: 3]."
+            },
+            {
+              "label": "Microlith",
+              "en": "A minute, highly refined razor-sharp stone tool (typically 1 to 8 cm) struck from fine-grained crypto-crystalline silica like chert or chalcedony, configured as trapezes or lunates to serve as points or barbs in composite hunting weapons[cite: 3]. Example: Mesolithic arrowtips and serrated sickles[cite: 3].",
+              "hi": "सूक्ष्म पाषाण उपकरण (Microlith): चर्ट या फ्लिंट से निर्मित 1 से 8 सेमी के अत्यंत लघु पाषाण उपकरण जो तीरों व भालों में संयुक्त किए जाते थे[cite: 3]।",
+              "hinglish": "Chert/chalcedony se bane tiny geometric blades jo composite hunting spears aur arrows mein fix kiye jaate the[cite: 3]."
+            },
+            {
+              "label": "Neolithic Revolution",
+              "en": "The paradigm-shifting macro-transition in human prehistory from hunting-gathering foraging bands to settled, surplus-producing agricultural and pastoral village economies, supporting unprecedented demographic expansion[cite: 3]. Example: The emergence of farming and sedentary life at Mehrgarh[cite: 3].",
+              "hi": "नवपाषाण कालीन क्रांति (Neolithic Revolution): आखेटक-संग्राहक जीवन से निकलकर स्थाई कृषि, पशुपालन, मृद्भांड और ग्राम बस्तियों की स्थापना की क्रांतिकारी प्रक्रिया[cite: 3]।",
+              "hinglish": "Hunting-gathering se food production aur permanent settled agrarian lifestyle mein shift hone ka turning point[cite: 3]."
+            },
+            {
+              "label": "Pit-Dwelling",
+              "en": "An engineered subterranean subterranean domestic architectural structure dug deep into the soil and roofed with thatch supported by timber posts, designed to offer superior thermal insulation against extreme sub-zero weather[cite: 3]. Example: The circular and oval dwellings excavated at Burzahom (Kashmir)[cite: 3].",
+              "hi": "गर्त-आवास (Pit-Dwelling): शीतकाल में ठंड से सुरक्षा हेतु जमीन के भीतर गड्ढा खोदकर बनाए गए घर[cite: 3]। उदाहरण: कश्मीर के बुर्जहोम के गड्ढा-घर[cite: 3]।",
+              "hinglish": "Ground ke andar dig kiye gaye circular/oval residential chambers jo extreme winter cold se insulation dete the (Burzahom, Kashmir)[cite: 3]."
+            },
+            {
+              "label": "Ash Mounds",
+              "en": "Vast archaeological accumulations of hardened, vitrified slag and white calcined ash produced by the periodic structural burning of massive cow-dung enclosures in seasonal pastoral camps of South Indian Neolithic communities[cite: 3]. Example: Ash mound deposits at Piklihal and Kupgal[cite: 3].",
+              "hi": "राख के टीले (Ash Mounds): दक्षिण भारत के नवपाषाण स्थलों में मवेशी बाड़ों में गाय-बैल के गोबर के ढेरों को रस्म के तौर पर जलाने से बने सफेद-धूसर राख के बड़े टीले[cite: 3]।",
+              "hinglish": "South Indian Neolithic pastoral sites par cow-dung accumulation ke periodic burning se bane solidified vitrified ash mounds[cite: 3]."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
