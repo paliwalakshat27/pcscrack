@@ -31,7 +31,7 @@
 
   <!-- Google Typography -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
   
   <!-- Lucide Icons -->
@@ -46,8 +46,6 @@
       font-family: 'Inter', sans-serif;
       user-select: none;
       -webkit-user-select: none;
-      transform: translateZ(0);
-      -webkit-transform: translateZ(0);
     }
     .ambient-bg {
       background-image: radial-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 0);
@@ -59,57 +57,66 @@
     }
     .hide-scrollbar::-webkit-scrollbar { display: none; }
     .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    
+    /* Dedicated Mobile Bottom Bar Elevation */
+    .mobile-dock-container {
+      position: fixed !important;
+      bottom: max(0.75rem, env(safe-area-inset-bottom)) !important;
+      left: 0.75rem !important;
+      right: 0.75rem !important;
+      z-index: 9999 !important;
+    }
   </style>
 </head>
 
-<body class="bg-parchment dark:bg-obsidian text-slate-800 dark:text-slate-100 ambient-bg min-h-screen transition-colors duration-300 antialiased pb-28">
+<body class="bg-parchment dark:bg-obsidian text-slate-800 dark:text-slate-100 ambient-bg min-h-screen transition-colors duration-300 antialiased pb-32">
 
   <!-- ======================================================== -->
-  <!-- 🧭 HEADER COCKPIT (100% MOBILE RESPONSIVE - ZERO CUTOFF) -->
+  <!-- 🧭 HEADER COCKPIT                                       -->
   <!-- ======================================================== -->
-  <header class="sticky top-0 z-40 backdrop-blur-md bg-white/90 dark:bg-cardDark/90 border-b border-stone-200/80 dark:border-slate-800/80 px-3 sm:px-4 py-2.5">
+  <header class="sticky top-0 z-40 backdrop-blur-md bg-white/90 dark:bg-cardDark/90 border-b border-stone-200/80 dark:border-slate-800/80 px-3.5 sm:px-4 py-2.5">
     <div class="max-w-4xl mx-auto flex items-center justify-between gap-2">
       
       <!-- Brand Logo -->
       <div class="flex items-center gap-2 cursor-pointer shrink-0" onclick="window.scrollTo({top:0, behavior:'smooth'})">
-        <div class="w-8 h-8 rounded-xl bg-gradient-to-tr from-indigo-600 to-amber-500 flex items-center justify-center text-white font-extrabold shadow-md shadow-indigo-500/20 text-sm">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-amber-500 flex items-center justify-center text-white font-extrabold shadow-md shadow-indigo-500/20 text-base">
           P
         </div>
         <div class="leading-tight">
-          <div class="flex items-center gap-1">
-            <span class="font-heading font-extrabold text-sm sm:text-base tracking-tight text-slate-900 dark:text-white">PCS<span class="text-amber-600 dark:text-amber-400">Crack</span></span>
-            <span class="text-[8px] sm:text-[9px] font-mono px-1 py-0.2 rounded-full bg-stone-100 dark:bg-slate-800 border border-stone-200 dark:border-slate-700 text-stone-500 font-bold">BETA</span>
+          <div class="flex items-center gap-1.5">
+            <span class="font-heading font-extrabold text-base sm:text-lg tracking-tight text-slate-900 dark:text-white">PCS<span class="text-amber-600 dark:text-amber-400">Crack</span></span>
+            <span class="text-[9px] font-mono px-1.5 py-0.5 rounded-full bg-stone-100 dark:bg-slate-800 border border-stone-200 dark:border-slate-700 text-stone-500 font-bold">BETA</span>
           </div>
         </div>
       </div>
 
       <!-- Controls Container -->
-      <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
+      <div class="flex items-center gap-2 shrink-0">
         
         <!-- Tri-Lingual Segmented Toggle -->
         <div class="flex items-center bg-stone-100 dark:bg-slate-800 p-0.5 rounded-xl border border-stone-200/80 dark:border-slate-700">
-          <button onclick="setHomeLang('en')" id="lang-btn-en" class="px-2 py-1 text-[10px] sm:text-[11px] font-bold rounded-lg transition-all active:scale-95 bg-white dark:bg-cardDark shadow-sm text-indigo-600 dark:text-indigo-400">EN</button>
-          <button onclick="setHomeLang('hi')" id="lang-btn-hi" class="px-2 py-1 text-[10px] sm:text-[11px] font-bold rounded-lg transition-all active:scale-95 text-slate-500 hover:text-slate-900 dark:text-slate-400">हिन्दी</button>
-          <button onclick="setHomeLang('hinglish')" id="lang-btn-hinglish" class="px-2 py-1 text-[10px] sm:text-[11px] font-bold rounded-lg transition-all active:scale-95 text-slate-500 hover:text-slate-900 dark:text-slate-400">Hing</button>
+          <button onclick="setHomeLang('en')" id="lang-btn-en" class="px-2.5 py-1 text-xs font-bold rounded-lg transition-all active:scale-95 bg-white dark:bg-cardDark shadow-sm text-indigo-600 dark:text-indigo-400">EN</button>
+          <button onclick="setHomeLang('hi')" id="lang-btn-hi" class="px-2.5 py-1 text-xs font-bold rounded-lg transition-all active:scale-95 text-slate-500 hover:text-slate-900 dark:text-slate-400">हिन्दी</button>
+          <button onclick="setHomeLang('hinglish')" id="lang-btn-hinglish" class="px-2.5 py-1 text-xs font-bold rounded-lg transition-all active:scale-95 text-slate-500 hover:text-slate-900 dark:text-slate-400">Hing</button>
         </div>
 
-        <!-- Desktop-Only Extended Controls -->
+        <!-- Desktop Search & Vault -->
         <div class="hidden md:flex items-center gap-2">
           <button onclick="openSearchModal()" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-stone-200 dark:border-slate-700 bg-white/60 dark:bg-slate-800/60 text-xs text-slate-500 dark:text-slate-400 hover:border-indigo-500 transition-all active:scale-95">
-            <i data-lucide="search" class="w-3.5 h-3.5 text-indigo-500"></i>
+            <i data-lucide="search" class="w-4 h-4 text-indigo-500"></i>
             <span>Search (Ctrl+K)</span>
           </button>
 
           <button onclick="openVaultModal('all')" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-stone-200 dark:border-slate-700 bg-white/60 dark:bg-slate-800/60 text-xs text-slate-700 dark:text-slate-300 hover:border-amber-500 transition-all active:scale-95">
-            <i data-lucide="folder" class="w-3.5 h-3.5 text-amber-500"></i>
+            <i data-lucide="folder" class="w-4 h-4 text-amber-500"></i>
             <span class="font-bold">My Vault</span>
-            <span id="vault-badge-count-desktop" class="text-[10px] font-mono px-1.5 py-0.2 rounded-full bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-400 font-bold">0</span>
+            <span id="vault-badge-count-desktop" class="text-xs font-mono px-1.5 py-0.2 rounded-full bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-400 font-bold">0</span>
           </button>
         </div>
 
-        <!-- Install Button (Visible Everywhere) -->
-        <button id="btn-pwa-install" onclick="triggerPWAInstall()" class="flex items-center gap-1 px-2.5 sm:px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-[11px] sm:text-xs font-semibold shadow-md active:scale-95 transition-all shrink-0">
-          <i data-lucide="download" class="w-3.5 h-3.5"></i>
+        <!-- Install Button -->
+        <button id="btn-pwa-install" onclick="triggerPWAInstall()" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold shadow-md active:scale-95 transition-all shrink-0">
+          <i data-lucide="download" class="w-4 h-4"></i>
           <span id="txt-install-btn">Install</span>
         </button>
 
@@ -123,35 +130,35 @@
     </div>
   </header>
 
-  <main class="max-w-4xl mx-auto px-3.5 sm:px-4 pt-4 sm:pt-6 space-y-5 sm:space-y-6">
+  <main class="max-w-4xl mx-auto px-4 pt-5 sm:pt-6 space-y-6">
 
     <!-- ======================================================== -->
-    <!-- 🌿 SERENE WELCOMING HERO                                -->
+    <!-- 🌿 SERENE WELCOMING HERO (ENHANCED LEGIBILITY)           -->
     <!-- ======================================================== -->
-    <section class="rounded-3xl p-5 sm:p-8 bg-white/80 dark:bg-cardDark/80 backdrop-blur-md border border-stone-200/80 dark:border-slate-800/80 shadow-sm space-y-3">
+    <section class="rounded-3xl p-6 sm:p-8 bg-white/80 dark:bg-cardDark/80 backdrop-blur-md border border-stone-200/80 dark:border-slate-800/80 shadow-sm space-y-3.5">
       <div class="flex items-center gap-2">
-        <span id="hero-badge" class="text-[11px] sm:text-xs font-mono font-semibold px-2.5 py-0.5 rounded-full bg-amber-50 dark:bg-amber-950 text-amber-600 dark:text-amber-400 border border-amber-200 dark:border-amber-900">
+        <span id="hero-badge" class="text-xs sm:text-sm font-mono font-semibold px-3 py-1 rounded-full bg-amber-50 dark:bg-amber-950 text-amber-600 dark:text-amber-400 border border-amber-200 dark:border-amber-900">
           Target: Civil Services Examination
         </span>
       </div>
-      <h1 id="hero-title" class="font-heading font-extrabold text-lg sm:text-2xl text-slate-900 dark:text-white leading-tight">
+      <h1 id="hero-title" class="font-heading font-extrabold text-xl sm:text-2xl md:text-3xl text-slate-900 dark:text-white leading-tight">
         Master the syllabus, one focused micro-topic at a time.
       </h1>
-      <p id="hero-desc" class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 max-w-2xl leading-relaxed">
+      <p id="hero-desc" class="text-sm sm:text-base text-slate-600 dark:text-slate-300 max-w-2xl leading-relaxed">
         Bina kisi bhaari coaching stress ke verbatim notes, examiner traps aur authentic questions ko padhein aur offline vault mein save karein.
       </p>
 
       <!-- Smart Resume Banner -->
-      <div id="resume-banner" class="pt-1 hidden">
-        <div class="p-3 sm:p-3.5 rounded-2xl bg-indigo-50/70 dark:bg-indigo-950/40 border border-indigo-200 dark:border-indigo-900 flex items-center justify-between gap-2">
-          <div class="flex items-center gap-2 text-xs truncate">
-            <span class="w-2 h-2 rounded-full bg-indigo-600 animate-pulse shrink-0"></span>
-            <span class="text-slate-600 dark:text-slate-300 hidden sm:inline" id="txt-resume-label">Resume:</span>
+      <div id="resume-banner" class="pt-2 hidden">
+        <div class="p-4 rounded-2xl bg-indigo-50/80 dark:bg-indigo-950/50 border border-indigo-200 dark:border-indigo-900 flex items-center justify-between gap-3">
+          <div class="flex items-center gap-2.5 text-sm truncate">
+            <span class="w-2.5 h-2.5 rounded-full bg-indigo-600 animate-pulse shrink-0"></span>
+            <span class="text-slate-600 dark:text-slate-300 font-medium" id="txt-resume-label">Resume:</span>
             <strong class="text-indigo-700 dark:text-indigo-300 font-bold truncate" id="resume-topic-title">The Stone Age</strong>
           </div>
-          <a id="resume-topic-link" href="topic.html?id=stone_age" class="inline-flex items-center gap-1 px-3 py-1 rounded-xl bg-indigo-600 text-white text-xs font-semibold shadow-sm active:scale-95 transition-all shrink-0">
+          <a id="resume-topic-link" href="topic.html?id=stone_age" class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-indigo-600 text-white text-xs font-semibold shadow-sm active:scale-95 transition-all shrink-0">
             <span id="txt-resume-btn">Continue</span>
-            <i data-lucide="arrow-right" class="w-3 h-3"></i>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
           </a>
         </div>
       </div>
@@ -160,69 +167,69 @@
     <!-- ======================================================== -->
     <!-- 🌳 5-TIER EXPANDABLE SYLLABUS DISCOVERY TREE             -->
     <!-- ======================================================== -->
-    <section class="space-y-3.5 sm:space-y-4">
+    <section class="space-y-4">
       <div class="flex items-center justify-between px-1">
         <div class="flex items-center gap-2">
-          <span class="p-1.5 rounded-lg bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400">
-            <i data-lucide="folder-tree" class="w-4 h-4"></i>
+          <span class="p-2 rounded-xl bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400">
+            <i data-lucide="folder-tree" class="w-5 h-5"></i>
           </span>
-          <h2 id="tree-main-heading" class="font-heading font-extrabold text-sm sm:text-base">Syllabus Discovery Tree</h2>
+          <h2 id="tree-main-heading" class="font-heading font-extrabold text-base sm:text-lg">Syllabus Discovery Tree</h2>
         </div>
-        <span id="tree-sub-heading" class="text-[11px] sm:text-xs font-mono text-slate-400">Tap to expand</span>
+        <span id="tree-sub-heading" class="text-xs sm:text-sm font-mono text-slate-400">Tap to expand</span>
       </div>
 
       <!-- Tier 1: General Studies 1 Card -->
       <div class="rounded-3xl bg-white/80 dark:bg-cardDark/80 border border-stone-200/80 dark:border-slate-800/80 shadow-sm overflow-hidden transition-all">
         
         <!-- Accordion Header: Indian History -->
-        <button onclick="toggleAccordion('branch-history')" class="w-full p-4 sm:p-5 flex items-center justify-between text-left hover:bg-stone-50/50 dark:hover:bg-slate-800/40 transition-colors">
-          <div class="flex items-center gap-3">
-            <span class="w-8 sm:w-9 h-8 sm:h-9 rounded-2xl bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center font-bold text-xs sm:text-sm shrink-0">
+        <button onclick="toggleAccordion('branch-history')" class="w-full p-5 flex items-center justify-between text-left hover:bg-stone-50/50 dark:hover:bg-slate-800/40 transition-colors">
+          <div class="flex items-center gap-3.5">
+            <span class="w-10 h-10 rounded-2xl bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center font-bold text-sm sm:text-base shrink-0">
               GS1
             </span>
             <div>
-              <h3 id="hist-card-title" class="font-heading font-bold text-xs sm:text-base text-slate-900 dark:text-white">Indian History & Culture</h3>
-              <p id="hist-card-sub" class="text-[11px] sm:text-xs text-slate-500">Ancient, Medieval, Modern & Art-Culture</p>
+              <h3 id="hist-card-title" class="font-heading font-bold text-sm sm:text-base text-slate-900 dark:text-white">Indian History & Culture</h3>
+              <p id="hist-card-sub" class="text-xs sm:text-sm text-slate-500">Ancient, Medieval, Modern & Art-Culture</p>
             </div>
           </div>
-          <i data-lucide="chevron-down" id="icon-branch-history" class="w-4 h-4 text-slate-400 transition-transform duration-300"></i>
+          <i data-lucide="chevron-down" id="icon-branch-history" class="w-5 h-5 text-slate-400 transition-transform duration-300"></i>
         </button>
 
         <!-- Tier 2 & 3: Branches Inside History -->
-        <div id="branch-history" class="p-4 sm:p-5 pt-0 space-y-4">
-          <div class="border-t border-stone-100 dark:border-slate-800 pt-3.5 space-y-3">
+        <div id="branch-history" class="p-5 pt-0 space-y-4">
+          <div class="border-t border-stone-100 dark:border-slate-800 pt-4 space-y-3.5">
             
             <!-- Macro: Ancient History -->
-            <div class="p-3.5 sm:p-4 rounded-2xl bg-stone-50/70 dark:bg-slate-900/50 border border-stone-200/70 dark:border-slate-800 space-y-3">
+            <div class="p-4 sm:p-5 rounded-2xl bg-stone-50/70 dark:bg-slate-900/50 border border-stone-200/70 dark:border-slate-800 space-y-3.5">
               <div class="flex items-center justify-between">
                 <div>
-                  <span class="text-[9px] sm:text-[10px] font-mono text-indigo-500 font-bold uppercase">Macro Unit 01</span>
-                  <h4 id="macro-anc-title" class="font-heading font-bold text-xs sm:text-sm text-slate-900 dark:text-white">Ancient Indian History</h4>
+                  <span class="text-[10px] sm:text-xs font-mono text-indigo-500 font-bold uppercase">Macro Unit 01</span>
+                  <h4 id="macro-anc-title" class="font-heading font-bold text-sm sm:text-base text-slate-900 dark:text-white">Ancient Indian History</h4>
                 </div>
-                <span class="text-[9px] sm:text-[10px] font-mono px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-600 font-bold">● ACTIVE</span>
+                <span class="text-[10px] sm:text-xs font-mono px-2.5 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-600 font-bold">● ACTIVE</span>
               </div>
 
               <!-- Micro Branch: Pre-Historic Period -->
-              <div class="pl-2.5 sm:pl-3 border-l-2 border-indigo-200 dark:border-indigo-900 space-y-2">
-                <span id="micro-pre-title" class="text-[11px] font-bold text-slate-700 dark:text-slate-300 block">Pre-Historic Period & Early Man</span>
+              <div class="pl-3 sm:pl-4 border-l-2 border-indigo-200 dark:border-indigo-900 space-y-2.5">
+                <span id="micro-pre-title" class="text-xs sm:text-sm font-bold text-slate-700 dark:text-slate-300 block">Pre-Historic Period & Early Man</span>
                 
                 <!-- Sub-Micro Leaf Node: The Stone Age -->
-                <div class="p-3 sm:p-3.5 rounded-xl bg-white dark:bg-cardDark border border-stone-200 dark:border-slate-700 flex items-center justify-between gap-2.5 shadow-sm hover:border-indigo-500 transition-all">
-                  <div class="space-y-0.5">
-                    <h5 id="leaf-stone-title" class="font-heading font-bold text-xs sm:text-sm text-slate-900 dark:text-white">The Stone Age</h5>
-                    <p id="leaf-stone-desc" class="text-[10px] sm:text-[11px] text-slate-500 dark:text-slate-400">Verbatim notes, Belan Valley, Bhimbetka, Mehrgarh.</p>
+                <div class="p-4 rounded-xl bg-white dark:bg-cardDark border border-stone-200 dark:border-slate-700 flex items-center justify-between gap-3 shadow-sm hover:border-indigo-500 transition-all">
+                  <div class="space-y-1">
+                    <h5 id="leaf-stone-title" class="font-heading font-bold text-sm sm:text-base text-slate-900 dark:text-white">The Stone Age</h5>
+                    <p id="leaf-stone-desc" class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 leading-normal">Verbatim notes, Belan Valley, Bhimbetka, Mehrgarh[cite: 4].</p>
                   </div>
-                  <a href="topic.html?id=stone_age" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold shadow-md active:scale-95 transition-all shrink-0">
+                  <a href="topic.html?id=stone_age" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs sm:text-sm font-semibold shadow-md active:scale-95 transition-all shrink-0">
                     <span id="txt-study-room-btn">Study Room</span>
-                    <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
                   </a>
                 </div>
               </div>
 
               <!-- Upcoming Micro Leaf -->
-              <div class="p-2.5 sm:p-3 rounded-xl border border-dashed border-stone-300 dark:border-slate-700 flex items-center justify-between text-xs text-slate-400">
-                <span id="leaf-ivc-title" class="text-[11px] sm:text-xs truncate mr-2">Indus Valley Civilization & Chalcolithic</span>
-                <span class="font-mono text-[9px] sm:text-[10px] bg-stone-100 dark:bg-slate-800 px-1.5 py-0.5 rounded shrink-0" id="txt-upcoming-badge">Upcoming</span>
+              <div class="p-3 sm:p-3.5 rounded-xl border border-dashed border-stone-300 dark:border-slate-700 flex items-center justify-between text-xs sm:text-sm text-slate-400">
+                <span id="leaf-ivc-title" class="truncate mr-2">Indus Valley Civilization & Chalcolithic</span>
+                <span class="font-mono text-xs bg-stone-100 dark:bg-slate-800 px-2 py-0.5 rounded shrink-0" id="txt-upcoming-badge">Upcoming</span>
               </div>
             </div>
 
@@ -231,45 +238,45 @@
       </div>
 
       <!-- Placeholder Card: GS 2 Indian Polity -->
-      <div class="rounded-3xl p-4 sm:p-5 bg-white/50 dark:bg-cardDark/50 border border-stone-200/50 dark:border-slate-800/50 flex items-center justify-between opacity-75">
-        <div class="flex items-center gap-3">
-          <span class="w-8 sm:w-9 h-8 sm:h-9 rounded-2xl bg-stone-200/50 dark:bg-slate-800 flex items-center justify-center font-bold text-xs text-slate-400 shrink-0">
+      <div class="rounded-3xl p-5 bg-white/50 dark:bg-cardDark/50 border border-stone-200/50 dark:border-slate-800/50 flex items-center justify-between opacity-75">
+        <div class="flex items-center gap-3.5">
+          <span class="w-10 h-10 rounded-2xl bg-stone-200/50 dark:bg-slate-800 flex items-center justify-center font-bold text-sm text-slate-400 shrink-0">
             GS2
           </span>
           <div>
-            <h3 id="polity-card-title" class="font-heading font-bold text-xs sm:text-sm text-slate-600 dark:text-slate-400">Indian Polity & Governance</h3>
-            <p id="polity-card-sub" class="text-[10px] sm:text-xs text-slate-400">Preamble, Fundamental Rights & Framework</p>
+            <h3 id="polity-card-title" class="font-heading font-bold text-sm sm:text-base text-slate-600 dark:text-slate-400">Indian Polity & Governance</h3>
+            <p id="polity-card-sub" class="text-xs sm:text-sm text-slate-400">Preamble, Fundamental Rights & Framework</p>
           </div>
         </div>
-        <span class="text-[9px] sm:text-[10px] font-mono bg-stone-100 dark:bg-slate-800 px-2 py-0.5 rounded text-slate-400 shrink-0" id="txt-polity-badge">Next Stream</span>
+        <span class="text-xs font-mono bg-stone-100 dark:bg-slate-800 px-2.5 py-1 rounded text-slate-400 shrink-0" id="txt-polity-badge">Next Stream</span>
       </div>
     </section>
 
     <!-- ======================================================== -->
     <!-- 📩 CREATOR PRIVACY DESK                                 -->
     <!-- ======================================================== -->
-    <section class="rounded-3xl p-5 sm:p-6 bg-white/80 dark:bg-cardDark/80 border border-stone-200/80 dark:border-slate-800/80 shadow-sm space-y-3">
+    <section class="rounded-3xl p-6 bg-white/80 dark:bg-cardDark/80 border border-stone-200/80 dark:border-slate-800/80 shadow-sm space-y-3.5">
       <div class="flex items-center gap-2">
-        <span class="p-1.5 rounded-lg bg-amber-100 dark:bg-amber-950 text-amber-600 dark:text-amber-400">
-          <i data-lucide="message-square" class="w-4 h-4"></i>
+        <span class="p-2 rounded-xl bg-amber-100 dark:bg-amber-950 text-amber-600 dark:text-amber-400">
+          <i data-lucide="message-square" class="w-5 h-5"></i>
         </span>
-        <h2 id="feedback-heading" class="font-heading font-extrabold text-sm sm:text-base">Direct Suggestion & Peer Helpdesk</h2>
+        <h2 id="feedback-heading" class="font-heading font-extrabold text-base sm:text-lg">Direct Suggestion & Peer Helpdesk</h2>
       </div>
-      <p id="feedback-desc" class="text-xs text-slate-600 dark:text-slate-400">
+      <p id="feedback-desc" class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
         Notes mein koi doubt ho ya content improve karne ka sujhav ho, bina personal identity expose kiye yahan sandesh bhejein:
       </p>
 
       <form onsubmit="handleQuerySubmit(event)" class="space-y-3 pt-1">
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 sm:gap-3 text-xs">
-          <input type="text" id="query-name" required placeholder="Aapka Naam" class="w-full p-2.5 rounded-xl border border-stone-200 dark:border-slate-700 bg-stone-50 dark:bg-slate-900 focus:outline-none focus:border-indigo-500">
-          <input type="tel" id="query-phone" required placeholder="Mobile / WhatsApp Number" class="w-full p-2.5 rounded-xl border border-stone-200 dark:border-slate-700 bg-stone-50 dark:bg-slate-900 focus:outline-none focus:border-indigo-500">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+          <input type="text" id="query-name" required placeholder="Aapka Naam" class="w-full p-3 rounded-xl border border-stone-200 dark:border-slate-700 bg-stone-50 dark:bg-slate-900 focus:outline-none focus:border-indigo-500 text-sm">
+          <input type="tel" id="query-phone" required placeholder="Mobile / WhatsApp Number" class="w-full p-3 rounded-xl border border-stone-200 dark:border-slate-700 bg-stone-50 dark:bg-slate-900 focus:outline-none focus:border-indigo-500 text-sm">
         </div>
-        <textarea id="query-msg" rows="3" required placeholder="Bataiye kya suggestion hai ya kaunsa sub-topic pehle chahiye..." class="w-full p-2.5 rounded-xl border border-stone-200 dark:border-slate-700 bg-stone-50 dark:bg-slate-900 focus:outline-none focus:border-indigo-500 text-xs"></textarea>
-        <button type="submit" id="btn-submit-query" class="w-full py-2.5 rounded-xl bg-slate-900 dark:bg-indigo-600 hover:bg-slate-800 text-white font-heading font-bold text-xs shadow-md active:scale-95 transition-all">
+        <textarea id="query-msg" rows="3" required placeholder="Bataiye kya suggestion hai ya kaunsa sub-topic pehle chahiye..." class="w-full p-3 rounded-xl border border-stone-200 dark:border-slate-700 bg-stone-50 dark:bg-slate-900 focus:outline-none focus:border-indigo-500 text-sm"></textarea>
+        <button type="submit" id="btn-submit-query" class="w-full py-3 rounded-xl bg-slate-900 dark:bg-indigo-600 hover:bg-slate-800 text-white font-heading font-bold text-sm shadow-md active:scale-95 transition-all">
           Submit Message to Desk
         </button>
       </form>
-      <div id="query-status" class="hidden p-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 text-xs text-emerald-800 dark:text-emerald-300 text-center font-medium"></div>
+      <div id="query-status" class="hidden p-3.5 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 text-xs sm:text-sm text-emerald-800 dark:text-emerald-300 text-center font-medium"></div>
     </section>
 
   </main>
@@ -277,32 +284,32 @@
   <!-- ======================================================== -->
   <!-- 📂 SEGREGATED OFFLINE VAULT MODAL                       -->
   <!-- ======================================================== -->
-  <div id="vault-modal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 hidden flex items-start justify-center p-3 sm:p-4 pt-10 sm:pt-12">
+  <div id="vault-modal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 hidden flex items-start justify-center p-4 pt-12 sm:pt-16">
     <div class="bg-white dark:bg-cardDark w-full max-w-xl rounded-3xl border border-stone-200 dark:border-slate-700 shadow-2xl overflow-hidden flex flex-col max-h-[85vh]">
       
-      <div class="p-3.5 sm:p-4 border-b border-stone-100 dark:border-slate-800 flex items-center justify-between">
-        <div class="flex items-center gap-2">
-          <i data-lucide="folder-down" class="w-5 h-5 text-amber-500"></i>
+      <div class="p-4 border-b border-stone-100 dark:border-slate-800 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <i data-lucide="folder-down" class="w-6 h-6 text-amber-500"></i>
           <div>
-            <h3 class="font-heading font-extrabold text-sm sm:text-base" id="vault-modal-title">My Offline Vault</h3>
-            <p class="text-[10px] text-slate-400 font-mono">Client-side sandbox storage • Zero PDF leaks</p>
+            <h3 class="font-heading font-extrabold text-base sm:text-lg" id="vault-modal-title">My Offline Vault</h3>
+            <p class="text-xs text-slate-400 font-mono">Client-side sandbox storage • Zero PDF leaks</p>
           </div>
         </div>
-        <button onclick="closeVaultModal()" class="p-1.5 rounded-xl text-slate-400 hover:bg-stone-100 dark:hover:bg-slate-800"><i data-lucide="x" class="w-4 h-4"></i></button>
+        <button onclick="closeVaultModal()" class="p-2 rounded-xl text-slate-400 hover:bg-stone-100 dark:hover:bg-slate-800"><i data-lucide="x" class="w-5 h-5"></i></button>
       </div>
 
-      <div class="flex items-center gap-1.5 p-2.5 sm:p-3 bg-stone-50 dark:bg-slate-900/60 border-b border-stone-100 dark:border-slate-800 overflow-x-auto hide-scrollbar">
-        <button onclick="filterVaultShelf('all')" id="shelf-btn-all" class="px-2.5 sm:px-3 py-1 rounded-xl text-[11px] sm:text-xs font-bold transition-all bg-indigo-600 text-white shadow-sm shrink-0">All Items</button>
-        <button onclick="filterVaultShelf('notes')" id="shelf-btn-notes" class="px-2.5 sm:px-3 py-1 rounded-xl text-[11px] sm:text-xs font-bold transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 shrink-0">📖 Notes</button>
-        <button onclick="filterVaultShelf('pyqs')" id="shelf-btn-pyqs" class="px-2.5 sm:px-3 py-1 rounded-xl text-[11px] sm:text-xs font-bold transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 shrink-0">🎯 PYQ Bank</button>
-        <button onclick="filterVaultShelf('capsules')" id="shelf-btn-capsules" class="px-2.5 sm:px-3 py-1 rounded-xl text-[11px] sm:text-xs font-bold transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 shrink-0">💊 60s Capsules</button>
+      <div class="flex items-center gap-2 p-3 bg-stone-50 dark:bg-slate-900/60 border-b border-stone-100 dark:border-slate-800 overflow-x-auto hide-scrollbar">
+        <button onclick="filterVaultShelf('all')" id="shelf-btn-all" class="px-3.5 py-1.5 rounded-xl text-xs sm:text-sm font-bold transition-all bg-indigo-600 text-white shadow-sm shrink-0">All Items</button>
+        <button onclick="filterVaultShelf('notes')" id="shelf-btn-notes" class="px-3.5 py-1.5 rounded-xl text-xs sm:text-sm font-bold transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 shrink-0">📖 Notes</button>
+        <button onclick="filterVaultShelf('pyqs')" id="shelf-btn-pyqs" class="px-3.5 py-1.5 rounded-xl text-xs sm:text-sm font-bold transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 shrink-0">🎯 PYQ Bank</button>
+        <button onclick="filterVaultShelf('capsules')" id="shelf-btn-capsules" class="px-3.5 py-1.5 rounded-xl text-xs sm:text-sm font-bold transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 shrink-0">💊 60s Capsules</button>
       </div>
 
-      <div id="vault-items-container" class="p-3.5 sm:p-4 overflow-y-auto space-y-2.5 sm:space-y-3 flex-1 text-xs"></div>
+      <div id="vault-items-container" class="p-4 overflow-y-auto space-y-3 flex-1 text-xs sm:text-sm"></div>
 
-      <div class="p-3 sm:p-3.5 border-t border-stone-100 dark:border-slate-800 flex items-center justify-between text-xs bg-stone-50/50 dark:bg-slate-900/50">
-        <span class="text-slate-500 font-mono text-[10px] sm:text-[11px]" id="vault-total-size">Total: 0 KB</span>
-        <button onclick="clearAllVault()" class="text-rose-500 hover:underline text-[10px] sm:text-[11px]">Clear Vault</button>
+      <div class="p-4 border-t border-stone-100 dark:border-slate-800 flex items-center justify-between text-xs sm:text-sm bg-stone-50/50 dark:bg-slate-900/50">
+        <span class="text-slate-500 font-mono" id="vault-total-size">Total: 0 KB</span>
+        <button onclick="clearAllVault()" class="text-rose-500 hover:underline">Clear Vault</button>
       </div>
     </div>
   </div>
@@ -310,43 +317,45 @@
   <!-- ======================================================== -->
   <!-- 🔍 SPOTLIGHT SEARCH MODAL                                -->
   <!-- ======================================================== -->
-  <div id="search-modal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 hidden flex items-start justify-center p-3 sm:p-4 pt-12 sm:pt-16">
-    <div class="bg-white dark:bg-cardDark w-full max-w-lg rounded-3xl border border-stone-200 dark:border-slate-700 shadow-2xl overflow-hidden space-y-3 p-3.5 sm:p-4">
-      <div class="flex items-center justify-between border-b border-stone-100 dark:border-slate-800 pb-2.5 sm:pb-3">
-        <div class="flex items-center gap-2 w-full">
-          <i data-lucide="search" class="w-4 h-4 text-indigo-500 shrink-0"></i>
-          <input type="text" id="spotlight-input" oninput="handleSearchQuery(this.value)" placeholder="Search tools, Belan Valley, Mehrgarh..." class="w-full bg-transparent focus:outline-none text-xs sm:text-sm">
+  <div id="search-modal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 hidden flex items-start justify-center p-4 pt-16">
+    <div class="bg-white dark:bg-cardDark w-full max-w-lg rounded-3xl border border-stone-200 dark:border-slate-700 shadow-2xl overflow-hidden space-y-3 p-4">
+      <div class="flex items-center justify-between border-b border-stone-100 dark:border-slate-800 pb-3">
+        <div class="flex items-center gap-2.5 w-full">
+          <i data-lucide="search" class="w-5 h-5 text-indigo-500 shrink-0"></i>
+          <input type="text" id="spotlight-input" oninput="handleSearchQuery(this.value)" placeholder="Search tools, Belan Valley, Mehrgarh..." class="w-full bg-transparent focus:outline-none text-sm sm:text-base">
         </div>
-        <button onclick="closeSearchModal()" class="p-1 rounded-lg text-slate-400 hover:bg-stone-100 dark:hover:bg-slate-800"><i data-lucide="x" class="w-4 h-4"></i></button>
+        <button onclick="closeSearchModal()" class="p-1.5 rounded-lg text-slate-400 hover:bg-stone-100 dark:hover:bg-slate-800"><i data-lucide="x" class="w-5 h-5"></i></button>
       </div>
-      <div id="search-results-box" class="max-h-60 overflow-y-auto text-xs space-y-2">
+      <div id="search-results-box" class="max-h-60 overflow-y-auto text-xs sm:text-sm space-y-2">
         <p class="text-slate-400 text-center py-6">Keywords match hone par live topics dikhenge...</p>
       </div>
     </div>
   </div>
 
   <!-- ======================================================== -->
-  <!-- 📱 FLOATING BOTTOM APP DOCK (120Hz ULTRA-TACTILE)        -->
+  <!-- 📱 PERMANENT FLOATING BOTTOM DOCK (ALWAYS ELEVATED)      -->
   <!-- ======================================================== -->
-  <nav class="fixed bottom-3 sm:bottom-4 inset-x-3 sm:inset-x-4 max-w-lg mx-auto h-13 sm:h-14 bg-white/95 dark:bg-cardDark/95 backdrop-blur-xl border border-stone-200/80 dark:border-slate-800/80 rounded-2xl shadow-2xl flex items-center justify-around px-2 z-50">
-    <a href="index.html" class="flex flex-col items-center text-[10px] text-indigo-600 dark:text-indigo-400 font-semibold active:scale-95 transition-transform">
-      <i data-lucide="home" class="w-4 h-4"></i>
-      <span id="dock-home">Home</span>
-    </a>
-    <button onclick="openSearchModal()" class="flex flex-col items-center text-[10px] text-slate-600 dark:text-slate-400 hover:text-indigo-600 transition-colors active:scale-95 transition-transform">
-      <i data-lucide="search" class="w-4 h-4"></i>
-      <span id="dock-search">Search</span>
-    </button>
-    <a href="topic.html?id=stone_age" class="flex flex-col items-center text-[10px] text-slate-600 dark:text-slate-400 hover:text-indigo-600 transition-colors active:scale-95 transition-transform">
-      <i data-lucide="book-open" class="w-4 h-4"></i>
-      <span id="dock-study">Study</span>
-    </a>
-    <button onclick="openVaultModal('all')" class="flex flex-col items-center text-[10px] text-slate-600 dark:text-slate-400 hover:text-indigo-600 transition-colors active:scale-95 transition-transform relative">
-      <i data-lucide="download-cloud" class="w-4 h-4"></i>
-      <span id="dock-vault">Vault</span>
-      <span id="vault-badge-count-mobile" class="absolute -top-1 right-1 w-3.5 h-3.5 rounded-full bg-amber-500 text-white text-[8px] font-bold flex items-center justify-center">0</span>
-    </button>
-  </nav>
+  <div class="mobile-dock-container">
+    <nav class="max-w-lg mx-auto h-14 bg-white/95 dark:bg-cardDark/95 backdrop-blur-xl border border-stone-200/90 dark:border-slate-800/90 rounded-2xl shadow-2xl flex items-center justify-around px-2">
+      <a href="index.html" class="flex flex-col items-center text-xs text-indigo-600 dark:text-indigo-400 font-semibold active:scale-95 transition-transform">
+        <i data-lucide="home" class="w-5 h-5"></i>
+        <span id="dock-home" class="mt-0.5">Home</span>
+      </a>
+      <button onclick="openSearchModal()" class="flex flex-col items-center text-xs text-slate-600 dark:text-slate-400 hover:text-indigo-600 transition-colors active:scale-95 transition-transform">
+        <i data-lucide="search" class="w-5 h-5"></i>
+        <span id="dock-search" class="mt-0.5">Search</span>
+      </button>
+      <a href="topic.html?id=stone_age" class="flex flex-col items-center text-xs text-slate-600 dark:text-slate-400 hover:text-indigo-600 transition-colors active:scale-95 transition-transform">
+        <i data-lucide="book-open" class="w-5 h-5"></i>
+        <span id="dock-study" class="mt-0.5">Study</span>
+      </a>
+      <button onclick="openVaultModal('all')" class="flex flex-col items-center text-xs text-slate-600 dark:text-slate-400 hover:text-indigo-600 transition-colors active:scale-95 transition-transform relative">
+        <i data-lucide="download-cloud" class="w-5 h-5"></i>
+        <span id="dock-vault" class="mt-0.5">Vault</span>
+        <span id="vault-badge-count-mobile" class="absolute -top-1 right-2 w-4 h-4 rounded-full bg-amber-500 text-white text-[9px] font-bold flex items-center justify-center">0</span>
+      </button>
+    </nav>
+  </div>
 
   <!-- ======================================================== -->
   <!-- ⚙️ RUNTIME LOGIC                                         -->
@@ -454,9 +463,9 @@
         const btn = document.getElementById(`lang-btn-${l}`);
         if (btn) {
           if (l === lang) {
-            btn.className = "px-2 py-1 text-[10px] sm:text-[11px] font-bold rounded-lg transition-all active:scale-95 bg-white dark:bg-cardDark shadow-sm text-indigo-600 dark:text-indigo-400";
+            btn.className = "px-2.5 py-1 text-xs font-bold rounded-lg transition-all active:scale-95 bg-white dark:bg-cardDark shadow-sm text-indigo-600 dark:text-indigo-400";
           } else {
-            btn.className = "px-2 py-1 text-[10px] sm:text-[11px] font-bold rounded-lg transition-all active:scale-95 text-slate-500 hover:text-slate-900 dark:text-slate-400";
+            btn.className = "px-2.5 py-1 text-xs font-bold rounded-lg transition-all active:scale-95 text-slate-500 hover:text-slate-900 dark:text-slate-400";
           }
         }
       });
@@ -496,7 +505,6 @@
     }
     if (localStorage.getItem('theme') === 'dark') document.documentElement.classList.add('dark');
 
-    // Frictionless PWA Install Event Hook
     window.addEventListener('beforeinstallprompt', (e) => {
       e.preventDefault();
       deferredPrompt = e;
@@ -552,9 +560,9 @@
         const btn = document.getElementById(`shelf-btn-${s}`);
         if (btn) {
           if (s === shelf) {
-            btn.className = "px-2.5 sm:px-3 py-1 rounded-xl text-[11px] sm:text-xs font-bold transition-all bg-indigo-600 text-white shadow-sm shrink-0";
+            btn.className = "px-3.5 py-1.5 rounded-xl text-xs sm:text-sm font-bold transition-all bg-indigo-600 text-white shadow-sm shrink-0";
           } else {
-            btn.className = "px-2.5 sm:px-3 py-1 rounded-xl text-[11px] sm:text-xs font-bold transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 shrink-0";
+            btn.className = "px-3.5 py-1.5 rounded-xl text-xs sm:text-sm font-bold transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 shrink-0";
           }
         }
       });
@@ -575,30 +583,30 @@
 
       if (itemsToRender.length === 0) {
         container.innerHTML = `
-          <div class="py-10 text-center text-slate-400 space-y-1.5">
-            <i data-lucide="inbox" class="w-7 h-7 mx-auto opacity-40"></i>
-            <p>Is shelf mein abhi koi saved content nahi hai.</p>
-            <p class="text-[10px]">Study room mein save button daba kar content add karein.</p>
+          <div class="py-12 text-center text-slate-400 space-y-2">
+            <i data-lucide="inbox" class="w-8 h-8 mx-auto opacity-40"></i>
+            <p class="text-sm">Is shelf mein abhi koi saved content nahi hai.</p>
+            <p class="text-xs">Study room mein save button daba kar content add karein.</p>
           </div>
         `;
       } else {
         container.innerHTML = itemsToRender.map(item => `
-          <div class="p-3 rounded-2xl bg-stone-50 dark:bg-slate-800/60 border border-stone-200 dark:border-slate-700 flex items-center justify-between gap-2.5">
-            <div class="space-y-0.5 truncate">
-              <div class="flex items-center gap-1.5">
-                <span class="text-[9px] font-mono px-1.5 py-0.2 rounded font-bold bg-${item.color}-100 dark:bg-${item.color}-950 text-${item.color}-600 dark:text-${item.color}-400">
+          <div class="p-3.5 rounded-2xl bg-stone-50 dark:bg-slate-800/60 border border-stone-200 dark:border-slate-700 flex items-center justify-between gap-3">
+            <div class="space-y-1 truncate">
+              <div class="flex items-center gap-2">
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded-md font-bold bg-${item.color}-100 dark:bg-${item.color}-950 text-${item.color}-600 dark:text-${item.color}-400">
                   ${item.type}
                 </span>
-                <span class="text-[10px] font-mono text-slate-400">${item.size || '18 KB'}</span>
+                <span class="text-xs font-mono text-slate-400">${item.size || '18 KB'}</span>
               </div>
-              <h4 class="font-heading font-bold text-xs text-slate-900 dark:text-white truncate">${item.topic_title}</h4>
+              <h4 class="font-heading font-bold text-sm text-slate-900 dark:text-white truncate">${item.topic_title}</h4>
             </div>
-            <div class="flex items-center gap-1.5 shrink-0">
-              <a href="topic.html?id=${item.topic_id}" class="px-2 py-1 rounded-xl bg-indigo-600 text-white font-bold text-[11px] shadow-sm active:scale-95 transition-all">
+            <div class="flex items-center gap-2 shrink-0">
+              <a href="topic.html?id=${item.topic_id}" class="px-3 py-1.5 rounded-xl bg-indigo-600 text-white font-bold text-xs shadow-sm active:scale-95 transition-all">
                 Open
               </a>
-              <button onclick="removeVaultItem('${item.type}', '${item.topic_id}')" class="p-1 rounded-lg text-slate-400 hover:text-rose-500">
-                <i data-lucide="trash-2" class="w-3.5 h-3.5"></i>
+              <button onclick="removeVaultItem('${item.type}', '${item.topic_id}')" class="p-1.5 rounded-lg text-slate-400 hover:text-rose-500">
+                <i data-lucide="trash-2" class="w-4 h-4"></i>
               </button>
             </div>
           </div>
@@ -642,10 +650,10 @@
       const res = document.getElementById('search-results-box');
       if (query.trim().toLowerCase().includes('stone') || query.trim().toLowerCase().includes('belan') || query.trim().toLowerCase().includes('mehrgarh')) {
         res.innerHTML = `
-          <a href="topic.html?id=stone_age" class="p-3 rounded-2xl bg-stone-50 dark:bg-slate-800 flex items-center justify-between hover:border-indigo-500 block">
+          <a href="topic.html?id=stone_age" class="p-3.5 rounded-2xl bg-stone-50 dark:bg-slate-800 flex items-center justify-between hover:border-indigo-500 block">
             <div>
-              <p class="font-bold text-slate-800 dark:text-white">The Stone Age</p>
-              <p class="text-[11px] text-slate-400">Belan Valley, Bhimbetka, Mehrgarh</p>
+              <p class="font-bold text-sm text-slate-800 dark:text-white">The Stone Age</p>
+              <p class="text-xs text-slate-400">Belan Valley, Bhimbetka, Mehrgarh</p>
             </div>
             <span class="text-xs text-indigo-500 font-bold">Open →</span>
           </a>
