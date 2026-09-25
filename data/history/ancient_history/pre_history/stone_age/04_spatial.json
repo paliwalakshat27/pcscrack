@@ -1,0 +1,419 @@
+{
+  "topic_id": "stone_age",
+  "module_id": "spatial",
+  "title": "Spatial Archaeology & Geo-Stratigraphy",
+  "map_type": "interactive_svg_political",
+  "layers": [
+    {
+      "layer_id": "palaeolithic",
+      "layer_name": "Palaeolithic Sites (Old Stone Age)",
+      "badge": "500,000 – 10,000 BC",
+      "sites": [
+        {
+          "site_id": "belan_valley",
+          "name": "Belan Valley (Uttar Pradesh)",
+          "state": "Uttar Pradesh",
+          "period": "Lower to Upper Palaeolithic",
+          "highlight": "Continuous Sequence from Lower Palaeolithic to Neolithic",
+          "coords": { "x": 195, "y": 178 },
+          "details": {
+            "en": "Located in Mirzapur district; monumental stratigraphic record showing unbroken evolutionary sequence from Lower Palaeolithic right into Neolithic age. Yields heavy hand-axes, flakes, and late bone tools.",
+            "hi": "मिर्जापुर जिला; निम्न पुरापाषाण काल से नवपाषाण काल तक का निरंतर सांस्कृतिक अनुक्रम प्रस्तुत करने वाला देश का प्रमुख स्थल। हस्तकुठार और हड्डी के औजार प्राप्त।",
+            "hinglish": "Mirzapur UP mein sthit; Lower Palaeolithic se lekar Neolithic tak continuous stratigraphic succession show karta hai."
+          }
+        },
+        {
+          "site_id": "bhimbetka_pal",
+          "name": "Bhimbetka (Madhya Pradesh)",
+          "state": "Madhya Pradesh",
+          "period": "Lower to Upper Palaeolithic",
+          "highlight": "Parietal Rock Art & Habitation Overhangs",
+          "coords": { "x": 165, "y": 205 },
+          "details": {
+            "en": "Located in Raisen district; quartzite rock shelters with continuous occupation layers. Earliest dynamic parietal cave paintings of large beasts date to the Upper Palaeolithic layer[cite: 3].",
+            "hi": "रायसेन जिला; प्राकृतिक शैल आश्रय[cite: 3]। उच्च पुरापाषाण काल से संबंधित जंगली जानवरों और शिकार के प्राचीनतम शैल चित्र यहाँ से मिले हैं[cite: 3]।",
+            "hinglish": "Raisen MP mein sthit; quartzite rock caves aur Upper Palaeolithic period ki earliest animal hunting rock paintings preserve karta hai[cite: 3]."
+          }
+        },
+        {
+          "site_id": "soan_valley",
+          "name": "Soan Valley (Punjab Frontier)",
+          "state": "Punjab Basin (Now Pak)",
+          "period": "Lower Palaeolithic",
+          "highlight": "Chopper-Chopping Pebble Tool Complex",
+          "coords": { "x": 110, "y": 88 },
+          "details": {
+            "en": "Classic type-site for pebble tool traditions and heavy unpolished core tools (chopper-chopping implements) used by early hunter-gatherers[cite: 3].",
+            "hi": "पेबुल (बटिकाश्म) और चापर-चॉपिंग भारी क्रोड औजारों की परंपरा का प्रमुख स्थल[cite: 3]।",
+            "hinglish": "Pebble stone tradition aur heavy unpolished chopper-chopping tools ka classic Lower Palaeolithic center[cite: 3]."
+          }
+        },
+        {
+          "site_id": "attirampakkam",
+          "name": "Attirampakkam (Tamil Nadu)",
+          "state": "Tamil Nadu",
+          "period": "Lower Palaeolithic",
+          "highlight": "Acheulian Bifacial Hand-Axes",
+          "coords": { "x": 182, "y": 328 },
+          "details": {
+            "en": "Kortallayar river basin; yields some of the earliest Acheulian bifacial stone hand-axes and cleavers in South Asia, reflecting early hominid occupation[cite: 3].",
+            "hi": "कोरतल्लयार नदी घाटी; दक्षिण एशिया के प्राचीनतम एश्यूलियन हस्तकुठार (Hand-axes) और विदारणी प्रदान करने वाला स्थल[cite: 3]।",
+            "hinglish": "Kortallayar basin mein oldest Acheulian bifacial hand-axes aur quartzite tools ki landmark site[cite: 3]."
+          }
+        },
+        {
+          "site_id": "kurnool_caves",
+          "name": "Kurnool Caves (Andhra Pradesh)",
+          "state": "Andhra Pradesh",
+          "period": "Upper Palaeolithic",
+          "highlight": "Stratified Ash Evidence of Controlled Fire",
+          "coords": { "x": 178, "y": 288 },
+          "details": {
+            "en": "Limestone cave complex yielding Upper Palaeolithic bone tools and definitive stratified ash and charcoal layers confirming domestic mastery of fire[cite: 3].",
+            "hi": "चूना पत्थर गुफाएं; उच्च पुरापाषाण काल के हड्डी के औजार और राख के स्तरीकृत अवशेष मिले हैं जो अग्नि के घरेलू उपयोग को प्रमाणित करते हैं[cite: 3]।",
+            "hinglish": "Andhra Pradesh mein sthit caves jahan bone implements ke sath stratified ash layers mili hain jo fire ke controlled use ka proof hain[cite: 3]."
+          }
+        },
+        {
+          "site_id": "nevasa",
+          "name": "Nevasa (Maharashtra)",
+          "state": "Maharashtra",
+          "period": "Middle Palaeolithic",
+          "highlight": "Type-Site for Nevasan Flake Industry",
+          "coords": { "x": 142, "y": 242 },
+          "details": {
+            "en": "Pravara river basin; type-site for the Middle Palaeolithic 'Nevasan' flake industry comprising scrapers, borers, and points made on chert and jasper[cite: 3].",
+            "hi": "प्रवरा नदी घाटी; मध्य पुरापाषाण युगीन 'नेवासन शल्क उद्योग' का मूल स्थल, जहां से चर्ट और जैस्पर के स्क्रेपर और बोरर मिले[cite: 3]।",
+            "hinglish": "Pravara basin ka prime center jahan fine-grained chert/jasper par banaye gaye flake scrapers aur points mile[cite: 3]."
+          }
+        },
+        {
+          "site_id": "chota_nagpur",
+          "name": "Chota Nagpur Plateau (Jharkhand)",
+          "state": "Jharkhand",
+          "period": "Upper Palaeolithic",
+          "highlight": "Blade-Burin Tool Horizon",
+          "coords": { "x": 225, "y": 188 },
+          "details": {
+            "en": "Rich plateau site yielding blade and burin industries alongside early hominid butchery open-air tool scatters[cite: 3].",
+            "hi": "ब्लेड और ब्यूरिन औजारों के प्रचुर भंडार प्रस्तुत करने वाला उच्च पुरापाषाण युगीन पठारी स्थल[cite: 3]।",
+            "hinglish": "Upper Palaeolithic blades aur burins ka major mining aur tool production plateau center[cite: 3]."
+          }
+        },
+        {
+          "site_id": "potwar_plateau",
+          "name": "Potwar Plateau (Rawalpindi Region)",
+          "state": "Punjab Sub-Himalayas",
+          "period": "Middle Palaeolithic",
+          "highlight": "Flake Tools & Scrapers on Fine Chert",
+          "coords": { "x": 118, "y": 74 },
+          "details": {
+            "en": "Sub-Himalayan plateau with dense Middle Palaeolithic workshops utilizing fine-grained siliceous stones for skinning and wood scraping[cite: 3].",
+            "hi": "मध्य पुरापाषाण कालीन कार्यशालाएं जहां चर्ट पत्थरों पर खुरचनी (scrapers) और वेधनी बनाई जाती थीं[cite: 3]।",
+            "hinglish": "Sub-Himalayan plateau jahan fine-grained chert par Middle Palaeolithic scrapers aur awls manufacture hote the[cite: 3]."
+          }
+        },
+        {
+          "site_id": "tungabhadra_basin",
+          "name": "Tungabhadra Valley (Karnataka)",
+          "state": "Karnataka",
+          "period": "Middle Palaeolithic",
+          "highlight": "Riverine Flake Core Concentrations",
+          "coords": { "x": 150, "y": 278 },
+          "details": {
+            "en": "River terraces preserving Middle Palaeolithic assemblages highlighting the spatial transition from quartzite bifaces to lighter flake weapons[cite: 3].",
+            "hi": "तुंगभद्रा नदी घाटी के कछार जहां शल्क आधारित हल्के औजारों के घने निक्षेप मिले हैं[cite: 3]।",
+            "hinglish": "Tungabhadra basin jahan quartzite se flake tools ki taraf technological shift ke dense clusters mile hain[cite: 3]."
+          }
+        },
+        {
+          "site_id": "narmada_valley",
+          "name": "Narmada Valley (Hoshangabad/Sehore, MP)",
+          "state": "Madhya Pradesh",
+          "period": "Middle Palaeolithic",
+          "highlight": "Fossil Stratigraphy & Flake Scrapers",
+          "coords": { "x": 158, "y": 218 },
+          "details": {
+            "en": "Hathnora site on the Narmada banks yielded ancient hominid cranial fossil traces alongside Middle Palaeolithic tools[cite: 3].",
+            "hi": "हथनोरा और नर्मदा घाटी; मानव खोपड़ी के प्राचीनतम जीवाश्म अवशेषों तथा मध्य पुरापाषाण औजारों का समृद्ध क्षेत्र[cite: 3]।",
+            "hinglish": "Narmada banks (Hathnora) jahan hominid cranial fossils ke sath Middle Palaeolithic flake tools mile[cite: 3]."
+          }
+        }
+      ]
+    },
+    {
+      "layer_id": "mesolithic",
+      "layer_name": "Mesolithic Sites (Middle Stone Age)",
+      "badge": "10,000 – 6,000 BC",
+      "sites": [
+        {
+          "site_id": "sarai_nahar_rai",
+          "name": "Sarai Nahar Rai (Pratapgarh, UP)",
+          "state": "Uttar Pradesh",
+          "period": "Mesolithic",
+          "highlight": "Earliest Human Burials & Microliths",
+          "coords": { "x": 198, "y": 164 },
+          "details": {
+            "en": "Oxbow lake site; yielded formal human graves, joint double burials, circular hearths, microlith arrows, and evidence of violent human trauma[cite: 3].",
+            "hi": "प्रतापगढ़ जिला; मानव कंकालों के सुनियोजित शवाधान, संयुक्त समाधियां, चूल्हे और सूक्ष्म पाषाण तीर-फलक प्राप्त हुए[cite: 3]।",
+            "hinglish": "Pratapgarh UP; planned human burials, double skeletons ek hi grave mein, hearths aur microliths ka primary center[cite: 3]."
+          }
+        },
+        {
+          "site_id": "mahadaha",
+          "name": "Mahadaha (Pratapgarh, UP)",
+          "state": "Uttar Pradesh",
+          "period": "Mesolithic",
+          "highlight": "Bone Ornaments & Joint Male-Female Burials",
+          "coords": { "x": 204, "y": 167 },
+          "details": {
+            "en": "Yielded numerous intentional human graves with skeletons wearing necklaces of animal bone and antler rings, alongside butchery floors[cite: 3].",
+            "hi": "प्रतापगढ़ जिला; नर-मादा संयुक्त समाधियां तथा कंकालों के गले में हड्डी और सींग की मालाओं जैसे आभूषणों के विशिष्ट साक्ष्य[cite: 3]।",
+            "hinglish": "Pratapgarh UP; intentional graves jisme human skeletons ke sath animal bone aur antler ring necklaces mile[cite: 3]."
+          }
+        },
+        {
+          "site_id": "damdama",
+          "name": "Damdama (Pratapgarh, UP)",
+          "state": "Uttar Pradesh",
+          "period": "Mesolithic",
+          "highlight": "41 Human Graves & Ivory Pendants",
+          "coords": { "x": 201, "y": 170 },
+          "details": {
+            "en": "Monumental Mesolithic cemetery containing 41 excavated graves including triple burials in a single grave and microliths[cite: 3].",
+            "hi": "प्रतापगढ़; 41 मानव समाधियां, एक ही कब्र में तीन कंकाल (त्रिक शवाधान) और सूक्ष्म पाषाण औजारों का विशाल संग्रह[cite: 3]।",
+            "hinglish": "Dense burial ground jahan 41 graves mili hain, including triple burials in one single pit[cite: 3]."
+          }
+        },
+        {
+          "site_id": "bagor",
+          "name": "Bagor (Bhilwara, Rajasthan)",
+          "state": "Rajasthan",
+          "period": "Mesolithic",
+          "highlight": "Largest Indian Mesolithic Site & Animal Domestication",
+          "coords": { "x": 138, "y": 172 },
+          "details": {
+            "en": "On Kothari river; largest Mesolithic settlement in India with massive microlithic debitage and early faunal bones of domesticated sheep/goats[cite: 3].",
+            "hi": "कोठारी नदी तट; भारत का सबसे बड़ा मध्यपाषाण स्थल[cite: 3]। सूक्ष्म पाषाण औजारों के साथ भेड़-बकरी पालन के प्रारंभिक साक्ष्य[cite: 3]।",
+            "hinglish": "Kothari river par India ki largest Mesolithic site; dense microliths aur sheep-goat domestication bones[cite: 3]."
+          }
+        },
+        {
+          "site_id": "adamgarh",
+          "name": "Adamgarh (Hoshangabad, MP)",
+          "state": "Madhya Pradesh",
+          "period": "Mesolithic",
+          "highlight": "Earliest Evidence of Animal Domestication",
+          "coords": { "x": 162, "y": 212 },
+          "details": {
+            "en": "Rock shelter complex providing some of the earliest undisputed archaeological proof of domesticated cattle, sheep, and pigs in India[cite: 3].",
+            "hi": "होशंगाबाद; भारत में पशुपालन (गाय, बैल, भेड़) की शुरुआत को प्रमाणित करने वाला प्राचीनतम स्थल[cite: 3]।",
+            "hinglish": "Hoshangabad MP; animal domestication ke earliest concrete archaeological proof provide karta hai[cite: 3]."
+          }
+        },
+        {
+          "site_id": "langhnaj",
+          "name": "Langhnaj (Mehsana, Gujarat)",
+          "state": "Gujarat",
+          "period": "Mesolithic",
+          "highlight": "14 Human Skeletons & Rhinoceros Bones",
+          "coords": { "x": 122, "y": 204 },
+          "details": {
+            "en": "Sandy dune site yielding 14 human burials, thousands of geometric microliths, and calcined bones of wild fauna including rhinoceros[cite: 3].",
+            "hi": "मेहसाणा; 14 मानव कंकाल, हजारों ज्यामितीय माइक्रोलिथ तथा गैंडे व जंगली जानवरों की जली हुई अस्थियां[cite: 3]।",
+            "hinglish": "Sandy dunes par sthit; 14 human skeletons aur geometric microliths hunting evidence ke sath mile[cite: 3]."
+          }
+        },
+        {
+          "site_id": "bhimbetka_meso",
+          "name": "Bhimbetka Mesolithic (MP)",
+          "state": "Madhya Pradesh",
+          "period": "Mesolithic",
+          "highlight": "Communal Dance, Fishing & Domestic Rock Art",
+          "coords": { "x": 167, "y": 208 },
+          "details": {
+            "en": "Mesolithic layers preserve vivid red and white parietal paintings showing group dancing, sexual life, child rearing, and fishing traps[cite: 3].",
+            "hi": "सामूहिक नृत्य, बच्चों के जन्म, महिलाओं के घरेलू कार्यों और मछली पकड़ने के लाल-सफेद शैल चित्र[cite: 3]।",
+            "hinglish": "Rock shelters jahan community dancing, family scenes aur fishing traps ke vibrant red-white mineral paintings hain[cite: 3]."
+          }
+        },
+        {
+          "site_id": "pachmarhi",
+          "name": "Pachmarhi Shelters (Satpura, MP)",
+          "state": "Madhya Pradesh",
+          "period": "Mesolithic",
+          "highlight": "Bow-and-Arrow Rock Panels",
+          "coords": { "x": 168, "y": 218 },
+          "details": {
+            "en": "Satpura hills; rock overhangs featuring microlith-tipped archery, honey gathering, and battles on foot[cite: 3].",
+            "hi": "सतपुड़ा की पहाड़ियां; धनुष-बाण से लैस शिकारियों और मधुमक्खी का छत्ता निकालते हुए मानवों के शैल चित्र[cite: 3]।",
+            "hinglish": "Satpura hills ke cave paintings jahan microlith-tipped archery aur wild honey collection depicted hai[cite: 3]."
+          }
+        },
+        {
+          "site_id": "teri_sites",
+          "name": "Teri Sites (Tuticorin, Tamil Nadu)",
+          "state": "Tamil Nadu",
+          "period": "Mesolithic",
+          "highlight": "Coastal Fossil Red Sand Dunes & Chert Tools",
+          "coords": { "x": 172, "y": 382 },
+          "details": {
+            "en": "Fossilized red coastal sand dunes yielding distinctive geometric microliths made of quartz, reflecting coastal hunter-fisher lifestyle[cite: 3].",
+            "hi": "लाल रेत के प्राचीन टीले; क्वार्ट्ज पत्थर से बने छोटे औजार जो तटीय शिकार और मत्स्य जीवन को दर्शाते हैं[cite: 3]।",
+            "hinglish": "Coastal fossil red sand dunes jahan marine fishing aur hunting se associated quartz microliths mile[cite: 3]."
+          }
+        },
+        {
+          "site_id": "sarutaru",
+          "name": "Sarutaru (Kamrup, Assam)",
+          "state": "Assam",
+          "period": "Mesolithic / Late Stone",
+          "highlight": "Eastern Sub-Himalayan Flakes & Axes",
+          "coords": { "x": 285, "y": 142 },
+          "details": {
+            "en": "Northeastern transitional site showcasing quartz tools and corded pottery antecedents in forested hills[cite: 3].",
+            "hi": "असम की पहाड़ियां; पूर्वोत्तर भारत में पत्थर के औजारों और प्रारंभिक डोरी-छाप बर्तनों का महत्वपूर्ण स्थल[cite: 3]।",
+            "hinglish": "Northeast Assam ki hill site jahan microlithic flakes aur early corded impressions mile[cite: 3]."
+          }
+        }
+      ]
+    },
+    {
+      "layer_id": "neolithic",
+      "layer_name": "Neolithic Sites (New Stone Age)",
+      "badge": "6,000 – 4,000 BC",
+      "sites": [
+        {
+          "site_id": "mehrgarh",
+          "name": "Mehrgarh (Balochistan)",
+          "state": "Balochistan (Kachi Plain)",
+          "period": "Neolithic to Harappan",
+          "highlight": "Earliest Subcontinental Agriculture (Wheat/Barley)",
+          "coords": { "x": 92, "y": 148 },
+          "details": {
+            "en": "Bolan pass; c. 7000 BC[cite: 3]. Earliest agricultural village in South Asia; uncovers multi-room mud-brick granaries, wheat, barley, and cattle farming with continuous transition into Harappan culture[cite: 3].",
+            "hi": "बोलन दर्रा; 7000 ई.पू.[cite: 3]। भारतीय उपमहाद्वीप में कृषि (गेहूं, जौ) और पशुपालन का प्राचीनतम स्थल, जहां से कच्ची ईंटों के घर व अन्नागार मिले[cite: 3]।",
+            "hinglish": "Bolan pass par sthit c. 7000 BC earliest farming village; wheat, barley, mud-brick granaries aur continuous Harappan link[cite: 3]."
+          }
+        },
+        {
+          "site_id": "burzahom",
+          "name": "Burzahom (Kashmir Valley)",
+          "state": "Jammu & Kashmir",
+          "period": "Neolithic",
+          "highlight": "Pit-Dwellings & Master-Dog Double Burials",
+          "coords": { "x": 132, "y": 48 },
+          "details": {
+            "en": "Subterranean circular pit-dwellings excavated into karewas to escape freezing winds; famous for graves containing domestic dogs buried alongside masters[cite: 3].",
+            "hi": "कश्मीर घाटी; अत्यधिक ठंड से बचाव हेतु जमीन के नीचे बने गड्ढा-घर (गर्त-आवास) तथा कब्रों में मालिक के साथ पालतू कुत्ते को दफनाने के अद्वितीय साक्ष्य[cite: 3]।",
+            "hinglish": "Underground pit-dwellings aur grave pit ke andar master ke sath domestic dog burial ka world-famous site[cite: 3]."
+          }
+        },
+        {
+          "site_id": "gufkral",
+          "name": "Gufkral (Kashmir Valley)",
+          "state": "Jammu & Kashmir",
+          "period": "Neolithic",
+          "highlight": "Pit Dwellings & Bone Harpoons",
+          "coords": { "x": 136, "y": 55 },
+          "details": {
+            "en": "Literally 'Cave of the Potter'; preserves stratified pit-dwellings, polished stone celts, animal bone needles, and both aceramic and ceramic phases[cite: 3].",
+            "hi": "शाब्दिक अर्थ 'कुम्हार की गुफा'; गर्त-आवास, हड्डी के सुई-भाले और पालिशदार पाषाण कुल्हाड़ियों के लिए प्रसिद्ध[cite: 3]।",
+            "hinglish": "Literally 'Potter's Cave'; pit-dwellings, bone tools aur polished stone celts ke sequential layers[cite: 3]."
+          }
+        },
+        {
+          "site_id": "koldihwa",
+          "name": "Koldihwa (Belan Valley, UP)",
+          "state": "Uttar Pradesh",
+          "period": "Neolithic",
+          "highlight": "Earliest Global Rice Cultivation Evidence",
+          "coords": { "x": 196, "y": 174 },
+          "details": {
+            "en": "Belan river; provided earliest evidence of domesticated rice (Oryza sativa) grains embedded in cord-impressed pottery dating back millennia[cite: 3].",
+            "hi": "बेलन घाटी; विश्व में धान (चावल) की खेती के प्राचीनतम पुरातात्विक साक्ष्य प्रस्तुत करने वाला स्थल, जहां से डोरी-छाप मृद्भांड मिले[cite: 3]।",
+            "hinglish": "Belan Valley UP; world mein rice cultivation ke earliest archaeological proof aur cord-impressed pottery[cite: 3]."
+          }
+        },
+        {
+          "site_id": "mahagara",
+          "name": "Mahagara (Belan Valley, UP)",
+          "state": "Uttar Pradesh",
+          "period": "Neolithic",
+          "highlight": "Cattle Pen Enclosures & Rice Husks",
+          "coords": { "x": 199, "y": 176 },
+          "details": {
+            "en": "Excavated circular huts around a communal cattle kraal exhibiting multiple animal hoof prints in clay alongside rice husks[cite: 3].",
+            "hi": "बेलन घाटी; मवेशियों का बाड़ा (Cattle pen), खुरों के निशान और धान की भूसी युक्त मिट्टी के घर[cite: 3]।",
+            "hinglish": "Circular huts aur cattle pen jahan mitti par animal hoof marks aur rice husk impressions mile[cite: 3]."
+          }
+        },
+        {
+          "site_id": "chirand",
+          "name": "Chirand (Saran, Bihar)",
+          "state": "Bihar",
+          "period": "Neolithic",
+          "highlight": "Antler & Animal Bone Tool Industry",
+          "coords": { "x": 222, "y": 166 },
+          "details": {
+            "en": "Ganga-Ghaghra confluence; renowned for its prolific manufacture of polished tools and needles crafted from deer antlers and bones[cite: 3].",
+            "hi": "सारण जिला; गंगा घाटी का स्थल जो हिरण के सींगों और पशु अस्थियों से बने सुई, बाणाग्र और औजारों के विशाल जखीरे के लिए प्रसिद्ध है[cite: 3]।",
+            "hinglish": "Bihar; deer antlers aur animal bones se bane hundreds of sophisticated tools aur celts ka major cluster[cite: 3]."
+          }
+        },
+        {
+          "site_id": "piklihal",
+          "name": "Piklihal (Raichur, Karnataka)",
+          "state": "Karnataka",
+          "period": "Neolithic",
+          "highlight": "Ash Mounds & Pastoral Cattle Kraals",
+          "coords": { "x": 154, "y": 272 },
+          "details": {
+            "en": "Famous for massive vitrified Ash Mounds formed by the periodic ritual burning of accumulated cow-dung inside pastoral cattle kraals[cite: 3].",
+            "hi": "रायचूर; मवेशी बाड़ों में गोबर के ढेरों को जलाने से बने विशाल 'राख के टीले' (Ash Mounds) जो चरवाहा समुदाय को प्रमाणित करते हैं[cite: 3]।",
+            "hinglish": "Karnataka; pastoral kraals ke andar cow-dung burning se bane vitrified Ash Mounds ka hallmark site[cite: 3]."
+          }
+        },
+        {
+          "site_id": "brahmagiri",
+          "name": "Brahmagiri (Chitradurga, Karnataka)",
+          "state": "Karnataka",
+          "period": "Neolithic to Megalithic",
+          "highlight": "Polished Stone Celts & Ash Horizons",
+          "coords": { "x": 156, "y": 298 },
+          "details": {
+            "en": "Yields polished stone axes, handmade pottery, and stratified pastoral ash deposits transitioning directly into Megalithic culture[cite: 3].",
+            "hi": "पालिशदार पाषाण कुल्हाड़ियां, हस्तनिर्मित बर्तन और महापाषाण काल की ओर बढ़ता सांस्कृतिक क्रम[cite: 3]।",
+            "hinglish": "Polished stone celts aur handmade pottery ka continuous sequence jo baad mein Megalithic burials mein transition hua[cite: 3]."
+          }
+        },
+        {
+          "site_id": "hallur",
+          "name": "Hallur (Haveri, Karnataka)",
+          "state": "Karnataka",
+          "period": "Neolithic to Early Iron",
+          "highlight": "Horse Remains & Early Ragi Grains",
+          "coords": { "x": 146, "y": 286 },
+          "details": {
+            "en": "Tungabhadra river; provides archaeological grains of finger millet (Ragi) alongside late horizons revealing transition to early iron use[cite: 3].",
+            "hi": "तुंगभद्रा तट; रागी (मड़ुआ) के प्राचीनतम दानों के साक्ष्य और नवपाषाण से प्रारंभिक लौह युग के संक्रमण के संकेत[cite: 3]।",
+            "hinglish": "Tungabhadra river par sthit site; Ragi cultivation aur early transition layers[cite: 3]."
+          }
+        },
+        {
+          "site_id": "paiyampalli",
+          "name": "Paiyampalli (Tirupattur, Tamil Nadu)",
+          "state": "Tamil Nadu",
+          "period": "Neolithic",
+          "highlight": "Greenstone Polished Axes & Terracotta Beads",
+          "coords": { "x": 172, "y": 322 },
+          "details": {
+            "en": "Upland valley settlement yielding pointed-butt polished greenstone axes, charred pulses (green gram), and circular wattle-and-daub huts[cite: 3].",
+            "hi": "तमिलनाडु; नुकीले आधार वाली चिकनी पाषाण कुल्हाड़ियां, मूंग/दालों की खेती और मिट्टी के गोल आवास[cite: 3]।",
+            "hinglish": "Polished axes, circular wattle-and-daub huts aur charred pulses (pulses cultivation) ka South Indian center[cite: 3]."
+          }
+        }
+      ]
+    }
+  ]
+}
