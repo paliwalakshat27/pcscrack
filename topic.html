@@ -270,6 +270,7 @@
       const urlParams = new URLSearchParams(window.location.search);
       const topicId = urlParams.get('id') || 'stone_age';
       const customPath = urlParams.get('path');
+      const targetTab = urlParams.get('tab');
       
       // Auto-set last read for Resume banner on index
       localStorage.setItem('pcscrack_last_topic', topicId);
