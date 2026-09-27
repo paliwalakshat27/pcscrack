@@ -667,6 +667,13 @@
     // Run Engine on Mount
     initTopicEngine();
     lucide.createIcons();
+    window.addEventListener('DOMContentLoaded', () => {
+  setTimeout(() => {
+    if (targetTab && typeof switchTab === 'function') {
+      switchTab(targetTab);
+    }
+  }, 400);
+});
   </script>
 </body>
 </html>
